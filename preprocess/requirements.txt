@@ -1,0 +1,2 @@
+# Mock generator uses only the standard library.
+# Real preprocessor will add: requests, boto3

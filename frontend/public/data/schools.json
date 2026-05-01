@@ -1,0 +1,186 @@
+[
+  {
+    "school_id": "SCH0010",
+    "name": "Ilorin Primary School",
+    "town": "Ilorin",
+    "lga": "Ilorin West",
+    "lat": 8.460900430208907,
+    "lon": 4.532801172734765
+  },
+  {
+    "school_id": "SCH0020",
+    "name": "Oke Oyi Primary School",
+    "town": "Oke Oyi",
+    "lga": "Ilorin East",
+    "lat": 8.548581517141006,
+    "lon": 4.67309980704686
+  },
+  {
+    "school_id": "SCH0030",
+    "name": "Fufu Primary School",
+    "town": "Fufu",
+    "lga": "Ilorin South",
+    "lat": 8.418619700497961,
+    "lon": 4.561271307179271
+  },
+  {
+    "school_id": "SCH0040",
+    "name": "Afon Primary School",
+    "town": "Afon",
+    "lga": "Asa",
+    "lat": 8.448745518992144,
+    "lon": 4.330214211524135
+  },
+  {
+    "school_id": "SCH0050",
+    "name": "Bode Saadu Primary School",
+    "town": "Bode Saadu",
+    "lga": "Moro",
+    "lat": 8.907449802517544,
+    "lon": 4.791940784516896
+  },
+  {
+    "school_id": "SCH0060",
+    "name": "Offa Primary School",
+    "town": "Offa",
+    "lga": "Offa",
+    "lat": 8.138817624881629,
+    "lon": 4.7202706273550366
+  },
+  {
+    "school_id": "SCH0061",
+    "name": "Offa Community School",
+    "town": "Offa",
+    "lga": "Offa",
+    "lat": 8.162377218267114,
+    "lon": 4.696959950387122
+  },
+  {
+    "school_id": "SCH0070",
+    "name": "Ilemona Primary School",
+    "town": "Ilemona",
+    "lga": "Oyun",
+    "lat": 8.177925575799529,
+    "lon": 4.64361002066072
+  },
+  {
+    "school_id": "SCH0080",
+    "name": "Omu-Aran Primary School",
+    "town": "Omu-Aran",
+    "lga": "Irepodun",
+    "lat": 8.127512550484303,
+    "lon": 5.111939765160261
+  },
+  {
+    "school_id": "SCH0090",
+    "name": "Share Primary School",
+    "town": "Share",
+    "lga": "Ifelodun",
+    "lat": 8.767009833735207,
+    "lon": 4.550568655073339
+  },
+  {
+    "school_id": "SCH0100",
+    "name": "Araromi-Opin Primary School",
+    "town": "Araromi-Opin",
+    "lga": "Ekiti",
+    "lat": 8.004149041254676,
+    "lon": 5.312285130930975
+  },
+  {
+    "school_id": "SCH0101",
+    "name": "Araromi-Opin Community School",
+    "town": "Araromi-Opin",
+    "lga": "Ekiti",
+    "lat": 8.009189271467752,
+    "lon": 5.3014491236581875
+  },
+  {
+    "school_id": "SCH0110",
+    "name": "Owu-Isin Primary School",
+    "town": "Owu-Isin",
+    "lga": "Isin",
+    "lat": 8.099852007923138,
+    "lon": 5.008427131256284
+  },
+  {
+    "school_id": "SCH0111",
+    "name": "Owu-Isin Community School",
+    "town": "Owu-Isin",
+    "lga": "Isin",
+    "lat": 8.121845591979778,
+    "lon": 5.032118069917472
+  },
+  {
+    "school_id": "SCH0120",
+    "name": "Iloffa Primary School",
+    "town": "Iloffa",
+    "lga": "Oke Ero",
+    "lat": 8.06979408581027,
+    "lon": 5.158182873448597
+  },
+  {
+    "school_id": "SCH0121",
+    "name": "Iloffa Community School",
+    "town": "Iloffa",
+    "lga": "Oke Ero",
+    "lat": 8.048532975346227,
+    "lon": 5.139115931026062
+  },
+  {
+    "school_id": "SCH0130",
+    "name": "Lafiagi Primary School",
+    "town": "Lafiagi",
+    "lga": "Edu",
+    "lat": 8.88610886082643,
+    "lon": 5.430912708840605
+  },
+  {
+    "school_id": "SCH0131",
+    "name": "Lafiagi Community School",
+    "town": "Lafiagi",
+    "lga": "Edu",
+    "lat": 8.88135934667021,
+    "lon": 5.411905049001566
+  },
+  {
+    "school_id": "SCH0140",
+    "name": "Patigi Primary School",
+    "town": "Patigi",
+    "lga": "Patigi",
+    "lat": 8.738727377770577,
+    "lon": 5.7445932871588035
+  },
+  {
+    "school_id": "SCH0141",
+    "name": "Patigi Community School",
+    "town": "Patigi",
+    "lga": "Patigi",
+    "lat": 8.728107238684675,
+    "lon": 5.738380281230859
+  },
+  {
+    "school_id": "SCH0150",
+    "name": "Kaiama Primary School",
+    "town": "Kaiama",
+    "lga": "Kaiama",
+    "lat": 9.611372812538344,
+    "lon": 3.9490419066214666
+  },
+  {
+    "school_id": "SCH0151",
+    "name": "Kaiama Community School",
+    "town": "Kaiama",
+    "lga": "Kaiama",
+    "lat": 9.586156100383143,
+    "lon": 3.9470991315278825
+  },
+  {
+    "school_id": "SCH0160",
+    "name": "Kosubosu Primary School",
+    "town": "Kosubosu",
+    "lga": "Baruten",
+    "lat": 9.769836099750478,
+    "lon": 3.6118782176703057
+  }
+]

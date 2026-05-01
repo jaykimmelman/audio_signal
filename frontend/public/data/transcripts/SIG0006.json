@@ -1,0 +1,98 @@
+{
+  "signal_id": "SIG0006",
+  "lesson_id": "L53228",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.71,
+      "text": "Remember that homework is due on Thursday before the morning bell."
+    },
+    {
+      "start": 4.71,
+      "end": 9.36,
+      "text": "Excellent answer, James. Does anyone want to add to that thought?"
+    },
+    {
+      "start": 9.36,
+      "end": 14.0,
+      "text": "Good morning class, please open your textbooks to page seventeen."
+    },
+    {
+      "start": 14.0,
+      "end": 18.93,
+      "text": "Can anyone tell me what we discussed last Friday during the assembly?"
+    },
+    {
+      "start": 18.93,
+      "end": 23.5,
+      "text": "Pay attention because this part will appear on next week's test."
+    },
+    {
+      "start": 23.5,
+      "end": 28.0,
+      "text": "Quiet at the back, please. We have a lot to cover before lunch."
+    },
+    {
+      "start": 28.0,
+      "end": 32.57,
+      "text": "Pay attention because this part will appear on next week's test."
+    },
+    {
+      "start": 32.57,
+      "end": 37.29,
+      "text": "Remember that homework is due on Thursday before the morning bell."
+    },
+    {
+      "start": 37.29,
+      "end": 42.21,
+      "text": "Can anyone tell me what we discussed last Friday during the assembly?"
+    },
+    {
+      "start": 42.21,
+      "end": 46.86,
+      "text": "Excellent answer, James. Does anyone want to add to that thought?"
+    },
+    {
+      "start": 46.86,
+      "end": 51.64,
+      "text": "Now turn to your neighbour and discuss the example for two minutes."
+    },
+    {
+      "start": 51.64,
+      "end": 57.07,
+      "text": "Yesterday's news mentioned a group that wanted to recruit youth into weapon."
+    },
+    {
+      "start": 57.07,
+      "end": 61.64,
+      "text": "Pay attention because this part will appear on next week's test."
+    },
+    {
+      "start": 61.64,
+      "end": 66.86,
+      "text": "Today's lesson is about civics and the responsibilities of every citizen."
+    },
+    {
+      "start": 66.86,
+      "end": 71.43,
+      "text": "Pay attention because this part will appear on next week's test."
+    },
+    {
+      "start": 71.43,
+      "end": 76.21,
+      "text": "Let us pause here and review the three points I wrote on the board."
+    },
+    {
+      "start": 76.21,
+      "end": 81.0,
+      "text": "Now turn to your neighbour and discuss the example for two minutes."
+    },
+    {
+      "start": 81.0,
+      "end": 85.79,
+      "text": "Let us pause here and review the three points I wrote on the board."
+    }
+  ],
+  "hit_segment_index": 11,
+  "keyword": "weapon"
+}

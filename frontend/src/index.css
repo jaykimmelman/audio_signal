@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.005em;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1f2a44; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #2c3a5e; }
+
+/* Mapbox attribution + ctrl tweaks for dark theme */
+.mapboxgl-ctrl-attrib, .mapboxgl-ctrl-logo {
+  opacity: 0.4;
+}
+
+.scanline {
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02) 0,
+    rgba(255, 255, 255, 0.02) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+@keyframes pulse-ring {
+  0%   { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.55); }
+  70%  { box-shadow: 0 0 0 12px rgba(239, 68, 68, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+.pulse { animation: pulse-ring 1.6s infinite; }
+
+mark.kw {
+  background: #f5a524;
+  color: #05080d;
+  padding: 0 4px;
+  border-radius: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+mark.kw:hover { background: #ffd166; }
