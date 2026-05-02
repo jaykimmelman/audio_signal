@@ -1,9 +1,59 @@
 [
   {
+    "employee_id": "T51101C1E",
+    "name": "Sewe Victor Odhiambo",
+    "school_id": "SCH58D5AC25",
+    "grade": "Grade 2",
+    "phone": "\u2014",
+    "hire_date": "\u2014",
+    "last_training_date": "\u2014",
+    "pupils": 0
+  },
+  {
+    "employee_id": "TEE0BE888",
+    "name": "Wangari Virginia",
+    "school_id": "SCH58D5AC25",
+    "grade": "Grade 7",
+    "phone": "\u2014",
+    "hire_date": "\u2014",
+    "last_training_date": "\u2014",
+    "pupils": 0
+  },
+  {
     "employee_id": "TF88E765C",
     "name": "Abaye Omar Ayub",
     "school_id": "SCHBF4FFE2D",
     "grade": "Grade 6",
+    "phone": "\u2014",
+    "hire_date": "\u2014",
+    "last_training_date": "\u2014",
+    "pupils": 0
+  },
+  {
+    "employee_id": "T2D4ED525",
+    "name": "Msinda Amani",
+    "school_id": "SCHBF4FFE2D",
+    "grade": "Grade 4",
+    "phone": "\u2014",
+    "hire_date": "\u2014",
+    "last_training_date": "\u2014",
+    "pupils": 0
+  },
+  {
+    "employee_id": "TCCB351D3",
+    "name": "Msinda Amani",
+    "school_id": "SCHBF4FFE2D",
+    "grade": "Grade 6",
+    "phone": "\u2014",
+    "hire_date": "\u2014",
+    "last_training_date": "\u2014",
+    "pupils": 0
+  },
+  {
+    "employee_id": "T1633CA5A",
+    "name": "Shee Aisha Mohamed",
+    "school_id": "SCHBF4FFE2D",
+    "grade": "Grade 7",
     "phone": "\u2014",
     "hire_date": "\u2014",
     "last_training_date": "\u2014",

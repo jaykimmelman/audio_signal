@@ -28,12 +28,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 KEYWORDS_FILE = ROOT / "data" / "keywords.txt"
 TRANSCRIPT_CACHE = ROOT / "preprocess" / "transcripts_cache"
+AUDIO_INBOX = ROOT / "audio_inbox"
 PUB = ROOT / "frontend" / "public" / "data"
+PUB_AUDIO = PUB / "audio"
+AUDIO_SEARCH_DIRS = [AUDIO_INBOX, ROOT]  # also accept MP3s at project root
 
 LOCATION_COORDS: dict[str, tuple[str, str, float, float]] = {
     "lamu_lau":            ("Lau",         "Lamu",       -2.270, 40.890),
     "lamu_mpeketoni":      ("Mpeketoni",   "Lamu",       -2.270, 40.700),
     "lamu_witu":           ("Witu",        "Lamu",       -2.380, 40.450),
+    "gachie_kbu":          ("Gachie",      "Kiambu",     -1.213, 36.785),
     "kilifi_malindi":      ("Malindi",     "Kilifi",     -3.220, 40.117),
     "kwale_msambweni":     ("Msambweni",   "Kwale",      -4.470, 39.485),
     "mombasa_nyali":       ("Nyali",       "Mombasa",    -4.030, 39.700),
@@ -154,6 +158,18 @@ def main() -> int:
             }
 
         audio_filename = transcript.get("source_audio", tjson.stem + ".mp3")
+        # Copy the MP3 into the public audio dir if not already there
+        dest = PUB_AUDIO / audio_filename
+        if not dest.exists():
+            for src_dir in AUDIO_SEARCH_DIRS:
+                src = src_dir / audio_filename
+                if src.exists():
+                    PUB_AUDIO.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(src, dest)
+                    print(f"    audio → {dest.relative_to(ROOT)}")
+                    break
+            else:
+                print(f"    ⚠ no source MP3 found for {audio_filename}; player will 404")
         lessons.append({
             "lesson_id": tjson.stem,
             "lesson_name": f"{meta['grade']} {meta['subject']}",

@@ -1,0 +1,32 @@
+{
+  "source_audio": "mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_10_09_46_20.mp3",
+  "language": "english",
+  "duration": 5.630000114440918,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.319999933242798,
+      "text": "How many pigs were there?"
+    },
+    {
+      "start": 2.5799999237060547,
+      "end": 3.0799999237060547,
+      "text": "Four."
+    },
+    {
+      "start": 3.200000047683716,
+      "end": 3.700000047683716,
+      "text": "Four?"
+    },
+    {
+      "start": 3.799999952316284,
+      "end": 4.360000133514404,
+      "text": "Four pigs."
+    },
+    {
+      "start": 4.480000019073486,
+      "end": 5.360000133514404,
+      "text": "Four."
+    }
+  ]
+}

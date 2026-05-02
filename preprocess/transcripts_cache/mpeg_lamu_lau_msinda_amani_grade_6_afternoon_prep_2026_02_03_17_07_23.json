@@ -1,0 +1,17 @@
+{
+  "source_audio": "mpeg_lamu_lau_msinda_amani_grade_6_afternoon_prep_2026_02_03_17_07_23.mp3",
+  "language": "english",
+  "duration": 4.599999904632568,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "There's a dog and a cat."
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "text": "There's a dog and a cat."
+    }
+  ]
+}
