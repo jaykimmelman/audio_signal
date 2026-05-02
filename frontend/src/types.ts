@@ -18,6 +18,24 @@ export interface Teacher {
   pupils: number;
 }
 
+export interface TranscriptSegment {
+  start: number;
+  end: number;
+  text: string;
+}
+
+export interface Lesson {
+  lesson_id: string;
+  lesson_name: string;
+  lesson_datetime: string;
+  employee_id: string;
+  school_id: string;
+  audio_url: string;
+  language: string | null;
+  duration: number | null;
+  segments: TranscriptSegment[];
+}
+
 export interface Signal {
   signal_id: string;
   lesson_id: string;
@@ -27,22 +45,8 @@ export interface Signal {
   school_id: string;
   keyword: string;
   snippet: string;
+  segment_index: number;
   segment_start: number;
   segment_end: number;
-  transcript_url: string;
   audio_url: string;
-}
-
-export interface TranscriptSegment {
-  start: number;
-  end: number;
-  text: string;
-}
-
-export interface Transcript {
-  signal_id: string;
-  lesson_id: string;
-  segments: TranscriptSegment[];
-  hit_segment_index: number;
-  keyword: string;
 }

@@ -1,68 +1,46 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { useApp } from "../state";
 import { Panel } from "./Panel";
-import { Transcript } from "../types";
-
-const BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 
 export function TranscriptPane() {
-  const { selectedSignalId, signals } = useApp();
-  const sig = signals.find((s) => s.signal_id === selectedSignalId);
+  const { selectedSignalId, allSignals, lessonsById } = useApp();
+  const sig = allSignals.find((s) => s.signal_id === selectedSignalId);
+  const lesson = sig ? lessonsById[sig.lesson_id] : null;
 
-  const [transcript, setTranscript] = useState<Transcript | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const hitRowRef = useRef<HTMLDivElement | null>(null);
 
+  // Scroll the hit segment into view whenever the selection changes
   useEffect(() => {
-    if (!sig) {
-      setTranscript(null);
-      return;
-    }
-    let cancelled = false;
-    fetch(`${BASE}/${sig.transcript_url}`)
-      .then((r) => r.json())
-      .then((data: Transcript) => {
-        if (!cancelled) setTranscript(data);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [sig?.signal_id]);
-
-  // Scroll the hit segment into view when transcript loads
-  useEffect(() => {
-    if (transcript && hitRowRef.current) {
+    if (hitRowRef.current) {
       hitRowRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-  }, [transcript]);
+  }, [selectedSignalId]);
 
-  const segments = transcript?.segments ?? [];
-  const hitIndex = transcript?.hit_segment_index ?? -1;
-  const keyword = transcript?.keyword ?? sig?.keyword ?? "";
-
-  // Build a regex for the keyword (case-insensitive, word boundary-ish)
   const kwRegex = useMemo(() => {
-    if (!keyword) return null;
-    const esc = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (!sig) return null;
+    const esc = sig.keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     return new RegExp(`(${esc})`, "ig");
-  }, [keyword]);
+  }, [sig?.keyword]);
 
   function jumpToKeyword() {
     const audio = audioRef.current;
     if (!audio || !sig) return;
-    const target = Math.max(0, sig.segment_start - 3);
-    audio.currentTime = target;
-    audio.play().catch(() => {/* user gesture required, but click is one */});
+    audio.currentTime = Math.max(0, sig.segment_start - 3);
+    audio.play().catch(() => {/* user gesture required */});
   }
 
-  if (!sig) return null;
+  if (!sig || !lesson) return null;
+
+  const keyword = sig.keyword;
+  const hitIndex = sig.segment_index;
 
   return (
     <Panel
       title={`Transcript · ${sig.lesson_name}`}
       right={
         <span className="font-mono text-[10px] text-warn">
-          ▲ KEYWORD: {sig.keyword.toUpperCase()}
+          ▲ KEYWORD: {keyword.toUpperCase()}
         </span>
       }
     >
@@ -84,7 +62,7 @@ export function TranscriptPane() {
           </button>
         </div>
         <div className="flex-1 overflow-auto px-3 py-2 text-sm leading-relaxed font-mono">
-          {segments.map((seg, i) => {
+          {lesson.segments.map((seg, i) => {
             const isHit = i === hitIndex;
             return (
               <div
