@@ -33,6 +33,11 @@ export default function App() {
 }
 
 function OverviewLayout() {
+  const { selectedDate, signals } = useApp();
+  const dateSignals = selectedDate
+    ? signals.filter((s) => s.lesson_datetime.slice(0, 10) === selectedDate)
+    : null;
+
   return (
     <div className="flex-1 overflow-auto p-4 space-y-4 scanline">
       <KPITiles />
@@ -49,7 +54,15 @@ function OverviewLayout() {
           <TimeSeriesChart />
         </div>
         <div className="col-span-12 lg:col-span-4 h-[300px]">
-          <HotspotsTable />
+          {dateSignals ? (
+            <IncidentsList
+              signals={dateSignals}
+              title={`Incidents on ${selectedDate} · ${dateSignals.length}`}
+              emptyMessage="no signals on this day"
+            />
+          ) : (
+            <HotspotsTable />
+          )}
         </div>
       </div>
       <div className="h-[280px]">

@@ -59,6 +59,9 @@ interface AppState {
   resetFilters: () => void;
   selectedSignalId: string | null;
   setSelectedSignalId: (id: string | null) => void;
+  /** Date the user picked from the time-series chart (YYYY-MM-DD), or null. */
+  selectedDate: string | null;
+  setSelectedDate: (d: string | null) => void;
 }
 
 const Ctx = createContext<AppState | null>(null);
@@ -132,6 +135,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [customKeywords, setCustomKeywordsState] = useState<string[] | null>(loadStoredKeywords);
   const [filters, setFiltersState] = useState<Filters>(EMPTY_FILTERS);
   const [selectedSignalId, setSelectedSignalId] = useState<string | null>(null);
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -230,6 +234,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         resetFilters: () => {},
         selectedSignalId,
         setSelectedSignalId,
+        selectedDate,
+        setSelectedDate,
       };
     }
     return {
@@ -252,8 +258,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
       resetFilters: () => setFiltersState(EMPTY_FILTERS),
       selectedSignalId,
       setSelectedSignalId,
+      selectedDate,
+      setSelectedDate,
     };
-  }, [data, allSignals, filteredSignals, effectiveKeywords, customKeywords, filters, selectedSignalId]);
+  }, [data, allSignals, filteredSignals, effectiveKeywords, customKeywords, filters, selectedSignalId, selectedDate]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

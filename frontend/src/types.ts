@@ -16,6 +16,7 @@ export interface Teacher {
   hire_date: string;
   last_training_date: string;
   pupils: number;
+  headshot_url?: string;
 }
 
 export interface TranscriptSegment {
