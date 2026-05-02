@@ -10,5 +10,8 @@
   "recruit",
   "militant",
   "sharia",
-  "boko"
+  "boko",
+  "decimal",
+  "fraction",
+  "number"
 ]

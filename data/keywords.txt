@@ -10,3 +10,6 @@ recruit
 militant
 sharia
 boko
+decimal
+fraction
+number
