@@ -30,6 +30,13 @@ export function TranscriptPane() {
     audio.play().catch(() => {/* user gesture required */});
   }
 
+  function jumpTo(seconds: number) {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.currentTime = Math.max(0, seconds);
+    audio.play().catch(() => {/* user gesture required */});
+  }
+
   if (!sig || !lesson) return null;
 
   const keyword = sig.keyword;
@@ -68,9 +75,13 @@ export function TranscriptPane() {
               <div
                 key={i}
                 ref={isHit ? hitRowRef : undefined}
-                className={`py-1 px-2 -mx-2 rounded ${
-                  isHit ? "bg-warn/10 border-l-2 border-warn" : ""
+                onClick={() => jumpTo(seg.start)}
+                className={`py-1 px-2 -mx-2 rounded cursor-pointer transition-colors ${
+                  isHit
+                    ? "bg-warn/10 border-l-2 border-warn hover:bg-warn/20"
+                    : "hover:bg-line/40"
                 }`}
+                title={`Play from ${fmt(seg.start)}`}
               >
                 <span className="text-muted text-[10px] mr-2 select-none">
                   {fmt(seg.start)}
@@ -82,8 +93,11 @@ export function TranscriptPane() {
                           <mark
                             key={j}
                             className="kw"
-                            onClick={jumpToKeyword}
-                            title="Play audio from here"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              jumpToKeyword();
+                            }}
+                            title="Play 3s before the keyword"
                           >
                             {part}
                           </mark>
