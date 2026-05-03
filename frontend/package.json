@@ -12,7 +12,8 @@
     "mapbox-gl": "^3.8.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "recharts": "^2.13.3"
+    "recharts": "^2.13.3",
+    "wavesurfer.js": "^7.12.6"
   },
   "devDependencies": {
     "@types/mapbox-gl": "^3.4.1",

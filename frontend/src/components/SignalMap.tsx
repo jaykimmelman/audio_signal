@@ -135,6 +135,7 @@ export function SignalMap() {
       <div className="relative h-full w-full">
         {!TOKEN && <NoTokenOverlay />}
         <div ref={containerRef} className="absolute inset-0" />
+        {sig && <Crosshair />}
         {sig && teacher && school && (
           <div className="absolute left-2 bottom-2 bg-panel/90 backdrop-blur border border-line rounded p-2 font-mono text-[11px] leading-tight max-w-[280px]">
             <div className="text-alert">▲ TARGET ACQUIRED</div>
@@ -144,6 +145,25 @@ export function SignalMap() {
         )}
       </div>
     </Panel>
+  );
+}
+
+function Crosshair() {
+  return (
+    <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+      <div className="relative w-40 h-40">
+        {/* Corner brackets */}
+        <div className="absolute top-0 left-0  w-5 h-5 border-l-2 border-t-2 border-warn/80" />
+        <div className="absolute top-0 right-0 w-5 h-5 border-r-2 border-t-2 border-warn/80" />
+        <div className="absolute bottom-0 left-0  w-5 h-5 border-l-2 border-b-2 border-warn/80" />
+        <div className="absolute bottom-0 right-0 w-5 h-5 border-r-2 border-b-2 border-warn/80" />
+        {/* Center crosshair lines */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-px bg-warn/80" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-6 w-px bg-warn/80" />
+        {/* Center dot gap */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full border border-warn" />
+      </div>
+    </div>
   );
 }
 

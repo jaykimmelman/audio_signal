@@ -1,11 +1,26 @@
+import { useEffect, useState } from "react";
 import { useApp } from "../state";
+
+const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+function formatUTC(d: Date): string {
+  const dd = String(d.getUTCDate()).padStart(2, "0");
+  const mon = MONTHS[d.getUTCMonth()];
+  const yyyy = d.getUTCFullYear();
+  const hh = String(d.getUTCHours()).padStart(2, "0");
+  const mm = String(d.getUTCMinutes()).padStart(2, "0");
+  const ss = String(d.getUTCSeconds()).padStart(2, "0");
+  return `${dd} ${mon} ${yyyy} ${hh}:${mm}:${ss}Z`;
+}
 
 export function Header() {
   const { signals, selectedSignalId, setSelectedSignalId } = useApp();
-  const now = new Date().toLocaleString("en-GB", {
-    hour12: false,
-    timeZone: "Africa/Lagos",
-  });
+  const [now, setNow] = useState<Date>(() => new Date());
+
+  useEffect(() => {
+    const id = setInterval(() => setNow(new Date()), 1000);
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <header className="h-12 shrink-0 border-b border-line bg-panel flex items-center justify-between px-4 font-mono text-xs uppercase tracking-widest">
@@ -15,7 +30,7 @@ export function Header() {
           <span className="text-text font-bold">SIGNAL · SURVEILLANCE CONSOLE</span>
         </div>
         <span className="text-muted">CLEARANCE: TS//SI//ORCON</span>
-        <span className="text-muted">FEED: KWARA-LEARN</span>
+        <span className="text-muted">FEED: KENYA</span>
       </div>
       <div className="flex items-center gap-4">
         {selectedSignalId && (
@@ -27,7 +42,7 @@ export function Header() {
           </button>
         )}
         <span className="text-muted">SIGNALS · {signals.length}</span>
-        <span className="text-text">{now} WAT</span>
+        <span className="text-text tabular-nums">{formatUTC(now)}</span>
       </div>
     </header>
   );

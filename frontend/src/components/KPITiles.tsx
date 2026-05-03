@@ -1,4 +1,5 @@
 import { useApp } from "../state";
+import { useAnimatedNumber } from "../lib/useAnimatedNumber";
 
 export function KPITiles() {
   const { signals, schoolsById } = useApp();
@@ -9,7 +10,6 @@ export function KPITiles() {
     signals.map((s) => schoolsById[s.school_id]?.lga).filter(Boolean),
   ).size;
 
-  // Daily trend: yesterday vs day-before in the data
   const byDay = new Map<string, number>();
   for (const s of signals) {
     const d = s.lesson_datetime.slice(0, 10);
@@ -43,20 +43,21 @@ function Tile({
   accent,
 }: {
   label: string;
-  value: number | string;
+  value: number;
   sub?: string;
   subColor?: string;
   accent?: "alert" | "accent";
 }) {
+  const animated = useAnimatedNumber(value);
   return (
     <div className="bg-panel border border-line rounded p-4">
       <div className="text-[10px] uppercase tracking-widest text-muted">{label}</div>
       <div
-        className={`mt-1 text-4xl font-bold font-mono ${
+        className={`mt-1 text-4xl font-bold font-mono tabular-nums ${
           accent === "alert" ? "text-alert" : "text-text"
         }`}
       >
-        {value}
+        {animated}
       </div>
       {sub && <div className={`mt-1 text-xs font-mono ${subColor ?? "text-muted"}`}>{sub}</div>}
     </div>

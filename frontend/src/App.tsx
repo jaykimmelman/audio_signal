@@ -8,6 +8,7 @@ import { DailySignalsTable } from "./components/DailySignalsTable";
 import { IncidentsList } from "./components/IncidentsList";
 import { TeacherProfile } from "./components/TeacherProfile";
 import { TranscriptPane } from "./components/TranscriptPane";
+import { StatusBar } from "./components/StatusBar";
 import { useApp } from "./state";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         ) : (
           <OverviewLayout />
         )}
+        <StatusBar />
       </div>
     </div>
   );
