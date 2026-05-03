@@ -53,10 +53,12 @@ export function TranscriptPane() {
         <div className="px-3 py-2 border-b border-line bg-panel2 shrink-0">
           <div className="flex items-center gap-3">
             <audio
+              key={sig.signal_id}
               ref={setAudioEl}
               src={sig.audio_url}
               controls
               preload="metadata"
+              onError={(e) => console.warn("audio error:", (e.currentTarget as HTMLAudioElement).error)}
               className="flex-1"
             />
             <button
@@ -68,7 +70,7 @@ export function TranscriptPane() {
             </button>
           </div>
           <div className="mt-2">
-            <Waveform audioElement={audioEl} markerSeconds={sig.segment_start} />
+            <Waveform audioUrl={sig.audio_url} markerSeconds={sig.segment_start} />
           </div>
         </div>
         <div className="flex-1 overflow-auto px-3 py-2 text-sm leading-relaxed font-mono">

@@ -2,44 +2,41 @@ import { useEffect, useRef, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
 
 interface Props {
-  audioElement: HTMLAudioElement | null;
+  audioUrl: string | null;
   markerSeconds: number;
 }
 
 /**
- * Thin spectral waveform under the audio player. Shares the same <audio> element
- * (no double-download for playback). The orange vertical line marks the
- * keyword segment.
+ * Thin spectral waveform shown below the audio player. WaveSurfer fetches the
+ * audio independently (decorative) so it cannot interfere with the native
+ * <audio> element's playback. The orange vertical line marks the keyword.
  */
-export function Waveform({ audioElement, markerSeconds }: Props) {
+export function Waveform({ audioUrl, markerSeconds }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [duration, setDuration] = useState(0);
 
   useEffect(() => {
-    if (!containerRef.current || !audioElement) return;
+    if (!containerRef.current || !audioUrl) return;
 
     let ws: WaveSurfer | null = null;
     try {
       ws = WaveSurfer.create({
         container: containerRef.current,
-        media: audioElement,
+        url: audioUrl,
         waveColor: "#1f2a44",
-        progressColor: "#ef4444",
-        cursorColor: "#f5a524",
-        cursorWidth: 1,
+        progressColor: "#1f2a44",
+        cursorColor: "transparent",
         height: 36,
         barWidth: 2,
         barGap: 1,
         barRadius: 1,
         normalize: true,
-        interact: true,
+        interact: false,
       });
       ws.on("ready", () => {
         if (ws) setDuration(ws.getDuration());
       });
     } catch (err) {
-      // wavesurfer init can throw on some browsers / odd MP3 headers;
-      // fail silently and the audio controls still work.
       console.warn("Waveform init failed:", err);
     }
 
@@ -48,7 +45,7 @@ export function Waveform({ audioElement, markerSeconds }: Props) {
         ws?.destroy();
       } catch { /* ignore */ }
     };
-  }, [audioElement]);
+  }, [audioUrl]);
 
   const markerLeftPct =
     duration > 0 && markerSeconds > 0
