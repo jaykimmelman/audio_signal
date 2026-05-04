@@ -31,6 +31,21 @@ export function TranscriptPane() {
     }
   }, [selectedSignalId]);
 
+  // Pre-seek the audio player to 3s before the keyword the moment metadata
+  // is available, so pressing play lands on the relevant section instantly
+  // instead of starting at 0:00.
+  useEffect(() => {
+    if (!audioEl || !sig) return;
+    const target = Math.max(0, sig.segment_start - 3);
+    const seek = () => { audioEl.currentTime = target; };
+    if (audioEl.readyState >= 1) {
+      seek();
+    } else {
+      audioEl.addEventListener("loadedmetadata", seek, { once: true });
+      return () => audioEl.removeEventListener("loadedmetadata", seek);
+    }
+  }, [audioEl, sig?.signal_id, sig?.segment_start, variant]);
+
   const kwRegex = useMemo(() => {
     if (!sig) return null;
     const esc = sig.keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
