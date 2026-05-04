@@ -1211,28 +1211,28 @@
     "segments": [
       {
         "start": 30.0,
-        "end": 50.0,
+        "end": 40.0,
         "text": "Omba massa",
         "lang": "sw",
         "text_en": "Pray for mercy"
       },
       {
-        "start": 50.0,
+        "start": 44.0,
         "end": 52.0,
         "text": "Xiwesili",
         "lang": "sw",
         "text_en": "Xiwesili"
       },
       {
-        "start": 80.0,
-        "end": 100.0,
+        "start": 72.0,
+        "end": 92.0,
         "text": "Omba massa",
         "lang": "sw",
         "text_en": "Pray for mercy"
       },
       {
-        "start": 100.0,
-        "end": 120.0,
+        "start": 92.0,
+        "end": 112.0,
         "text": "Omba massa",
         "lang": "sw",
         "text_en": "Pray for mercy"
@@ -1263,7 +1263,7 @@
     "segments": [
       {
         "start": 0.0,
-        "end": 23.0,
+        "end": 17.700000762939453,
         "text": "Hiskoa",
         "lang": "sw",
         "text_en": "Hiskoa"
@@ -1287,22 +1287,22 @@
         "lang": "en"
       },
       {
-        "start": 53.0,
-        "end": 63.0,
+        "start": 57.86000061035156,
+        "end": 83.36000061035156,
         "text": "Thank you.",
         "lang": "sw",
         "text_en": "Thank you."
       },
       {
-        "start": 63.0,
-        "end": 73.0,
+        "start": 57.86000061035156,
+        "end": 83.36000061035156,
         "text": "Thank you.",
         "lang": "sw",
         "text_en": "Thank you."
       },
       {
-        "start": 103.0,
-        "end": 105.0,
+        "start": 103.62000274658203,
+        "end": 110.37999725341797,
         "text": "Mahara",
         "lang": "sw",
         "text_en": "Location"
@@ -1326,8 +1326,8 @@
         "lang": "en"
       },
       {
-        "start": 147.0,
-        "end": 153.0,
+        "start": 149.67999267578125,
+        "end": 152.67999267578125,
         "text": "I read for you",
         "lang": "sw",
         "text_en": "I read for you"
@@ -1483,8 +1483,8 @@
         "lang": "en"
       },
       {
-        "start": 700.0,
-        "end": 727.0,
+        "start": 711.6799926757812,
+        "end": 726.6799926757812,
         "text": "How should you plant cuttings?",
         "lang": "sw",
         "text_en": "How should you plant cuttings?"
@@ -1514,8 +1514,8 @@
         "lang": "en"
       },
       {
-        "start": 813.0,
-        "end": 825.0,
+        "start": 815.6799926757812,
+        "end": 823.6799926757812,
         "text": "Do you know the answers to the questions?",
         "lang": "sw",
         "text_en": "Do you know the answers to the questions?"
@@ -1527,8 +1527,8 @@
         "lang": "en"
       },
       {
-        "start": 850.0,
-        "end": 879.0,
+        "start": 847.6799926757812,
+        "end": 867.6799926757812,
         "text": "I'll give you 10 minutes to answer them",
         "lang": "sw",
         "text_en": "I'll give you 10 minutes to answer them"
@@ -1559,35 +1559,35 @@
     "segments": [
       {
         "start": 0.0,
-        "end": 2.319999933242798,
+        "end": 5.320000171661377,
         "text": "Watu busyika wa kuneya",
         "lang": "sw",
         "text_en": "People are busy talking"
       },
       {
-        "start": 2.5799999237060547,
-        "end": 3.0799999237060547,
+        "start": 0.0,
+        "end": 5.320000171661377,
         "text": "Watu busyika wa kuneya",
         "lang": "sw",
         "text_en": "People are busy talking"
       },
       {
-        "start": 3.200000047683716,
-        "end": 3.700000047683716,
+        "start": 0.0,
+        "end": 5.320000171661377,
         "text": "Watu busyika wa kuneya",
         "lang": "sw",
         "text_en": "People are busy talking"
       },
       {
-        "start": 3.799999952316284,
-        "end": 4.360000133514404,
+        "start": 0.0,
+        "end": 5.320000171661377,
         "text": "Watu busyika wa kuneya",
         "lang": "sw",
         "text_en": "People are busy talking"
       },
       {
-        "start": 4.480000019073486,
-        "end": 5.360000133514404,
+        "start": 0.0,
+        "end": 5.320000171661377,
         "text": "Watu busyika wa kuneya",
         "lang": "sw",
         "text_en": "People are busy talking"
@@ -1696,14 +1696,14 @@
       },
       {
         "start": 60.0,
-        "end": 61.0,
+        "end": 62.0,
         "text": "wakati",
         "lang": "sw",
         "text_en": "time"
       },
       {
         "start": 74.0,
-        "end": 75.0,
+        "end": 76.0,
         "text": "wakati",
         "lang": "sw",
         "text_en": "time"
@@ -1717,7 +1717,7 @@
       },
       {
         "start": 90.0,
-        "end": 91.0,
+        "end": 92.0,
         "text": "wakati",
         "lang": "sw",
         "text_en": "time"
@@ -1880,13 +1880,13 @@
       },
       {
         "start": 210.0,
-        "end": 211.0,
+        "end": 212.0,
         "text": "water",
         "lang": "sw",
         "text_en": "water"
       },
       {
-        "start": 217.0,
+        "start": 216.0,
         "end": 218.0,
         "text": "ngo ni mochi",
         "lang": "sw",
@@ -1905,29 +1905,29 @@
         "lang": "en"
       },
       {
-        "start": 225.0,
-        "end": 228.0,
+        "start": 226.0,
+        "end": 229.0,
         "text": "m\"-",
         "lang": "sw",
         "text_en": "m\"-"
       },
       {
         "start": 229.0,
-        "end": 230.0,
+        "end": 231.0,
         "text": "Mami",
         "lang": "sw",
         "text_en": "Mom"
       },
       {
         "start": 231.0,
-        "end": 232.0,
+        "end": 233.0,
         "text": "todia",
         "lang": "sw",
         "text_en": "to tell"
       },
       {
-        "start": 236.0,
-        "end": 237.0,
+        "start": 233.0,
+        "end": 238.0,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
@@ -1945,15 +1945,15 @@
         "lang": "en"
       },
       {
-        "start": 251.0,
-        "end": 252.0,
+        "start": 250.0,
+        "end": 252.5,
         "text": "pangu",
         "lang": "sw",
         "text_en": "to dig"
       },
       {
         "start": 268.0,
-        "end": 271.0,
+        "end": 270.0,
         "text": "pango",
         "lang": "sw",
         "text_en": "cave"
@@ -1967,14 +1967,14 @@
       },
       {
         "start": 281.0,
-        "end": 282.0,
+        "end": 283.0,
         "text": "pangu",
         "lang": "sw",
         "text_en": "to dig"
       },
       {
         "start": 311.0,
-        "end": 312.0,
+        "end": 313.0,
         "text": "pango",
         "lang": "sw",
         "text_en": "cave"
@@ -2023,7 +2023,7 @@
     "segments": [
       {
         "start": 0.0,
-        "end": 3.0399999618530273,
+        "end": 5.739999771118164,
         "text": "Uluweme wewe na wapana",
         "lang": "sw",
         "text_en": "You are with the others"
@@ -2059,15 +2059,15 @@
         "lang": "en"
       },
       {
-        "start": 108.94000244140625,
-        "end": 119.94000244140625,
+        "start": 109.0,
+        "end": 115.0,
         "text": "In grade 5 we multiplied a 3 digit number",
         "lang": "sw",
         "text_en": "In grade 5 we multiplied a 3 digit number"
       },
       {
-        "start": 119.94000244140625,
-        "end": 132.94000244140625,
+        "start": 122.0,
+        "end": 135.0,
         "text": "When multiplying, how do we arrange the numbers?",
         "lang": "sw",
         "text_en": "When multiplying, how do we arrange the numbers?"
@@ -2079,8 +2079,8 @@
         "lang": "en"
       },
       {
-        "start": 144.94000244140625,
-        "end": 154.94000244140625,
+        "start": 139.0,
+        "end": 155.0,
         "text": "So we first multiply starting from the ones, then we go to the tens, then we go to the hundreds",
         "lang": "sw",
         "text_en": "So we first multiply starting from the ones, then we go to the tens, then we go to the hundreds"
@@ -2098,8 +2098,8 @@
         "lang": "en"
       },
       {
-        "start": 181.94000244140625,
-        "end": 191.94000244140625,
+        "start": 182.0,
+        "end": 188.0,
         "text": "Now, when multiplying the second digit, first write zero",
         "lang": "sw",
         "text_en": "Now, when multiplying the second digit, first write zero"
@@ -2111,8 +2111,8 @@
         "lang": "en"
       },
       {
-        "start": 204.94000244140625,
-        "end": 230.94000244140625,
+        "start": 211.0,
+        "end": 236.0,
         "text": "So we will now continue multiplying numbers",
         "lang": "sw",
         "text_en": "So we will now continue multiplying numbers"
@@ -2124,22 +2124,22 @@
         "lang": "en"
       },
       {
-        "start": 257.94000244140625,
-        "end": 267.94000244140625,
+        "start": 248.0,
+        "end": 277.0,
         "text": "So, now let us multiply a four digit number by a two digit number",
         "lang": "sw",
         "text_en": "So, now let us multiply a four digit number by a two digit number"
       },
       {
-        "start": 267.94000244140625,
-        "end": 287.94000244140625,
+        "start": 277.0,
+        "end": 295.0,
         "text": "So, now when multiplying, how do we arrange the numbers?",
         "lang": "sw",
         "text_en": "So, now when multiplying, how do we arrange the numbers?"
       },
       {
-        "start": 287.94000244140625,
-        "end": 305.94000244140625,
+        "start": 295.0,
+        "end": 306.0,
         "text": "We arrange the numbers match rally",
         "lang": "sw",
         "text_en": "We arrange the numbers for the match rally"
@@ -2157,8 +2157,8 @@
         "lang": "en"
       },
       {
-        "start": 329.94000244140625,
-        "end": 354.94000244140625,
+        "start": 341.0,
+        "end": 355.0,
         "text": "Fifteen",
         "lang": "sw",
         "text_en": "Fifteen"
@@ -2176,15 +2176,15 @@
         "lang": "en"
       },
       {
-        "start": 385.94000244140625,
-        "end": 400.94000244140625,
+        "start": 386.0,
+        "end": 401.0,
         "text": "You write eleven here, then you add",
         "lang": "sw",
         "text_en": "You write eleven here, then you add"
       },
       {
-        "start": 400.94000244140625,
-        "end": 425.94000244140625,
+        "start": 410.0,
+        "end": 423.0,
         "text": "How do we do?",
         "lang": "sw",
         "text_en": "How do we do?"
@@ -2226,15 +2226,15 @@
         "lang": "en"
       },
       {
-        "start": 500.94000244140625,
-        "end": 502.94000244140625,
+        "start": 500.0,
+        "end": 503.0,
         "text": "Look, look, look",
         "lang": "sw",
         "text_en": "Look, look, look"
       },
       {
-        "start": 530.9400024414062,
-        "end": 533.9400024414062,
+        "start": 532.0,
+        "end": 534.0,
         "text": "Look, look, look",
         "lang": "sw",
         "text_en": "Look, look, look"
@@ -3597,28 +3597,28 @@
     "segments": [
       {
         "start": 0.0,
-        "end": 1.0,
+        "end": 10.0,
         "text": "industri mwingine",
         "lang": "sw",
         "text_en": "another industry"
       },
       {
-        "start": 1.0,
-        "end": 2.0,
+        "start": 0.0,
+        "end": 10.0,
         "text": "industri mwingine",
         "lang": "sw",
         "text_en": "another industry"
       },
       {
-        "start": 2.0,
-        "end": 3.0,
+        "start": 0.0,
+        "end": 10.0,
         "text": "industri mwingine",
         "lang": "sw",
         "text_en": "another industry"
       },
       {
-        "start": 3.0,
-        "end": 4.0,
+        "start": 0.0,
+        "end": 10.0,
         "text": "industri mwingine",
         "lang": "sw",
         "text_en": "another industry"
@@ -3666,8 +3666,8 @@
         "lang": "en"
       },
       {
-        "start": 188.0,
-        "end": 209.0,
+        "start": 193.0,
+        "end": 208.0,
         "text": "Omozmela atiana kama nanguona na walijia mbamba ushingiria.",
         "lang": "sw",
         "text_en": "The child is behaving as I see and they are coming around the corner."
@@ -3691,28 +3691,28 @@
         "lang": "en"
       },
       {
-        "start": 235.0,
-        "end": 241.0,
+        "start": 238.0,
+        "end": 253.0,
         "text": "Omozmela atiana kama nanguona na walijia mbamba ushingiria.",
         "lang": "sw",
         "text_en": "The child is behaving as I see and they are coming around the corner."
       },
       {
-        "start": 241.0,
-        "end": 243.0,
+        "start": 238.0,
+        "end": 253.0,
         "text": "Omozmela atiana kama nanguona na walijia mbamba ushingiria.",
         "lang": "sw",
         "text_en": "The child is behaving as I see and they are coming around the corner."
       },
       {
-        "start": 243.0,
-        "end": 252.0,
+        "start": 238.0,
+        "end": 253.0,
         "text": "Omozmela atiana kama nanguona na walijia mbamba ushingiria.",
         "lang": "sw",
         "text_en": "The child is behaving as I see and they are coming around the corner."
       },
       {
-        "start": 252.0,
+        "start": 254.0,
         "end": 263.0,
         "text": "Omozmela atiana kama nanguona na walijia mbamba ushingiria.",
         "lang": "sw",
@@ -4842,21 +4842,21 @@
     "segments": [
       {
         "start": 30.0,
-        "end": 38.0,
+        "end": 59.18000030517578,
         "text": "ambasimia Haracinids",
         "lang": "sw",
         "text_en": "ambasimia Haracinids"
       },
       {
-        "start": 38.0,
-        "end": 48.0,
+        "start": 30.0,
+        "end": 59.18000030517578,
         "text": "ambasimia Haracinids",
         "lang": "sw",
         "text_en": "ambasimia Haracinids"
       },
       {
-        "start": 48.0,
-        "end": 55.0,
+        "start": 30.0,
+        "end": 59.18000030517578,
         "text": "ambasimia Haracinids",
         "lang": "sw",
         "text_en": "ambasimia Haracinids"
@@ -4982,8 +4982,8 @@
         "lang": "en"
       },
       {
-        "start": 411.0,
-        "end": 414.0,
+        "start": 412.3800048828125,
+        "end": 415.260009765625,
         "text": "Raka",
         "lang": "sw",
         "text_en": "Quickly"
@@ -5043,43 +5043,43 @@
         "lang": "en"
       },
       {
-        "start": 564.0,
-        "end": 567.0,
+        "start": 563.8599853515625,
+        "end": 589.5999755859375,
         "text": "Pl",
         "lang": "sw",
         "text_en": "Pl"
       },
       {
-        "start": 567.0,
-        "end": 569.0,
+        "start": 563.8599853515625,
+        "end": 589.5999755859375,
         "text": "Pl",
         "lang": "sw",
         "text_en": "Pl"
       },
       {
-        "start": 569.0,
-        "end": 572.0,
+        "start": 563.8599853515625,
+        "end": 589.5999755859375,
         "text": "Pl",
         "lang": "sw",
         "text_en": "Pl"
       },
       {
-        "start": 572.0,
-        "end": 575.0,
+        "start": 563.8599853515625,
+        "end": 589.5999755859375,
         "text": "Pl",
         "lang": "sw",
         "text_en": "Pl"
       },
       {
-        "start": 575.0,
-        "end": 585.0,
+        "start": 563.8599853515625,
+        "end": 589.5999755859375,
         "text": "Pl",
         "lang": "sw",
         "text_en": "Pl"
       },
       {
-        "start": 585.0,
-        "end": 588.0,
+        "start": 563.8599853515625,
+        "end": 589.5999755859375,
         "text": "Pl",
         "lang": "sw",
         "text_en": "Pl"
@@ -5109,15 +5109,15 @@
         "lang": "en"
       },
       {
-        "start": 616.0,
-        "end": 620.0,
+        "start": 616.02001953125,
+        "end": 618.7999877929688,
         "text": "Laajima kwa soko la majidiku",
         "lang": "sw",
         "text_en": "It is necessary for the market of knowledge"
       },
       {
-        "start": 620.0,
-        "end": 622.0,
+        "start": 619.9000244140625,
+        "end": 621.8599853515625,
         "text": "Lima listo wa parathua",
         "lang": "sw",
         "text_en": "List the ingredients"
@@ -5129,15 +5129,15 @@
         "lang": "en"
       },
       {
-        "start": 626.0,
-        "end": 629.0,
+        "start": 625.9400024414062,
+        "end": 629.1599731445312,
         "text": "Amakini wapokuwa kipa",
         "lang": "sw",
         "text_en": "Be careful when you are the leader"
       },
       {
-        "start": 629.0,
-        "end": 630.0,
+        "start": 629.1799926757812,
+        "end": 630.260009765625,
         "text": "tumibu",
         "lang": "sw",
         "text_en": "to heal"
@@ -5149,29 +5149,29 @@
         "lang": "en"
       },
       {
-        "start": 634.0,
-        "end": 637.0,
+        "start": 634.3599853515625,
+        "end": 636.5599975585938,
         "text": "Kunii na we mwishoa goa wapo?",
         "lang": "sw",
         "text_en": "Can I and you finally go?"
       },
       {
-        "start": 637.0,
-        "end": 639.0,
+        "start": 636.7000122070312,
+        "end": 647.9600219726562,
         "text": "ец",
         "lang": "sw",
         "text_en": "ec"
       },
       {
-        "start": 639.0,
-        "end": 642.0,
+        "start": 636.7000122070312,
+        "end": 647.9600219726562,
         "text": "ец",
         "lang": "sw",
         "text_en": "ec"
       },
       {
-        "start": 642.0,
-        "end": 644.0,
+        "start": 636.7000122070312,
+        "end": 647.9600219726562,
         "text": "ец",
         "lang": "sw",
         "text_en": "ec"
@@ -5183,43 +5183,43 @@
         "lang": "en"
       },
       {
-        "start": 652.0,
-        "end": 657.0,
+        "start": 649.8599853515625,
+        "end": 673.6599731445312,
         "text": "kwa myingi gwana",
         "lang": "sw",
         "text_en": "for many reasons"
       },
       {
-        "start": 657.0,
-        "end": 659.0,
+        "start": 649.8599853515625,
+        "end": 673.6599731445312,
         "text": "kwa myingi gwana",
         "lang": "sw",
         "text_en": "for many reasons"
       },
       {
-        "start": 659.0,
-        "end": 664.0,
+        "start": 649.8599853515625,
+        "end": 673.6599731445312,
         "text": "kwa myingi gwana",
         "lang": "sw",
         "text_en": "for many reasons"
       },
       {
-        "start": 664.0,
-        "end": 669.0,
+        "start": 649.8599853515625,
+        "end": 673.6599731445312,
         "text": "kwa myingi gwana",
         "lang": "sw",
         "text_en": "for many reasons"
       },
       {
-        "start": 724.0,
-        "end": 733.0,
+        "start": 719.8599853515625,
+        "end": 729.8599853515625,
         "text": "kwa myingi gwana",
         "lang": "sw",
         "text_en": "for many reasons"
       },
       {
-        "start": 733.0,
-        "end": 738.0,
+        "start": 729.8599853515625,
+        "end": 739.8599853515625,
         "text": "kwa myingi gwana",
         "lang": "sw",
         "text_en": "for many reasons"
@@ -5621,155 +5621,155 @@
         "lang": "en"
       },
       {
-        "start": 1117.0,
-        "end": 1121.0,
+        "start": 1117.8599853515625,
+        "end": 1123.8599853515625,
         "text": "I have examples",
         "lang": "sw",
         "text_en": "I have examples"
       },
       {
-        "start": 1123.0,
-        "end": 1127.0,
+        "start": 1123.8599853515625,
+        "end": 1127.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1127.0,
-        "end": 1130.0,
+        "start": 1127.8599853515625,
+        "end": 1145.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1133.0,
-        "end": 1135.0,
+        "start": 1127.8599853515625,
+        "end": 1145.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1136.0,
-        "end": 1138.0,
+        "start": 1127.8599853515625,
+        "end": 1145.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1143.0,
-        "end": 1145.0,
+        "start": 1127.8599853515625,
+        "end": 1145.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1147.0,
-        "end": 1149.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1152.0,
-        "end": 1154.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1156.0,
-        "end": 1158.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1159.0,
-        "end": 1161.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1163.0,
-        "end": 1165.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1166.0,
-        "end": 1168.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1169.0,
-        "end": 1171.0,
+        "start": 1145.8599853515625,
+        "end": 1173.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1173.0,
-        "end": 1175.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1176.0,
-        "end": 1178.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1179.0,
-        "end": 1181.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1182.0,
-        "end": 1184.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1185.0,
-        "end": 1188.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1189.0,
-        "end": 1191.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1192.0,
-        "end": 1194.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1195.0,
-        "end": 1197.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
       },
       {
-        "start": 1198.0,
-        "end": 1200.0,
+        "start": 1173.8599853515625,
+        "end": 1201.8599853515625,
         "text": "We have spider chicks, scorpions, mites",
         "lang": "sw",
         "text_en": "We have spiderlings, scorpions, mites"
@@ -6838,7 +6838,7 @@
     "segments": [
       {
         "start": 0.0,
-        "end": 5.0,
+        "end": 8.0,
         "text": "Kwasiliza",
         "lang": "sw",
         "text_en": "To communicate"
@@ -6856,36 +6856,36 @@
         "lang": "en"
       },
       {
-        "start": 17.260000228881836,
-        "end": 22.760000228881836,
+        "start": 20.0,
+        "end": 24.0,
         "text": "Sena",
         "lang": "sw",
         "text_en": "Senate"
       },
       {
         "start": 24.0,
-        "end": 26.479999542236328,
+        "end": 28.0,
         "text": "Sena",
         "lang": "sw",
         "text_en": "Senate"
       },
       {
-        "start": 26.479999542236328,
-        "end": 30.479999542236328,
+        "start": 28.0,
+        "end": 36.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
       },
       {
-        "start": 31.479999542236328,
-        "end": 33.47999954223633,
+        "start": 28.0,
+        "end": 36.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
       },
       {
-        "start": 34.47999954223633,
-        "end": 37.47999954223633,
+        "start": 28.0,
+        "end": 36.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
@@ -6921,8 +6921,8 @@
         "lang": "en"
       },
       {
-        "start": 57.47999954223633,
-        "end": 59.47999954223633,
+        "start": 58.0,
+        "end": 68.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
@@ -6940,15 +6940,15 @@
         "lang": "en"
       },
       {
-        "start": 89.4800033569336,
-        "end": 93.4800033569336,
+        "start": 88.0,
+        "end": 98.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
       },
       {
-        "start": 94.4800033569336,
-        "end": 96.4800033569336,
+        "start": 88.0,
+        "end": 98.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
@@ -6960,15 +6960,15 @@
         "lang": "en"
       },
       {
-        "start": 119.4800033569336,
-        "end": 121.4800033569336,
+        "start": 118.0,
+        "end": 128.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
       },
       {
-        "start": 126.4800033569336,
-        "end": 128.47999572753906,
+        "start": 118.0,
+        "end": 128.0,
         "text": "Kwafa",
         "lang": "sw",
         "text_en": "To be"
@@ -7323,14 +7323,14 @@
     "segments": [
       {
         "start": 0.0,
-        "end": 2.0,
+        "end": 3.0,
         "text": "panguje",
         "lang": "sw",
         "text_en": "to dig up"
       },
       {
-        "start": 2.0,
-        "end": 4.0,
+        "start": 0.0,
+        "end": 3.0,
         "text": "panguje",
         "lang": "sw",
         "text_en": "to dig up"
@@ -7354,141 +7354,141 @@
     "duration": 2400,
     "segments": [
       {
-        "start": 0.0,
-        "end": 4.880000114440918,
+        "start": 1.4199999570846558,
+        "end": 4.579999923706055,
         "text": "NI",
         "lang": "sw",
         "text_en": "IS"
       },
       {
-        "start": 5.239999771118164,
-        "end": 6.920000076293945,
+        "start": 5.559999942779541,
+        "end": 8.239999771118164,
         "text": "NASARDASTI",
         "lang": "sw",
         "text_en": "I AM SERIOUS"
       },
       {
-        "start": 8.199999809265137,
-        "end": 9.680000305175781,
+        "start": 8.239999771118164,
+        "end": 11.800000190734863,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 10.920000076293945,
-        "end": 12.4399995803833,
+        "start": 8.239999771118164,
+        "end": 11.800000190734863,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 12.760000228881836,
-        "end": 14.880000114440918,
+        "start": 12.539999961853027,
+        "end": 18.34000015258789,
         "text": "KWA",
         "lang": "sw",
         "text_en": "FOR"
       },
       {
-        "start": 14.920000076293945,
-        "end": 15.4399995803833,
+        "start": 12.539999961853027,
+        "end": 18.34000015258789,
         "text": "KWA",
         "lang": "sw",
         "text_en": "FOR"
       },
       {
-        "start": 15.479999542236328,
-        "end": 17.360000610351562,
+        "start": 12.539999961853027,
+        "end": 18.34000015258789,
         "text": "KWA",
         "lang": "sw",
         "text_en": "FOR"
       },
       {
-        "start": 18.399999618530273,
-        "end": 20.68000030517578,
+        "start": 19.3799991607666,
+        "end": 22.65999984741211,
         "text": "TAKE",
         "lang": "sw",
         "text_en": "TAKE"
       },
       {
-        "start": 21.520000457763672,
-        "end": 22.520000457763672,
+        "start": 19.3799991607666,
+        "end": 22.65999984741211,
         "text": "TAKE",
         "lang": "sw",
         "text_en": "TAKE"
       },
       {
-        "start": 22.799999237060547,
-        "end": 23.799999237060547,
+        "start": 22.65999984741211,
+        "end": 25.040000915527344,
         "text": "PHO",
         "lang": "sw",
         "text_en": "PHO"
       },
       {
-        "start": 24.0,
-        "end": 24.520000457763672,
+        "start": 22.65999984741211,
+        "end": 25.040000915527344,
         "text": "PHO",
         "lang": "sw",
         "text_en": "PHO"
       },
       {
-        "start": 25.440000534057617,
-        "end": 26.920000076293945,
+        "start": 25.979999542236328,
+        "end": 33.119998931884766,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 30.799999237060547,
-        "end": 32.79999923706055,
+        "start": 25.979999542236328,
+        "end": 33.119998931884766,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 33.79999923706055,
-        "end": 34.79999923706055,
+        "start": 33.119998931884766,
+        "end": 40.91999816894531,
         "text": "FAREWE",
         "lang": "sw",
         "text_en": "FAREWE"
       },
       {
-        "start": 35.84000015258789,
-        "end": 36.7599983215332,
+        "start": 33.119998931884766,
+        "end": 40.91999816894531,
         "text": "FAREWE",
         "lang": "sw",
         "text_en": "FAREWE"
       },
       {
-        "start": 37.040000915527344,
-        "end": 38.79999923706055,
+        "start": 33.119998931884766,
+        "end": 40.91999816894531,
         "text": "FAREWE",
         "lang": "sw",
         "text_en": "FAREWE"
       },
       {
-        "start": 38.84000015258789,
-        "end": 40.119998931884766,
+        "start": 33.119998931884766,
+        "end": 40.91999816894531,
         "text": "FAREWE",
         "lang": "sw",
         "text_en": "FAREWE"
       },
       {
-        "start": 40.15999984741211,
-        "end": 41.08000183105469,
+        "start": 33.119998931884766,
+        "end": 40.91999816894531,
         "text": "FAREWE",
         "lang": "sw",
         "text_en": "FAREWE"
       },
       {
-        "start": 41.36000061035156,
-        "end": 41.959999084472656,
+        "start": 40.91999816894531,
+        "end": 44.939998626708984,
         "text": "PS",
         "lang": "sw",
         "text_en": "PS"
       },
       {
-        "start": 47.0,
-        "end": 48.08000183105469,
+        "start": 44.939998626708984,
+        "end": 48.34000015258789,
         "text": "BO",
         "lang": "sw",
         "text_en": "BO"
@@ -7596,120 +7596,120 @@
         "lang": "en"
       },
       {
-        "start": 79.5199966430664,
-        "end": 80.5199966430664,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 81.13999938964844,
-        "end": 81.31999969482422,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 81.31999969482422,
-        "end": 81.55999755859375,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 81.55999755859375,
-        "end": 81.80000305175781,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 81.80000305175781,
-        "end": 82.0,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 82.0,
-        "end": 82.19999694824219,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 82.19999694824219,
-        "end": 82.27999877929688,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 82.27999877929688,
-        "end": 82.80000305175781,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 82.80000305175781,
-        "end": 83.19999694824219,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 83.19999694824219,
-        "end": 83.63999938964844,
+        "start": 78.33999633789062,
+        "end": 83.68000030517578,
         "text": "BASKE",
         "lang": "sw",
         "text_en": "BASKE"
       },
       {
-        "start": 83.63999938964844,
-        "end": 85.63999938964844,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
       },
       {
-        "start": 85.63999938964844,
-        "end": 87.08000183105469,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
       },
       {
-        "start": 87.08000183105469,
-        "end": 87.5199966430664,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
       },
       {
-        "start": 87.5199966430664,
-        "end": 88.95999908447266,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
       },
       {
-        "start": 88.95999908447266,
-        "end": 91.5999984741211,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
       },
       {
-        "start": 91.5999984741211,
-        "end": 92.36000061035156,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
       },
       {
-        "start": 92.36000061035156,
-        "end": 96.63999938964844,
+        "start": 83.68000030517578,
+        "end": 97.66000366210938,
         "text": "What?",
         "lang": "sw",
         "text_en": "What?"
@@ -7805,99 +7805,99 @@
         "lang": "en"
       },
       {
-        "start": 126.83999633789062,
-        "end": 128.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 128.83999633789062,
-        "end": 130.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 130.83999633789062,
-        "end": 132.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 132.83999633789062,
-        "end": 134.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 134.83999633789062,
-        "end": 136.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 136.83999633789062,
-        "end": 138.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 138.83999633789062,
-        "end": 140.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 140.83999633789062,
-        "end": 142.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 142.83999633789062,
-        "end": 144.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 144.83999633789062,
-        "end": 146.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 146.83999633789062,
-        "end": 148.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 148.83999633789062,
-        "end": 150.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 150.83999633789062,
-        "end": 152.83999633789062,
+        "start": 127.66000366210938,
+        "end": 152.8800048828125,
         "text": "Mwe moambe nengineko!",
         "lang": "sw",
         "text_en": "You are another person!"
       },
       {
-        "start": 152.83999633789062,
-        "end": 154.83999633789062,
+        "start": 153.13999938964844,
+        "end": 155.63999938964844,
         "text": "Tulisa watero 야ras",
         "lang": "sw",
         "text_en": "We are drinking water"
@@ -7939,43 +7939,43 @@
         "lang": "en"
       },
       {
-        "start": 166.83999633789062,
-        "end": 168.83999633789062,
+        "start": 166.47999572753906,
+        "end": 169.97999572753906,
         "text": "Tule, haya, tulatesa whakate ya nilibi",
         "lang": "sw",
         "text_en": "Let's eat, okay, we will enjoy the meal."
       },
       {
-        "start": 168.83999633789062,
-        "end": 170.83999633789062,
+        "start": 166.47999572753906,
+        "end": 169.97999572753906,
         "text": "Tule, haya, tulatesa whakate ya nilibi",
         "lang": "sw",
         "text_en": "Let's eat, okay, we will enjoy the meal."
       },
       {
-        "start": 170.83999633789062,
-        "end": 172.83999633789062,
+        "start": 169.97999572753906,
+        "end": 172.02000427246094,
         "text": "Halim in significa mtawezi",
         "lang": "sw",
         "text_en": "Halim means you can do it"
       },
       {
-        "start": 172.83999633789062,
-        "end": 174.83999633789062,
+        "start": 172.02000427246094,
+        "end": 174.63999938964844,
         "text": "Haya, walikita na maakuti",
         "lang": "sw",
         "text_en": "Okay, they have planted and harvested"
       },
       {
-        "start": 174.83999633789062,
-        "end": 176.83999633789062,
+        "start": 175.6999969482422,
+        "end": 179.10000610351562,
         "text": "Keo wakati ya numero amisi ni migranti",
         "lang": "sw",
         "text_en": "The time of the missing number is migrant"
       },
       {
-        "start": 176.83999633789062,
-        "end": 178.83999633789062,
+        "start": 175.6999969482422,
+        "end": 179.10000610351562,
         "text": "Keo wakati ya numero amisi ni migranti",
         "lang": "sw",
         "text_en": "The time of the missing number is migrant"
@@ -8251,92 +8251,92 @@
         "lang": "en"
       },
       {
-        "start": 268.8399963378906,
-        "end": 270.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 270.8399963378906,
-        "end": 272.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 272.8399963378906,
-        "end": 274.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 274.8399963378906,
-        "end": 276.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 276.8399963378906,
-        "end": 278.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 278.8399963378906,
-        "end": 280.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 280.8399963378906,
-        "end": 282.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 282.8399963378906,
-        "end": 284.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 284.8399963378906,
-        "end": 286.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 286.8399963378906,
-        "end": 288.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 288.8399963378906,
-        "end": 290.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 290.8399963378906,
-        "end": 292.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
       },
       {
-        "start": 292.8399963378906,
-        "end": 294.8399963378906,
+        "start": 269.1600036621094,
+        "end": 295.5199890136719,
         "text": "Tulisa wakati lado",
         "lang": "sw",
         "text_en": "We are having a good time"
@@ -8348,43 +8348,43 @@
         "lang": "en"
       },
       {
-        "start": 296.8399963378906,
-        "end": 298.8399963378906,
+        "start": 296.5199890136719,
+        "end": 299.5199890136719,
         "text": "Nama manda mkweche asembe tuimbia nini?",
         "lang": "sw",
         "text_en": "What does the in-law say we should sing?"
       },
       {
-        "start": 298.8399963378906,
-        "end": 300.8399963378906,
+        "start": 299.5199890136719,
+        "end": 301.5199890136719,
         "text": "Uyu manda inda National Assembs, ya?",
         "lang": "sw",
         "text_en": "Is this the National Assembly?"
       },
       {
-        "start": 300.8399963378906,
-        "end": 302.8399963378906,
+        "start": 301.5199890136719,
+        "end": 302.5199890136719,
         "text": "Kama kelelo?",
         "lang": "sw",
         "text_en": "Like a call?"
       },
       {
-        "start": 302.8399963378906,
-        "end": 304.8399963378906,
+        "start": 302.5199890136719,
+        "end": 304.5199890136719,
         "text": "Manda taenda nini?",
         "lang": "sw",
         "text_en": "What will Manda do?"
       },
       {
-        "start": 304.8399963378906,
-        "end": 306.8399963378906,
+        "start": 304.5199890136719,
+        "end": 306.5199890136719,
         "text": "National Assembs",
         "lang": "sw",
         "text_en": "National Assembly"
       },
       {
-        "start": 306.8399963378906,
-        "end": 308.8399963378906,
+        "start": 306.5199890136719,
+        "end": 308.5199890136719,
         "text": "Na, asupotoko wami ambie, eh?",
         "lang": "sw",
         "text_en": "And, my friend tell me, eh?"
@@ -8396,15 +8396,15 @@
         "lang": "en"
       },
       {
-        "start": 310.8399963378906,
-        "end": 312.8399963378906,
+        "start": 311.5199890136719,
+        "end": 313.5199890136719,
         "text": "Iyo kelelo yako itumia vizuri",
         "lang": "sw",
         "text_en": "That is your call, use it well"
       },
       {
-        "start": 312.8399963378906,
-        "end": 314.8399963378906,
+        "start": 313.5199890136719,
+        "end": 314.5199890136719,
         "text": "O, God!",
         "lang": "sw",
         "text_en": "O, God!"
@@ -8428,15 +8428,15 @@
         "lang": "en"
       },
       {
-        "start": 320.8399963378906,
-        "end": 322.8399963378906,
+        "start": 320.5199890136719,
+        "end": 324.5199890136719,
         "text": "Page 31 on page 67",
         "lang": "sw",
         "text_en": "Page 31 on page 67"
       },
       {
-        "start": 322.8399963378906,
-        "end": 324.8399963378906,
+        "start": 320.5199890136719,
+        "end": 324.5199890136719,
         "text": "Page 31 on page 67",
         "lang": "sw",
         "text_en": "Page 31 on page 67"
@@ -8448,22 +8448,22 @@
         "lang": "en"
       },
       {
-        "start": 326.8399963378906,
-        "end": 328.8399963378906,
+        "start": 327.5199890136719,
+        "end": 330.5199890136719,
         "text": "tanudemo cali munguzi kali unalika",
         "lang": "sw",
         "text_en": "even if you invite a strong god"
       },
       {
-        "start": 328.8399963378906,
-        "end": 330.8399963378906,
+        "start": 327.5199890136719,
+        "end": 330.5199890136719,
         "text": "tanudemo cali munguzi kali unalika",
         "lang": "sw",
         "text_en": "even if you invite a strong god"
       },
       {
-        "start": 330.8399963378906,
-        "end": 332.8399963378906,
+        "start": 331.5199890136719,
+        "end": 333.5199890136719,
         "text": "Nagtu ntosense, pate penderi",
         "lang": "sw",
         "text_en": "I am not sure, please clarify"
@@ -8475,64 +8475,64 @@
         "lang": "en"
       },
       {
-        "start": 334.8399963378906,
-        "end": 336.8399963378906,
+        "start": 334.5199890136719,
+        "end": 336.5199890136719,
         "text": "Unaweza nchini ya p與 ngizi ninayake",
         "lang": "sw",
         "text_en": "Can you tell me about your country?"
       },
       {
-        "start": 336.8399963378906,
-        "end": 338.8399963378906,
+        "start": 336.5199890136719,
+        "end": 338.5199890136719,
         "text": "tunelana venpia k simplify",
         "lang": "sw",
         "text_en": "we are simplifying things"
       },
       {
-        "start": 338.8399963378906,
-        "end": 340.8399963378906,
+        "start": 338.5199890136719,
+        "end": 341.5199890136719,
         "text": "$ $ $ $ $ $ $ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $ $ $ $ $ $"
       },
       {
-        "start": 340.8399963378906,
-        "end": 342.8399963378906,
+        "start": 341.5199890136719,
+        "end": 342.5199890136719,
         "text": "$ $ $ $ $ $ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $ $ $ $ $"
       },
       {
-        "start": 342.8399963378906,
-        "end": 344.8399963378906,
+        "start": 343.5199890136719,
+        "end": 344.5199890136719,
         "text": "$ $ $ $ $$ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $ $$ $ $"
       },
       {
-        "start": 344.8399963378906,
-        "end": 346.8399963378906,
+        "start": 345.5199890136719,
+        "end": 348.5199890136719,
         "text": "$ $ $ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $ $"
       },
       {
-        "start": 346.8399963378906,
-        "end": 348.8399963378906,
+        "start": 345.5199890136719,
+        "end": 348.5199890136719,
         "text": "$ $ $ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $ $"
       },
       {
-        "start": 348.8399963378906,
-        "end": 350.8399963378906,
+        "start": 349.5199890136719,
+        "end": 350.5199890136719,
         "text": "atokwon ya $ $ $ $ 9",
         "lang": "sw",
         "text_en": "atokwon ya $ $ $ $ 9"
       },
       {
-        "start": 350.8399963378906,
-        "end": 352.8399963378906,
+        "start": 351.5199890136719,
+        "end": 352.5199890136719,
         "text": "$ $ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $"
@@ -8628,29 +8628,29 @@
         "lang": "en"
       },
       {
-        "start": 382.8399963378906,
-        "end": 384.8399963378906,
+        "start": 383.5199890136719,
+        "end": 384.5199890136719,
         "text": "$ $ $ $",
         "lang": "sw",
         "text_en": "$ $ $ $"
       },
       {
-        "start": 384.8399963378906,
-        "end": 386.8399963378906,
+        "start": 385.5199890136719,
+        "end": 386.5199890136719,
         "text": "sa mungkin wamentioned",
         "lang": "sw",
         "text_en": "maybe they mentioned"
       },
       {
-        "start": 386.8399963378906,
-        "end": 388.8399963378906,
+        "start": 386.5199890136719,
+        "end": 391.5199890136719,
         "text": "anamana",
         "lang": "sw",
         "text_en": "anamana"
       },
       {
-        "start": 388.8399963378906,
-        "end": 390.8399963378906,
+        "start": 386.5199890136719,
+        "end": 391.5199890136719,
         "text": "anamana",
         "lang": "sw",
         "text_en": "anamana"
@@ -8662,92 +8662,92 @@
         "lang": "en"
       },
       {
-        "start": 392.8399963378906,
-        "end": 394.8399963378906,
+        "start": 392.5199890136719,
+        "end": 395.5199890136719,
         "text": "fap, ntiye,",
         "lang": "sw",
         "text_en": "fap, ntiye,"
       },
       {
-        "start": 394.8399963378906,
-        "end": 396.8399963378906,
+        "start": 395.5199890136719,
+        "end": 396.5199890136719,
         "text": "$ $ $",
         "lang": "sw",
         "text_en": "$ $ $"
       },
       {
-        "start": 396.8399963378906,
-        "end": 398.8399963378906,
+        "start": 397.5199890136719,
+        "end": 398.5199890136719,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 398.8399963378906,
-        "end": 400.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 400.8399963378906,
-        "end": 402.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 402.8399963378906,
-        "end": 404.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 404.8399963378906,
-        "end": 406.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 406.8399963378906,
-        "end": 408.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 408.8399963378906,
-        "end": 410.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 410.8399963378906,
-        "end": 412.8399963378906,
+        "start": 399.5199890136719,
+        "end": 412.5199890136719,
         "text": "pa",
         "lang": "sw",
         "text_en": "place"
       },
       {
-        "start": 412.8399963378906,
-        "end": 414.8399963378906,
+        "start": 413.5199890136719,
+        "end": 419.5199890136719,
         "text": "mbo",
         "lang": "sw",
         "text_en": "mbo"
       },
       {
-        "start": 414.8399963378906,
-        "end": 416.8399963378906,
+        "start": 413.5199890136719,
+        "end": 419.5199890136719,
         "text": "mbo",
         "lang": "sw",
         "text_en": "mbo"
       },
       {
-        "start": 416.8399963378906,
-        "end": 418.8399963378906,
+        "start": 413.5199890136719,
+        "end": 419.5199890136719,
         "text": "mbo",
         "lang": "sw",
         "text_en": "mbo"
@@ -8759,50 +8759,50 @@
         "lang": "en"
       },
       {
-        "start": 420.8399963378906,
-        "end": 422.8399963378906,
+        "start": 420.5199890136719,
+        "end": 424.5199890136719,
         "text": "cm",
         "lang": "sw",
         "text_en": "cm"
       },
       {
-        "start": 422.8399963378906,
-        "end": 424.8399963378906,
+        "start": 420.5199890136719,
+        "end": 424.5199890136719,
         "text": "cm",
         "lang": "sw",
         "text_en": "cm"
       },
       {
-        "start": 424.8399963378906,
-        "end": 426.8399963378906,
+        "start": 424.5199890136719,
+        "end": 429.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 426.8399963378906,
-        "end": 428.8399963378906,
+        "start": 424.5199890136719,
+        "end": 429.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 428.8399963378906,
-        "end": 430.8399963378906,
+        "start": 429.5199890136719,
+        "end": 430.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 430.8399963378906,
-        "end": 432.8399963378906,
+        "start": 430.5199890136719,
+        "end": 433.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 432.8399963378906,
-        "end": 434.8399963378906,
+        "start": 433.5199890136719,
+        "end": 434.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
@@ -8826,85 +8826,85 @@
         "lang": "en"
       },
       {
-        "start": 440.8399963378906,
-        "end": 442.8399963378906,
+        "start": 440.5199890136719,
+        "end": 445.5199890136719,
         "text": "$ $ $",
         "lang": "sw",
         "text_en": "$ $ $"
       },
       {
-        "start": 442.8399963378906,
-        "end": 444.8399963378906,
+        "start": 440.5199890136719,
+        "end": 445.5199890136719,
         "text": "$ $ $",
         "lang": "sw",
         "text_en": "$ $ $"
       },
       {
-        "start": 444.8399963378906,
-        "end": 446.8399963378906,
+        "start": 445.5199890136719,
+        "end": 450.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 446.8399963378906,
-        "end": 448.8399963378906,
+        "start": 445.5199890136719,
+        "end": 450.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 448.8399963378906,
-        "end": 450.8399963378906,
+        "start": 445.5199890136719,
+        "end": 450.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 450.8399963378906,
-        "end": 452.8399963378906,
+        "start": 450.5199890136719,
+        "end": 455.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 452.8399963378906,
-        "end": 454.8399963378906,
+        "start": 450.5199890136719,
+        "end": 455.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 454.8399963378906,
-        "end": 456.8399963378906,
+        "start": 455.5199890136719,
+        "end": 460.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 456.8399963378906,
-        "end": 458.8399963378906,
+        "start": 455.5199890136719,
+        "end": 460.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 458.8399963378906,
-        "end": 460.8399963378906,
+        "start": 455.5199890136719,
+        "end": 460.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 460.8399963378906,
-        "end": 462.8399963378906,
+        "start": 460.5199890136719,
+        "end": 465.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
       },
       {
-        "start": 462.8399963378906,
-        "end": 464.8399963378906,
+        "start": 460.5199890136719,
+        "end": 465.5199890136719,
         "text": "$ $",
         "lang": "sw",
         "text_en": "$ $"
@@ -9060,71 +9060,71 @@
         "lang": "en"
       },
       {
-        "start": 514.8400268554688,
-        "end": 516.8400268554688,
+        "start": 515.52001953125,
+        "end": 520.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 516.8400268554688,
-        "end": 518.8400268554688,
+        "start": 515.52001953125,
+        "end": 520.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 518.8400268554688,
-        "end": 520.8400268554688,
+        "start": 515.52001953125,
+        "end": 520.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 520.8400268554688,
-        "end": 522.8400268554688,
+        "start": 520.52001953125,
+        "end": 525.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 522.8400268554688,
-        "end": 524.8400268554688,
+        "start": 520.52001953125,
+        "end": 525.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 524.8400268554688,
-        "end": 526.8400268554688,
+        "start": 525.52001953125,
+        "end": 530.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 526.8400268554688,
-        "end": 528.8400268554688,
+        "start": 525.52001953125,
+        "end": 530.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 528.8400268554688,
-        "end": 530.8400268554688,
+        "start": 525.52001953125,
+        "end": 530.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 530.8400268554688,
-        "end": 532.8400268554688,
+        "start": 530.52001953125,
+        "end": 535.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"
       },
       {
-        "start": 532.8400268554688,
-        "end": 534.8400268554688,
+        "start": 530.52001953125,
+        "end": 535.52001953125,
         "text": "$",
         "lang": "sw",
         "text_en": "$"

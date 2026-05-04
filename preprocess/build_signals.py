@@ -283,9 +283,14 @@ def merge_bilingual_segments(
         a_score = best_alt.get("avg_logprob") or -10.0
 
         if a_score > p_score + confidence_margin:
+            # Use the alt segment's OWN timestamps. Whisper's two passes
+            # segment the audio differently — the alt text was actually
+            # transcribed from best_alt.start..best_alt.end, not from
+            # p_start..p_end. Anchoring on EN timestamps caused click-to-jump
+            # to play audio that didn't match the displayed Swahili.
             merged.append({
-                "start": p_start,
-                "end": p_end,
+                "start": best_alt["start"],
+                "end": best_alt["end"],
                 "text": best_alt["text"].strip(),
                 "lang": alt_lang,
                 "avg_logprob": a_score,
@@ -293,6 +298,8 @@ def merge_bilingual_segments(
             })
         else:
             merged.append({**p, "lang": primary_lang})
+    # Sort by start time so any out-of-order alt-timestamps re-align
+    merged.sort(key=lambda s: s["start"])
     return merged
 
 
