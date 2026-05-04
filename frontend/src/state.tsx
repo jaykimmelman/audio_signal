@@ -62,6 +62,9 @@ interface AppState {
   /** Date the user picked from the time-series chart (YYYY-MM-DD), or null. */
   selectedDate: string | null;
   setSelectedDate: (d: string | null) => void;
+  /** True while Mapbox is mid-flyTo. Used to defer the profile overlay until the camera lands. */
+  mapAnimating: boolean;
+  setMapAnimating: (v: boolean) => void;
 }
 
 const Ctx = createContext<AppState | null>(null);
@@ -136,6 +139,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [filters, setFiltersState] = useState<Filters>(EMPTY_FILTERS);
   const [selectedSignalId, setSelectedSignalId] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [mapAnimating, setMapAnimating] = useState(false);
+
+  // Whenever the user picks a new signal, expect a flyTo — flag it as
+  // animating up front so the profile overlay stays hidden until moveend.
+  useEffect(() => {
+    if (selectedSignalId) setMapAnimating(true);
+  }, [selectedSignalId]);
 
   useEffect(() => {
     let cancelled = false;
@@ -236,6 +246,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         setSelectedSignalId,
         selectedDate,
         setSelectedDate,
+        mapAnimating,
+        setMapAnimating,
       };
     }
     return {
@@ -260,8 +272,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
       setSelectedSignalId,
       selectedDate,
       setSelectedDate,
+      mapAnimating,
+      setMapAnimating,
     };
-  }, [data, allSignals, filteredSignals, effectiveKeywords, customKeywords, filters, selectedSignalId, selectedDate]);
+  }, [data, allSignals, filteredSignals, effectiveKeywords, customKeywords, filters, selectedSignalId, selectedDate, mapAnimating]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

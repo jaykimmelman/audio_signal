@@ -19,6 +19,7 @@ export function SignalMap() {
     teachersById,
     selectedSignalId,
     setSelectedSignalId,
+    setMapAnimating,
   } = useApp();
 
   // Initialize map once
@@ -36,11 +37,15 @@ export function SignalMap() {
     map.addControl(new mapboxgl.AttributionControl({ compact: true }));
     mapRef.current = map;
 
+    const onMoveEnd = () => setMapAnimating(false);
+    map.on("moveend", onMoveEnd);
+
     return () => {
+      map.off("moveend", onMoveEnd);
       map.remove();
       mapRef.current = null;
     };
-  }, []);
+  }, [setMapAnimating]);
 
   // Render bubbles whenever signals change
   useEffect(() => {

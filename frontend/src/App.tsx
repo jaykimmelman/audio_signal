@@ -75,11 +75,18 @@ function OverviewLayout() {
 }
 
 function DetailLayout() {
+  const { mapAnimating } = useApp();
   return (
     <div className="flex-1 grid grid-cols-12 gap-4 p-4 overflow-hidden scanline">
       <div className="col-span-12 lg:col-span-7 min-h-0 relative">
         <SignalMap />
-        <div className="absolute top-3 left-3 bottom-3 w-72 z-20">
+        <div
+          className={`absolute top-3 left-3 bottom-3 w-72 z-20 transition-all duration-500 ease-out ${
+            mapAnimating
+              ? "opacity-0 -translate-x-3 pointer-events-none"
+              : "opacity-100 translate-x-0"
+          }`}
+        >
           <TeacherProfile />
         </div>
       </div>
