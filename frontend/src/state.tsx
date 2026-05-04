@@ -124,6 +124,7 @@ function deriveSignals(lessons: Lesson[], keywords: string[]): Signal[] {
             segment_start: lesson.segments[i].start,
             segment_end: lesson.segments[i].end,
             audio_url: lesson.audio_url,
+            audio_variants: lesson.audio_variants ?? { original: lesson.audio_url },
           });
           break; // one signal per segment, first matching keyword wins
         }

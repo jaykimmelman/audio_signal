@@ -4,17 +4,22 @@ import WaveSurfer from "wavesurfer.js";
 interface Props {
   audioUrl: string | null;
   markerSeconds: number;
+  /** Live audio element — used to drive the progress cursor in real-time. */
+  audioElement: HTMLAudioElement | null;
 }
 
 /**
- * Thin spectral waveform shown below the audio player. WaveSurfer fetches the
- * audio independently (decorative) so it cannot interfere with the native
- * <audio> element's playback. The orange vertical line marks the keyword.
+ * Spectral waveform under the audio player. WaveSurfer fetches the audio
+ * independently to render bars (no interference with the native player).
+ * Playback progress is driven by listening to the audio element's
+ * `timeupdate` events and calling `ws.setTime()`.
  */
-export function Waveform({ audioUrl, markerSeconds }: Props) {
+export function Waveform({ audioUrl, markerSeconds, audioElement }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const wsRef = useRef<WaveSurfer | null>(null);
   const [duration, setDuration] = useState(0);
 
+  // Initialize wavesurfer once per audioUrl
   useEffect(() => {
     if (!containerRef.current || !audioUrl) return;
 
@@ -23,9 +28,10 @@ export function Waveform({ audioUrl, markerSeconds }: Props) {
       ws = WaveSurfer.create({
         container: containerRef.current,
         url: audioUrl,
-        waveColor: "#7a8aa6",     // muted (mid-gray) — visible on dark panel
-        progressColor: "#19c37d", // accent green for played portion
-        cursorColor: "transparent",
+        waveColor: "#7a8aa6",
+        progressColor: "#19c37d",
+        cursorColor: "#f5a524",
+        cursorWidth: 1,
         height: 40,
         barWidth: 2,
         barGap: 2,
@@ -33,9 +39,9 @@ export function Waveform({ audioUrl, markerSeconds }: Props) {
         normalize: true,
         interact: false,
       });
+      wsRef.current = ws;
       ws.on("ready", () => {
         if (ws) setDuration(ws.getDuration());
-        console.info("waveform ready, duration:", ws?.getDuration());
       });
       ws.on("error", (err) => console.warn("waveform error:", err));
     } catch (err) {
@@ -43,11 +49,29 @@ export function Waveform({ audioUrl, markerSeconds }: Props) {
     }
 
     return () => {
-      try {
-        ws?.destroy();
-      } catch { /* ignore */ }
+      try { ws?.destroy(); } catch { /* ignore */ }
+      wsRef.current = null;
+      setDuration(0);
     };
   }, [audioUrl]);
+
+  // Drive the progress cursor from the audio element's playback time
+  useEffect(() => {
+    if (!audioElement) return;
+    const onTimeUpdate = () => {
+      const ws = wsRef.current;
+      if (!ws) return;
+      try {
+        if (ws.getDuration() > 0) ws.setTime(audioElement.currentTime);
+      } catch { /* setTime may throw before ready */ }
+    };
+    audioElement.addEventListener("timeupdate", onTimeUpdate);
+    audioElement.addEventListener("seeked", onTimeUpdate);
+    return () => {
+      audioElement.removeEventListener("timeupdate", onTimeUpdate);
+      audioElement.removeEventListener("seeked", onTimeUpdate);
+    };
+  }, [audioElement]);
 
   const markerLeftPct =
     duration > 0 && markerSeconds > 0

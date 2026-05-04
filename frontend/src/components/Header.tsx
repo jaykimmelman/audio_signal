@@ -24,13 +24,11 @@ export function Header() {
 
   return (
     <header className="h-12 shrink-0 border-b border-line bg-panel flex items-center justify-between px-4 font-mono text-xs uppercase tracking-widest">
-      <div className="flex items-center gap-4">
-        <div className="flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-alert pulse" />
-          <span className="text-text font-bold">SIGNAL · SURVEILLANCE CONSOLE</span>
-        </div>
-        <span className="text-muted">CLEARANCE: TS//SI//ORCON</span>
-        <span className="text-muted">FEED: KENYA</span>
+      <div className="flex items-center gap-3">
+        <span className="w-2 h-2 rounded-full bg-alert pulse" />
+        <span className="text-text font-bold">SIGNAL · CONSOLE</span>
+        <span className="text-muted">|</span>
+        <span className="text-muted">SOURCE FEED: KENYA CLASSROOM DELIVERY AUDIO UPLOADS</span>
       </div>
       <div className="flex items-center gap-4">
         {selectedSignalId && (

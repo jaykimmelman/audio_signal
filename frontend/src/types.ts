@@ -23,7 +23,15 @@ export interface TranscriptSegment {
   start: number;
   end: number;
   text: string;
+  /** ISO-639-1 language code Whisper used for this segment ("en" / "sw" / ...). */
+  lang?: string;
 }
+
+export type AudioVariantKey = "original" | "denoised" | "gated" | "enhanced";
+
+export type AudioVariants = Partial<Record<AudioVariantKey, string>> & {
+  original: string;
+};
 
 export interface Lesson {
   lesson_id: string;
@@ -32,6 +40,7 @@ export interface Lesson {
   employee_id: string;
   school_id: string;
   audio_url: string;
+  audio_variants: AudioVariants;
   language: string | null;
   duration: number | null;
   segments: TranscriptSegment[];
@@ -50,4 +59,5 @@ export interface Signal {
   segment_start: number;
   segment_end: number;
   audio_url: string;
+  audio_variants: AudioVariants;
 }
