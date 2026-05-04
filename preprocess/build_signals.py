@@ -38,10 +38,14 @@ load_dotenv(ROOT / ".env")
 KEYWORDS_FILE = ROOT / "data" / "keywords.txt"
 TRANSCRIPT_CACHE = ROOT / "preprocess" / "transcripts_cache"
 TRANSLATIONS_CACHE = ROOT / "preprocess" / "translations_cache.json"
+ANALYSES_CACHE = ROOT / "preprocess" / "analyses_cache.json"
 AUDIO_INBOX = ROOT / "audio_inbox"
 PUB = ROOT / "frontend" / "public" / "data"
 PUB_AUDIO = PUB / "audio"
 AUDIO_SEARCH_DIRS = [AUDIO_INBOX, ROOT]  # also accept MP3s at project root
+
+# Numeric weight per severity tier — used to compute per-school/per-teacher risk.
+SEVERITY_WEIGHT = {"high": 10, "medium": 3, "low": 1}
 
 LOCATION_COORDS: dict[str, tuple[str, str, float, float]] = {
     # Coordinates from official Plus Codes provided by NewGlobe.
@@ -147,6 +151,29 @@ def load_translations_cache() -> dict[str, str]:
     if TRANSLATIONS_CACHE.exists():
         return json.loads(TRANSLATIONS_CACHE.read_text())
     return {}
+
+
+def parse_keywords_file() -> list[dict]:
+    """Parse keywords.txt with `# severity` section headers.
+
+    Returns list of {keyword, severity}. Default severity is 'medium'.
+    """
+    if not KEYWORDS_FILE.exists():
+        return []
+    valid = {"high", "medium", "low"}
+    out: list[dict] = []
+    current: str = "medium"
+    for raw in KEYWORDS_FILE.read_text().splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("#"):
+            tag = line.lstrip("#").strip().lower()
+            if tag in valid:
+                current = tag
+            continue
+        out.append({"keyword": line, "severity": current})
+    return out
 
 
 def translate_swahili(unique_texts: list[str]) -> dict[str, str]:
@@ -303,11 +330,123 @@ def merge_bilingual_segments(
     return merged
 
 
+def derive_signals(lessons: list[dict], keywords_meta: list[dict]) -> list[dict]:
+    """Same logic as the browser-side scanner: produce one signal per
+    (lesson, segment) where any watchlist keyword matches. First-match wins.
+    """
+    import re as _re
+    patterns = [
+        (k["keyword"], k["severity"], _re.compile(rf"\b{_re.escape(k['keyword'])}\b", _re.IGNORECASE))
+        for k in keywords_meta
+    ]
+    if not patterns:
+        return []
+    out: list[dict] = []
+    for lesson in lessons:
+        for i, seg in enumerate(lesson.get("segments", [])):
+            text = seg.get("text", "")
+            text_en = seg.get("text_en") or ""
+            haystack = f"{text} {text_en}"
+            for kw, sev, re_obj in patterns:
+                if re_obj.search(haystack):
+                    out.append({
+                        "signal_id": f"{lesson['lesson_id']}::{i}",
+                        "lesson_id": lesson["lesson_id"],
+                        "lesson_name": lesson.get("lesson_name", ""),
+                        "lesson_datetime": lesson.get("lesson_datetime", ""),
+                        "employee_id": lesson["employee_id"],
+                        "school_id": lesson["school_id"],
+                        "keyword": kw,
+                        "severity": sev,
+                        "segment_index": i,
+                        "segment_start": seg["start"],
+                        "segment_end": seg["end"],
+                        "text": text,
+                        "text_en": seg.get("text_en"),
+                    })
+                    break
+    return out
+
+
+def analyze_signals(signals: list[dict], lessons: list[dict],
+                    teachers_by_id: dict[str, dict],
+                    schools_by_id: dict[str, dict]) -> dict[str, str]:
+    """Generate a 1–2 sentence analyst summary per signal via gpt-4o-mini.
+
+    Returns {signal_id: analysis}. Cached on disk.
+    """
+    cache: dict[str, str] = json.loads(ANALYSES_CACHE.read_text()) if ANALYSES_CACHE.exists() else {}
+    todo = [s for s in signals if s["signal_id"] not in cache]
+    if not todo:
+        return cache
+
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        print("  ⚠ OPENAI_API_KEY missing; skipping signal analyses")
+        return cache
+
+    from openai import OpenAI
+    client = OpenAI(api_key=api_key)
+    lessons_by_id = {l["lesson_id"]: l for l in lessons}
+
+    print(f"  analyzing {len(todo)} signals…")
+    for s in todo:
+        lesson = lessons_by_id.get(s["lesson_id"])
+        if not lesson:
+            continue
+        idx = s["segment_index"]
+        segs = lesson["segments"]
+        ctx_start = max(0, idx - 3)
+        ctx_end = min(len(segs), idx + 4)
+        ctx_lines = []
+        for j in range(ctx_start, ctx_end):
+            marker = "→ " if j == idx else "  "
+            txt = segs[j]["text"]
+            tr = segs[j].get("text_en")
+            ctx_lines.append(f"{marker}{txt}" + (f"  ({tr})" if tr else ""))
+        teacher = teachers_by_id.get(s["employee_id"], {})
+        school = schools_by_id.get(s["school_id"], {})
+        prompt = (
+            f"Lesson: {s.get('lesson_name', '')}\n"
+            f"Teacher: {teacher.get('name', '?')}\n"
+            f"School: {school.get('name', '?')}\n"
+            f"Flagged keyword: {s['keyword']} (severity: {s['severity']})\n"
+            f"Time in lesson: {int(s['segment_start']//60)}:{int(s['segment_start']%60):02d}\n\n"
+            f"Context (the marked → line is where the keyword appeared):\n"
+            + "\n".join(ctx_lines)
+        )
+        try:
+            resp = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": (
+                        "You are a security analyst reviewing classroom audio "
+                        "transcripts from Kenyan primary schools. Determine "
+                        "whether the flagged keyword represents a genuine "
+                        "concern or is benign in context (e.g., math word "
+                        "problem, religious recitation, scientific term). "
+                        "Reply with EXACTLY 1-2 sentences. No preamble, no "
+                        "headers, no labels."
+                    )},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0,
+                max_tokens=120,
+            )
+            cache[s["signal_id"]] = (resp.choices[0].message.content or "").strip()
+        except Exception as e:
+            print(f"    ⚠ analysis failed for {s['signal_id']}: {e}")
+
+    ANALYSES_CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
+    return cache
+
+
 def main() -> int:
     if not KEYWORDS_FILE.exists():
         print(f"ERROR: missing {KEYWORDS_FILE}", file=sys.stderr)
         return 1
-    keywords = [k.strip() for k in KEYWORDS_FILE.read_text().splitlines() if k.strip()]
+    keywords_meta = parse_keywords_file()
+    keywords = [k["keyword"] for k in keywords_meta]
 
     # Identify unique lesson stems by stripping the trailing .<lang> suffix
     # off any per-language transcript files. Also match legacy <stem>.json.
@@ -492,11 +631,19 @@ def main() -> int:
             if s.get("lang") == "sw" and s["text"] in translations:
                 s["text_en"] = translations[s["text"]]
 
+    # Derive signals server-side (mirroring browser logic) so we can run
+    # analyses against them, then ship the analyses keyed by signal_id.
+    signals = derive_signals(lessons, keywords_meta)
+    analyses = analyze_signals(signals, lessons, teachers, schools)
+
     PUB.mkdir(parents=True, exist_ok=True)
-    (PUB / "keywords.json").write_text(json.dumps(keywords, indent=2))
+    # New format: keywords.json now carries severity. Frontend computes risk
+    # weights from the severity tier per signal.
+    (PUB / "keywords.json").write_text(json.dumps(keywords_meta, indent=2))
     (PUB / "teachers.json").write_text(json.dumps(list(teachers.values()), indent=2))
     (PUB / "schools.json").write_text(json.dumps(list(schools.values()), indent=2))
     (PUB / "lessons.json").write_text(json.dumps(lessons, indent=2, ensure_ascii=False))
+    (PUB / "analyses.json").write_text(json.dumps(analyses, indent=2, ensure_ascii=False))
 
     # Clean up old artifacts from the previous architecture
     for stale in [PUB / "signals.json"]:

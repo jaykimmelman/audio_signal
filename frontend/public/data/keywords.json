@@ -1,17 +1,106 @@
 [
-  "jihad",
-  "weapon",
-  "bomb",
-  "attack",
-  "kill",
-  "extremist",
-  "caliphate",
-  "infidel",
-  "recruit",
-  "militant",
-  "sharia",
-  "boko",
-  "decimal",
-  "fraction",
-  "number"
+  {
+    "keyword": "jihad",
+    "severity": "high"
+  },
+  {
+    "keyword": "weapon",
+    "severity": "high"
+  },
+  {
+    "keyword": "bomb",
+    "severity": "high"
+  },
+  {
+    "keyword": "attack",
+    "severity": "high"
+  },
+  {
+    "keyword": "kill",
+    "severity": "high"
+  },
+  {
+    "keyword": "extremist",
+    "severity": "high"
+  },
+  {
+    "keyword": "caliphate",
+    "severity": "high"
+  },
+  {
+    "keyword": "infidel",
+    "severity": "high"
+  },
+  {
+    "keyword": "militant",
+    "severity": "high"
+  },
+  {
+    "keyword": "sharia",
+    "severity": "high"
+  },
+  {
+    "keyword": "boko",
+    "severity": "high"
+  },
+  {
+    "keyword": "holy war",
+    "severity": "high"
+  },
+  {
+    "keyword": "recruit",
+    "severity": "medium"
+  },
+  {
+    "keyword": "threaten",
+    "severity": "medium"
+  },
+  {
+    "keyword": "fight",
+    "severity": "medium"
+  },
+  {
+    "keyword": "beat",
+    "severity": "medium"
+  },
+  {
+    "keyword": "cane",
+    "severity": "medium"
+  },
+  {
+    "keyword": "slap",
+    "severity": "medium"
+  },
+  {
+    "keyword": "whip",
+    "severity": "medium"
+  },
+  {
+    "keyword": "bribe",
+    "severity": "medium"
+  },
+  {
+    "keyword": "kiss",
+    "severity": "medium"
+  },
+  {
+    "keyword": "blood",
+    "severity": "medium"
+  },
+  {
+    "keyword": "decimal",
+    "severity": "low"
+  },
+  {
+    "keyword": "fraction",
+    "severity": "low"
+  },
+  {
+    "keyword": "number",
+    "severity": "low"
+  },
+  {
+    "keyword": "money",
+    "severity": "low"
+  }
 ]

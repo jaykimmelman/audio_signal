@@ -48,6 +48,13 @@ export interface Lesson {
   segments: TranscriptSegment[];
 }
 
+export type Severity = "high" | "medium" | "low";
+
+export interface KeywordMeta {
+  keyword: string;
+  severity: Severity;
+}
+
 export interface Signal {
   signal_id: string;
   lesson_id: string;
@@ -56,10 +63,19 @@ export interface Signal {
   employee_id: string;
   school_id: string;
   keyword: string;
+  severity: Severity;
   snippet: string;
   segment_index: number;
   segment_start: number;
   segment_end: number;
   audio_url: string;
   audio_variants: AudioVariants;
+  /** Server-side analyst summary (populated from analyses.json). */
+  analysis?: string;
 }
+
+export const SEVERITY_WEIGHT: Record<Severity, number> = {
+  high: 10,
+  medium: 3,
+  low: 1,
+};

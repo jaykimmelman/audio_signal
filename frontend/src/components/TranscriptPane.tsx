@@ -70,16 +70,28 @@ export function TranscriptPane() {
   const hitIndex = sig.segment_index;
   const audioUrl = sig.audio_variants[variant] ?? sig.audio_url;
 
+  const severityColor =
+    sig.severity === "high" ? "text-alert" :
+    sig.severity === "medium" ? "text-warn" : "text-muted";
+
   return (
     <Panel
       title={`Transcript · ${sig.lesson_name}`}
       right={
-        <span className="font-mono text-[10px] text-warn">
-          ▲ KEYWORD: {keyword.toUpperCase()}
+        <span className={`font-mono text-[10px] ${severityColor}`}>
+          ▲ {sig.severity.toUpperCase()} · {keyword.toUpperCase()}
         </span>
       }
     >
       <div className="flex flex-col h-full">
+        {sig.analysis && (
+          <div className="px-3 py-2 border-b border-line bg-accent/5 shrink-0">
+            <div className="font-mono text-[10px] uppercase tracking-widest text-accent mb-1">
+              ▸ Analyst note
+            </div>
+            <div className="text-sm text-text leading-snug">{sig.analysis}</div>
+          </div>
+        )}
         <div className="px-3 py-2 border-b border-line bg-panel2 shrink-0 space-y-2">
           <FilterBar
             current={variant}

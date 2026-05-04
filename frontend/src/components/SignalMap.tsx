@@ -60,20 +60,36 @@ export function SignalMap() {
     markersRef.current.forEach((m) => m.remove());
     markersRef.current = [];
 
+    // Track max severity per school for bubble color
+    const maxSev = new Map<string, "high" | "medium" | "low">();
+    for (const s of signals) {
+      const cur = maxSev.get(s.school_id);
+      if (s.severity === "high") maxSev.set(s.school_id, "high");
+      else if (s.severity === "medium" && cur !== "high") maxSev.set(s.school_id, "medium");
+      else if (!cur) maxSev.set(s.school_id, s.severity);
+    }
+    const colorBySev: Record<string, { bg: string; border: string }> = {
+      high: { bg: "rgba(239, 68, 68, 0.55)", border: "#ef4444" },
+      medium: { bg: "rgba(245, 165, 36, 0.55)", border: "#f5a524" },
+      low: { bg: "rgba(122, 138, 166, 0.55)", border: "#7a8aa6" },
+    };
+
     counts.forEach((count, schoolId) => {
       const school = schoolsById[schoolId];
       if (!school) return;
       const size = Math.min(40, 14 + count * 3);
+      const sev = maxSev.get(schoolId) ?? "low";
+      const c = colorBySev[sev];
       const el = document.createElement("div");
-      el.className = "pulse";
+      el.className = sev === "high" ? "pulse" : "";
       el.style.cssText = `
         width: ${size}px; height: ${size}px;
-        background: rgba(239, 68, 68, 0.55);
-        border: 2px solid #ef4444;
+        background: ${c.bg};
+        border: 2px solid ${c.border};
         border-radius: 9999px;
         cursor: pointer;
       `;
-      el.title = `${school.name} — ${count} signal${count > 1 ? "s" : ""}`;
+      el.title = `${school.name} — ${count} signal${count > 1 ? "s" : ""} (max severity: ${sev})`;
       el.onclick = () => {
         // Click bubble → pick the most recent signal at this school
         const here = signals

@@ -18,7 +18,13 @@ export function TeacherProfile() {
       <div className="p-3 flex flex-col items-center gap-3">
         <Avatar src={teacher.headshot_url} alt={teacher.name} />
         <div className="text-center">
-          <div className="text-text font-semibold leading-tight">{teacher.name}</div>
+          <a
+            href={`#teacher/${teacher.employee_id}`}
+            className="text-text font-semibold leading-tight hover:text-accent underline-offset-2 hover:underline"
+            title="Open full dossier"
+          >
+            {teacher.name} →
+          </a>
           <div className="font-mono text-[10px] text-muted tracking-widest mt-0.5">
             {teacher.employee_id} · {teacher.grade}
           </div>

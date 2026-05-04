@@ -1,6 +1,12 @@
 import { useApp } from "../state";
-import { Signal } from "../types";
+import { Severity, Signal, SEVERITY_WEIGHT } from "../types";
 import { Panel } from "./Panel";
+
+const SEVERITY_DOT: Record<Severity, string> = {
+  high: "bg-alert",
+  medium: "bg-warn",
+  low: "bg-muted",
+};
 
 export function IncidentsList({
   signals: signalsProp,
@@ -14,9 +20,12 @@ export function IncidentsList({
   const { signals: ctxSignals, teachersById, schoolsById, setSelectedSignalId, selectedSignalId } = useApp();
   const signals = signalsProp ?? ctxSignals;
 
-  const sorted = [...signals].sort((a, b) =>
-    a.lesson_datetime < b.lesson_datetime ? 1 : -1,
-  );
+  // Sort by severity weight (high → low) then by recency
+  const sorted = [...signals].sort((a, b) => {
+    const wd = SEVERITY_WEIGHT[b.severity] - SEVERITY_WEIGHT[a.severity];
+    if (wd !== 0) return wd;
+    return a.lesson_datetime < b.lesson_datetime ? 1 : -1;
+  });
 
   return (
     <Panel
@@ -38,8 +47,11 @@ export function IncidentsList({
                   className={`w-full text-left px-3 py-2 hover:bg-panel2 transition ${active ? "bg-panel2" : ""}`}
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-mono text-[11px] text-alert">
-                      {s.keyword.toUpperCase()}
+                    <span className="flex items-center gap-1.5">
+                      <span className={`w-1.5 h-1.5 rounded-full ${SEVERITY_DOT[s.severity]}`} />
+                      <span className="font-mono text-[11px] text-alert uppercase">
+                        {s.keyword}
+                      </span>
                     </span>
                     <span className="font-mono text-[10px] text-muted">
                       {new Date(s.lesson_datetime).toLocaleString("en-GB", {

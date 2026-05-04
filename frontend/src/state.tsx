@@ -6,7 +6,7 @@ import {
   useMemo,
   useState,
 } from "react";
-import { Lesson, School, Signal, Teacher } from "./types";
+import { KeywordMeta, Lesson, School, Severity, Signal, Teacher } from "./types";
 
 export interface Filters {
   lgas: string[];
@@ -30,7 +30,8 @@ interface RawData {
   teachers: Teacher[];
   schools: School[];
   lessons: Lesson[];
-  defaultKeywords: string[];
+  defaultKeywords: KeywordMeta[];
+  analyses: Record<string, string>;
   teachersById: Record<string, Teacher>;
   schoolsById: Record<string, School>;
   lessonsById: Record<string, Lesson>;
@@ -46,23 +47,18 @@ interface AppState {
   schoolsById: Record<string, School>;
   signals: Signal[];        // filtered
   allSignals: Signal[];     // unfiltered (current keywords applied)
-  /** Current effective watchlist — custom edit if any, else default. */
-  keywords: string[];
-  /** Default watchlist as shipped from server (read-only). */
-  defaultKeywords: string[];
-  /** True when user has overridden the default watchlist. */
+  keywords: KeywordMeta[];
+  defaultKeywords: KeywordMeta[];
   hasCustomKeywords: boolean;
-  setCustomKeywords: (kws: string[]) => void;
+  setCustomKeywords: (kws: KeywordMeta[]) => void;
   resetKeywords: () => void;
   filters: Filters;
   setFilters: (f: Partial<Filters>) => void;
   resetFilters: () => void;
   selectedSignalId: string | null;
   setSelectedSignalId: (id: string | null) => void;
-  /** Date the user picked from the time-series chart (YYYY-MM-DD), or null. */
   selectedDate: string | null;
   setSelectedDate: (d: string | null) => void;
-  /** True while Mapbox is mid-flyTo. Used to defer the profile overlay until the camera lands. */
   mapAnimating: boolean;
   setMapAnimating: (v: boolean) => void;
 }
@@ -77,13 +73,19 @@ async function loadJSON<T>(path: string): Promise<T> {
   return res.json() as Promise<T>;
 }
 
-function loadStoredKeywords(): string[] | null {
+function loadStoredKeywords(): KeywordMeta[] | null {
   if (typeof localStorage === "undefined") return null;
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
     const arr = JSON.parse(raw);
-    return Array.isArray(arr) ? arr.filter((x) => typeof x === "string") : null;
+    if (!Array.isArray(arr)) return null;
+    // Migrate old string-array format to new {keyword, severity} format
+    if (arr.length === 0) return [];
+    if (typeof arr[0] === "string") {
+      return arr.map((k: string) => ({ keyword: k, severity: "medium" as Severity }));
+    }
+    return arr.filter((x) => x && typeof x.keyword === "string");
   } catch {
     return null;
   }
@@ -97,36 +99,47 @@ function stableSignalId(lessonId: string, segmentIndex: number): string {
   return `${lessonId}::${segmentIndex}`;
 }
 
-function deriveSignals(lessons: Lesson[], keywords: string[]): Signal[] {
+function deriveSignals(
+  lessons: Lesson[],
+  keywords: KeywordMeta[],
+  analyses: Record<string, string>,
+): Signal[] {
   if (!keywords.length) return [];
   const patterns = keywords
-    .map((kw) => kw.trim())
-    .filter(Boolean)
-    .map((kw) => ({ kw, re: new RegExp(`\\b${escapeRegex(kw)}\\b`, "i") }));
+    .filter((k) => k.keyword?.trim())
+    .map((k) => ({
+      kw: k.keyword.trim(),
+      severity: k.severity,
+      re: new RegExp(`\\b${escapeRegex(k.keyword.trim())}\\b`, "i"),
+    }));
   if (!patterns.length) return [];
 
   const signals: Signal[] = [];
   for (const lesson of lessons) {
     for (let i = 0; i < lesson.segments.length; i++) {
-      const text = lesson.segments[i].text;
-      for (const { kw, re } of patterns) {
-        if (re.test(text)) {
+      const seg = lesson.segments[i];
+      const haystack = `${seg.text} ${seg.text_en ?? ""}`;
+      for (const { kw, severity, re } of patterns) {
+        if (re.test(haystack)) {
+          const signalId = stableSignalId(lesson.lesson_id, i);
           signals.push({
-            signal_id: stableSignalId(lesson.lesson_id, i),
+            signal_id: signalId,
             lesson_id: lesson.lesson_id,
             lesson_name: lesson.lesson_name,
             lesson_datetime: lesson.lesson_datetime,
             employee_id: lesson.employee_id,
             school_id: lesson.school_id,
             keyword: kw,
-            snippet: text,
+            severity,
+            snippet: seg.text,
             segment_index: i,
-            segment_start: lesson.segments[i].start,
-            segment_end: lesson.segments[i].end,
+            segment_start: seg.start,
+            segment_end: seg.end,
             audio_url: lesson.audio_url,
             audio_variants: lesson.audio_variants ?? { original: lesson.audio_url },
+            analysis: analyses[signalId],
           });
-          break; // one signal per segment, first matching keyword wins
+          break;
         }
       }
     }
@@ -136,14 +149,12 @@ function deriveSignals(lessons: Lesson[], keywords: string[]): Signal[] {
 
 export function AppProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<RawData | null>(null);
-  const [customKeywords, setCustomKeywordsState] = useState<string[] | null>(loadStoredKeywords);
+  const [customKeywords, setCustomKeywordsState] = useState<KeywordMeta[] | null>(loadStoredKeywords);
   const [filters, setFiltersState] = useState<Filters>(EMPTY_FILTERS);
   const [selectedSignalId, setSelectedSignalId] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [mapAnimating, setMapAnimating] = useState(false);
 
-  // Whenever the user picks a new signal, expect a flyTo — flag it as
-  // animating up front so the profile overlay stays hidden until moveend.
   useEffect(() => {
     if (selectedSignalId) setMapAnimating(true);
   }, [selectedSignalId]);
@@ -154,14 +165,25 @@ export function AppProvider({ children }: { children: ReactNode }) {
       loadJSON<Teacher[]>("data/teachers.json"),
       loadJSON<School[]>("data/schools.json"),
       loadJSON<Lesson[]>("data/lessons.json"),
-      loadJSON<string[]>("data/keywords.json"),
-    ]).then(([teachers, schools, lessons, defaultKeywords]) => {
+      loadJSON<unknown>("data/keywords.json"),
+      loadJSON<Record<string, string>>("data/analyses.json").catch(() => ({})),
+    ]).then(([teachers, schools, lessons, kwRaw, analyses]) => {
       if (cancelled) return;
+      // keywords.json may be either old (string[]) or new ({keyword, severity}[])
+      let defaultKeywords: KeywordMeta[];
+      if (Array.isArray(kwRaw) && kwRaw.length === 0) {
+        defaultKeywords = [];
+      } else if (Array.isArray(kwRaw) && typeof kwRaw[0] === "string") {
+        defaultKeywords = (kwRaw as string[]).map((k) => ({ keyword: k, severity: "medium" as Severity }));
+      } else {
+        defaultKeywords = kwRaw as KeywordMeta[];
+      }
       setData({
         teachers,
         schools,
         lessons,
         defaultKeywords,
+        analyses,
         teachersById: Object.fromEntries(teachers.map((t) => [t.employee_id, t])),
         schoolsById: Object.fromEntries(schools.map((s) => [s.school_id, s])),
         lessonsById: Object.fromEntries(lessons.map((l) => [l.lesson_id, l])),
@@ -175,7 +197,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const effectiveKeywords = customKeywords ?? data?.defaultKeywords ?? [];
 
   const allSignals = useMemo(
-    () => (data ? deriveSignals(data.lessons, effectiveKeywords) : []),
+    () => (data ? deriveSignals(data.lessons, effectiveKeywords, data.analyses) : []),
     [data, effectiveKeywords],
   );
 
@@ -198,7 +220,6 @@ export function AppProvider({ children }: { children: ReactNode }) {
     });
   }, [data, allSignals, filters]);
 
-  // If the selected signal disappears (e.g., user removed its keyword), drop selection.
   useEffect(() => {
     if (!selectedSignalId) return;
     if (!allSignals.some((s) => s.signal_id === selectedSignalId)) {
@@ -206,13 +227,18 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   }, [allSignals, selectedSignalId]);
 
-  function setCustomKeywords(kws: string[]) {
-    const cleaned = Array.from(
-      new Set(kws.map((k) => k.trim().toLowerCase()).filter(Boolean)),
-    );
+  function setCustomKeywords(kws: KeywordMeta[]) {
+    const seen = new Set<string>();
+    const cleaned: KeywordMeta[] = [];
+    for (const k of kws) {
+      const w = (k.keyword || "").trim().toLowerCase();
+      if (!w || seen.has(w)) continue;
+      seen.add(w);
+      cleaned.push({ keyword: w, severity: k.severity || "medium" });
+    }
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(cleaned));
-    } catch { /* ignore quota / disabled storage */ }
+    } catch { /* ignore */ }
     setCustomKeywordsState(cleaned);
   }
 

@@ -11,6 +11,7 @@ import { TeacherProfile } from "./components/TeacherProfile";
 import { TranscriptPane } from "./components/TranscriptPane";
 import { StatusBar } from "./components/StatusBar";
 import { SetupPage } from "./components/SetupPage";
+import { TeacherDetailPage } from "./components/TeacherDetailPage";
 import { useApp } from "./state";
 import { useHashRoute } from "./lib/route";
 
@@ -18,23 +19,29 @@ export default function App() {
   const { loaded, selectedSignalId, setSelectedSignalId } = useApp();
   const route = useHashRoute();
   const isSetup = route === "setup";
+  const teacherMatch = route.match(/^teacher\/(.+)$/);
+  const isTeacher = !!teacherMatch;
+  const teacherId = teacherMatch?.[1];
+  const isFullPage = isSetup || isTeacher;
 
   useEffect(() => {
-    if (!selectedSignalId || isSetup) return;
+    if (!selectedSignalId || isFullPage) return;
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape") setSelectedSignalId(null);
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [selectedSignalId, setSelectedSignalId, isSetup]);
+  }, [selectedSignalId, setSelectedSignalId, isFullPage]);
 
   return (
     <div className="h-full w-full flex bg-ink text-text font-sans">
-      {!isSetup && <Sidebar />}
+      {!isFullPage && <Sidebar />}
       <div className="flex-1 flex flex-col min-w-0">
         <Header />
         {isSetup ? (
           <SetupPage />
+        ) : isTeacher && teacherId ? (
+          <TeacherDetailPage teacherId={teacherId} />
         ) : !loaded ? (
           <div className="flex-1 flex items-center justify-center text-muted font-mono text-xs tracking-widest">
             ESTABLISHING SECURE LINK…

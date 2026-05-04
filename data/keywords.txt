@@ -1,3 +1,9 @@
+# Severity-tiered watchlist. Lines starting with `# <severity>` start a new
+# section. Severities recognized: high | medium | low. Default = medium.
+# Keywords in higher tiers contribute more to the per-school risk score and
+# get the alert-red treatment in the UI.
+
+# high
 jihad
 weapon
 bomb
@@ -6,10 +12,25 @@ kill
 extremist
 caliphate
 infidel
-recruit
 militant
 sharia
 boko
+holy war
+
+# medium
+recruit
+threaten
+fight
+beat
+cane
+slap
+whip
+bribe
+kiss
+blood
+
+# low
 decimal
 fraction
 number
+money

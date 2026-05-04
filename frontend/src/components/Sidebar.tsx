@@ -1,5 +1,22 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useApp } from "../state";
+import { KeywordMeta, Severity } from "../types";
+
+const SEVERITY_LABEL: Record<Severity, string> = {
+  high: "HIGH",
+  medium: "MED",
+  low: "LOW",
+};
+const SEVERITY_CHIP_CLASS: Record<Severity, string> = {
+  high: "bg-alert/15 border-alert/60 text-alert hover:bg-alert/30",
+  medium: "bg-warn/15 border-warn/60 text-warn hover:bg-warn/30",
+  low: "bg-muted/15 border-muted/40 text-muted hover:bg-muted/25 hover:text-text",
+};
+const SEVERITY_CHIP_ON: Record<Severity, string> = {
+  high: "bg-alert text-ink border-alert",
+  medium: "bg-warn text-ink border-warn",
+  low: "bg-muted text-ink border-muted",
+};
 
 export function Sidebar() {
   const {
@@ -17,13 +34,37 @@ export function Sidebar() {
   } = useApp();
 
   const [editing, setEditing] = useState(false);
-  const [draft, setDraft] = useState(keywords.join("\n"));
+  const [draft, setDraft] = useState("");
   const taRef = useRef<HTMLTextAreaElement | null>(null);
 
-  // Reset draft when entering edit mode or when the watchlist changes externally
+  // Render the keyword list as `keyword: severity` lines for editing
+  function keywordsToText(arr: KeywordMeta[]): string {
+    return arr.map((k) => `${k.keyword}: ${k.severity}`).join("\n");
+  }
+  function textToKeywords(text: string): KeywordMeta[] {
+    let current: Severity = "medium";
+    const out: KeywordMeta[] = [];
+    for (const raw of text.split(/\r?\n/)) {
+      const line = raw.trim();
+      if (!line) continue;
+      if (line.startsWith("#")) {
+        const tag = line.replace(/^#+/, "").trim().toLowerCase();
+        if (tag === "high" || tag === "medium" || tag === "low") current = tag;
+        continue;
+      }
+      const m = line.match(/^([^:]+?)\s*:\s*(high|medium|low)\s*$/i);
+      if (m) {
+        out.push({ keyword: m[1].trim().toLowerCase(), severity: m[2].toLowerCase() as Severity });
+      } else {
+        out.push({ keyword: line.toLowerCase(), severity: current });
+      }
+    }
+    return out;
+  }
+
   useEffect(() => {
     if (editing) {
-      setDraft(keywords.join("\n"));
+      setDraft(keywordsToText(keywords));
       setTimeout(() => taRef.current?.focus(), 0);
     }
   }, [editing, keywords]);
@@ -69,15 +110,11 @@ export function Sidebar() {
   }
 
   function saveDraft() {
-    const next = draft
-      .split(/\r?\n/)
-      .map((s) => s.trim())
-      .filter(Boolean);
+    const next = textToKeywords(draft);
     setCustomKeywords(next);
     setEditing(false);
-    // Drop any keyword filter that's no longer in the watchlist
     if (filters.keywords.length) {
-      const set = new Set(next.map((s) => s.toLowerCase()));
+      const set = new Set(next.map((k) => k.keyword.toLowerCase()));
       setFilters({ keywords: filters.keywords.filter((k) => set.has(k.toLowerCase())) });
     }
   }
@@ -86,10 +123,14 @@ export function Sidebar() {
     resetKeywords();
     setEditing(false);
     if (filters.keywords.length) {
-      const set = new Set(defaultKeywords.map((s) => s.toLowerCase()));
+      const set = new Set(defaultKeywords.map((k) => k.keyword.toLowerCase()));
       setFilters({ keywords: filters.keywords.filter((k) => set.has(k.toLowerCase())) });
     }
   }
+
+  // Group keywords by severity for the chip view
+  const grouped: Record<Severity, KeywordMeta[]> = { high: [], medium: [], low: [] };
+  for (const k of keywords) grouped[k.severity].push(k);
 
   return (
     <aside className="w-64 shrink-0 border-r border-line bg-panel flex flex-col">
@@ -211,10 +252,10 @@ export function Sidebar() {
                 ref={taRef}
                 value={draft}
                 onChange={(e) => setDraft(e.target.value)}
-                rows={10}
+                rows={12}
                 spellCheck={false}
                 className="w-full bg-panel2 border border-line rounded px-2 py-1.5 text-xs font-mono text-text leading-tight"
-                placeholder="one keyword or phrase per line"
+                placeholder="keyword: high&#10;keyword: medium&#10;keyword: low&#10;or use # high / # medium / # low section headers"
               />
               <div className="flex gap-2">
                 <button
@@ -233,40 +274,49 @@ export function Sidebar() {
               <button
                 onClick={resetToDefault}
                 disabled={!hasCustomKeywords}
-                className="w-full text-[10px] text-muted hover:text-text disabled:opacity-40 disabled:cursor-not-allowed underline-offset-2 hover:underline"
+                className="w-full text-[10px] text-muted hover:text-text disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 reset to default ({defaultKeywords.length} keywords)
               </button>
               <div className="text-[10px] text-muted leading-snug">
-                One keyword per line. Whole-word match, case-insensitive.
-                Saved locally in your browser.
+                Format: <span className="text-text">keyword: severity</span>.
+                Severities: high / medium / low. Saved locally.
               </div>
             </div>
           ) : (
-            <div className="flex flex-wrap gap-1">
+            <div className="space-y-2">
+              {(["high", "medium", "low"] as Severity[]).map((sev) => {
+                const items = grouped[sev];
+                if (!items.length) return null;
+                return (
+                  <div key={sev}>
+                    <div className="text-[9px] uppercase tracking-widest text-muted mb-1">
+                      {SEVERITY_LABEL[sev]} · {items.length}
+                    </div>
+                    <div className="flex flex-wrap gap-1">
+                      {items.map((k) => {
+                        const on = filters.keywords.includes(k.keyword);
+                        const c = kwCounts.get(k.keyword) ?? 0;
+                        return (
+                          <button
+                            key={k.keyword}
+                            onClick={() => toggleKeyword(k.keyword)}
+                            className={`font-mono text-[11px] px-1.5 py-0.5 rounded border transition ${
+                              on ? SEVERITY_CHIP_ON[sev] : SEVERITY_CHIP_CLASS[sev]
+                            } ${c === 0 ? "opacity-60" : ""}`}
+                            title={`${c} signal${c === 1 ? "" : "s"}`}
+                          >
+                            {k.keyword} <span className="opacity-70">{c}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
               {keywords.length === 0 && (
                 <span className="text-xs text-muted italic">empty watchlist</span>
               )}
-              {keywords.map((k) => {
-                const on = filters.keywords.includes(k);
-                const c = kwCounts.get(k) ?? 0;
-                return (
-                  <button
-                    key={k}
-                    onClick={() => toggleKeyword(k)}
-                    className={`font-mono text-[11px] px-1.5 py-0.5 rounded border transition ${
-                      on
-                        ? "bg-alert text-ink border-alert"
-                        : c > 0
-                          ? "bg-alert/10 border-alert/40 text-alert hover:bg-alert/20"
-                          : "bg-panel2 border-line text-muted hover:text-text"
-                    }`}
-                    title={`${c} signal${c === 1 ? "" : "s"}`}
-                  >
-                    {k} <span className="opacity-60">{c}</span>
-                  </button>
-                );
-              })}
             </div>
           )}
         </Section>
