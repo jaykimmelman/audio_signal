@@ -156,6 +156,15 @@ def main() -> int:
                 "hire_date": "—",
                 "last_training_date": "—",
                 "pupils": 0,
+                # Placeholder cartoon portrait, deterministic per teacher.
+                # CC-BY 4.0 (Personas by Draftbit). Replace with real photos
+                # by overwriting headshot_url in the data pipeline.
+                "headshot_url": (
+                    "https://api.dicebear.com/9.x/personas/svg"
+                    f"?seed={teacher_id}"
+                    "&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F"
+                    "&backgroundColor=0b1220"
+                ),
             }
 
         source_audio = transcript.get("source_audio", tjson.stem + ".mp3")

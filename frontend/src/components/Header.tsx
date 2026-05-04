@@ -36,9 +36,12 @@ export function Header() {
         {selectedSignalId && (
           <button
             onClick={() => setSelectedSignalId(null)}
-            className="text-accent hover:text-text border border-line px-2 py-0.5 rounded"
+            title="Back to overview (Esc)"
+            className="bg-accent text-ink hover:brightness-110 font-bold px-3 py-1 rounded shadow-sm flex items-center gap-1.5"
           >
-            ◀ BACK TO OVERVIEW
+            <span aria-hidden>◀</span>
+            <span>BACK TO OVERVIEW</span>
+            <kbd className="ml-1 px-1 text-[9px] bg-ink/30 text-ink rounded border border-ink/30">ESC</kbd>
           </button>
         )}
         <span className="text-muted">SIGNALS · {signals.length}</span>

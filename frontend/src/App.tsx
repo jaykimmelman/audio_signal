@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 import { KPITiles } from "./components/KPITiles";
@@ -12,7 +13,16 @@ import { StatusBar } from "./components/StatusBar";
 import { useApp } from "./state";
 
 export default function App() {
-  const { loaded, selectedSignalId } = useApp();
+  const { loaded, selectedSignalId, setSelectedSignalId } = useApp();
+
+  useEffect(() => {
+    if (!selectedSignalId) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSelectedSignalId(null);
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [selectedSignalId, setSelectedSignalId]);
 
   return (
     <div className="h-full w-full flex bg-ink text-text font-sans">
@@ -75,11 +85,20 @@ function OverviewLayout() {
 }
 
 function DetailLayout() {
-  const { mapAnimating } = useApp();
+  const { mapAnimating, setSelectedSignalId } = useApp();
   return (
     <div className="flex-1 grid grid-cols-12 gap-4 p-4 overflow-hidden scanline">
       <div className="col-span-12 lg:col-span-7 min-h-0 relative">
         <SignalMap />
+        <button
+          onClick={() => setSelectedSignalId(null)}
+          title="Back to overview (Esc)"
+          className="absolute top-3 right-3 z-30 bg-accent text-ink hover:brightness-110 font-bold text-xs px-3 py-2 rounded shadow-lg flex items-center gap-2 font-mono tracking-widest uppercase"
+        >
+          <span aria-hidden>◀</span>
+          <span>Back</span>
+          <kbd className="px-1 text-[9px] bg-ink/30 text-ink rounded border border-ink/30">ESC</kbd>
+        </button>
         <div
           className={`absolute top-3 left-3 bottom-3 w-72 z-20 transition-all duration-500 ease-out ${
             mapAnimating
