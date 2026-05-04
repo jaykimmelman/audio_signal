@@ -23,19 +23,21 @@ export function Waveform({ audioUrl, markerSeconds }: Props) {
       ws = WaveSurfer.create({
         container: containerRef.current,
         url: audioUrl,
-        waveColor: "#1f2a44",
-        progressColor: "#1f2a44",
+        waveColor: "#7a8aa6",     // muted (mid-gray) — visible on dark panel
+        progressColor: "#19c37d", // accent green for played portion
         cursorColor: "transparent",
-        height: 36,
+        height: 40,
         barWidth: 2,
-        barGap: 1,
+        barGap: 2,
         barRadius: 1,
         normalize: true,
         interact: false,
       });
       ws.on("ready", () => {
         if (ws) setDuration(ws.getDuration());
+        console.info("waveform ready, duration:", ws?.getDuration());
       });
+      ws.on("error", (err) => console.warn("waveform error:", err));
     } catch (err) {
       console.warn("Waveform init failed:", err);
     }
@@ -53,8 +55,8 @@ export function Waveform({ audioUrl, markerSeconds }: Props) {
       : null;
 
   return (
-    <div className="relative w-full">
-      <div ref={containerRef} className="w-full" />
+    <div className="relative w-full bg-ink/40 rounded">
+      <div ref={containerRef} className="w-full" style={{ minHeight: 40 }} />
       {markerLeftPct !== null && (
         <div
           className="absolute top-0 bottom-0 w-px bg-warn pointer-events-none"
