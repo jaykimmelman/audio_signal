@@ -21,6 +21,7 @@ from __future__ import annotations
 import hashlib
 import json
 import shutil
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -169,8 +170,26 @@ def main() -> int:
                 src = src_dir / source_audio
                 if src.exists():
                     PUB_AUDIO.mkdir(parents=True, exist_ok=True)
-                    shutil.copy2(src, dest)
-                    print(f"    audio → {dest.relative_to(ROOT)}")
+                    # NewGlobe MP4s have the moov atom at end-of-file — browsers
+                    # can't read metadata until the whole file downloads. Remux
+                    # with faststart to move moov to the front.
+                    try:
+                        subprocess.run(
+                            [
+                                "ffmpeg", "-loglevel", "error", "-y",
+                                "-i", str(src),
+                                "-c", "copy",
+                                "-movflags", "+faststart",
+                                str(dest),
+                            ],
+                            check=True,
+                        )
+                        print(f"    audio → {dest.relative_to(ROOT)} (faststart)")
+                    except (FileNotFoundError, subprocess.CalledProcessError):
+                        # Fallback: plain copy. Audio may not play in browsers.
+                        shutil.copy2(src, dest)
+                        print(f"    audio → {dest.relative_to(ROOT)} "
+                              "(plain copy — install ffmpeg for faststart)")
                     break
             else:
                 print(f"    ⚠ no source audio found for {source_audio}; player will 404")
