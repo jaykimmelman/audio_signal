@@ -77,11 +77,9 @@ function OverviewLayout() {
 function DetailLayout() {
   return (
     <div className="flex-1 grid grid-cols-12 gap-4 p-4 overflow-hidden scanline">
-      <div className="col-span-12 lg:col-span-7 flex flex-col gap-4 min-h-0">
-        <div className="flex-1 min-h-0">
-          <SignalMap />
-        </div>
-        <div className="h-[260px]">
+      <div className="col-span-12 lg:col-span-7 min-h-0 relative">
+        <SignalMap />
+        <div className="absolute top-3 left-3 bottom-3 w-72 z-20">
           <TeacherProfile />
         </div>
       </div>

@@ -137,7 +137,7 @@ export function SignalMap() {
         <div ref={containerRef} className="absolute inset-0" />
         {sig && <Crosshair />}
         {sig && teacher && school && (
-          <div className="absolute left-2 bottom-2 bg-panel/90 backdrop-blur border border-line rounded p-2 font-mono text-[11px] leading-tight max-w-[280px]">
+          <div className="absolute right-2 bottom-2 bg-panel/90 backdrop-blur border border-line rounded p-2 font-mono text-[11px] leading-tight max-w-[280px]">
             <div className="text-alert">▲ TARGET ACQUIRED</div>
             <div className="text-text">{teacher.name} · {teacher.grade}</div>
             <div className="text-muted">{school.lat.toFixed(5)}°N, {school.lon.toFixed(5)}°E</div>
