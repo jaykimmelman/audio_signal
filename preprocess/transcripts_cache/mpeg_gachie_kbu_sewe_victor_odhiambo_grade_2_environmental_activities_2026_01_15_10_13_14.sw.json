@@ -1,0 +1,3087 @@
+{
+  "source_audio": "mpeg_gachie_kbu_sewe_victor_odhiambo_grade_2_environmental_activities_2026_01_15_10_13_14.mp3",
+  "language": "swahili",
+  "duration": 3149.8798828125,
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 33.0,
+      "text": "Mizi",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 33.0,
+      "end": 35.0,
+      "text": "Kwaunaki",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 35.0,
+      "end": 37.0,
+      "text": "Qoita",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 37.0,
+      "end": 39.0,
+      "text": "Kwaunaki",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 39.0,
+      "end": 41.0,
+      "text": "Kwaungati",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 45.0,
+      "end": 47.0,
+      "text": "Kwaungati",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 47.0,
+      "end": 49.0,
+      "text": "Nduri",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 51.0,
+      "end": 54.0,
+      "text": "Kwaungati",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 54.0,
+      "end": 55.0,
+      "text": "Mhlaingeni",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "text": "",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 55.0,
+      "end": 57.0,
+      "text": "Mkay",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 57.0,
+      "end": 59.0,
+      "text": "Mkay",
+      "avg_logprob": -2.4040873050689697,
+      "no_speech_prob": 0.562412440776825
+    },
+    {
+      "start": 59.0,
+      "end": 62.0,
+      "text": "Mkhay",
+      "avg_logprob": -2.4428203105926514,
+      "no_speech_prob": 0.310823917388916
+    },
+    {
+      "start": 64.0,
+      "end": 88.0,
+      "text": "Inu",
+      "avg_logprob": -2.4428203105926514,
+      "no_speech_prob": 0.310823917388916
+    },
+    {
+      "start": 88.0,
+      "end": 116.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.9787988662719727,
+      "no_speech_prob": 0.7800549268722534
+    },
+    {
+      "start": 118.0,
+      "end": 146.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.7958561778068542,
+      "no_speech_prob": 0.7823028564453125
+    },
+    {
+      "start": 148.0,
+      "end": 176.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.6323977112770081,
+      "no_speech_prob": 0.758009672164917
+    },
+    {
+      "start": 176.0,
+      "end": 205.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.7077350616455078,
+      "no_speech_prob": 0.881905734539032
+    },
+    {
+      "start": 206.0,
+      "end": 235.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.594853401184082,
+      "no_speech_prob": 0.6628254652023315
+    },
+    {
+      "start": 236.0,
+      "end": 265.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5260388851165771,
+      "no_speech_prob": 0.7967690229415894
+    },
+    {
+      "start": 266.0,
+      "end": 291.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5607208013534546,
+      "no_speech_prob": 0.8995637893676758
+    },
+    {
+      "start": 291.0,
+      "end": 319.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.6340718269348145,
+      "no_speech_prob": 0.9146923422813416
+    },
+    {
+      "start": 319.0,
+      "end": 347.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5277411937713623,
+      "no_speech_prob": 0.9427211284637451
+    },
+    {
+      "start": 347.0,
+      "end": 375.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.43798771500587463,
+      "no_speech_prob": 0.9076464176177979
+    },
+    {
+      "start": 375.0,
+      "end": 384.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.476325124502182,
+      "no_speech_prob": 0.9011688828468323
+    },
+    {
+      "start": 384.0,
+      "end": 404.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.476325124502182,
+      "no_speech_prob": 0.9011688828468323
+    },
+    {
+      "start": 404.0,
+      "end": 433.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.45936813950538635,
+      "no_speech_prob": 0.47062018513679504
+    },
+    {
+      "start": 433.0,
+      "end": 459.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4701632857322693,
+      "no_speech_prob": 0.9083605408668518
+    },
+    {
+      "start": 459.0,
+      "end": 488.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5026589632034302,
+      "no_speech_prob": 0.9460177421569824
+    },
+    {
+      "start": 488.0,
+      "end": 512.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.43408313393592834,
+      "no_speech_prob": 0.7887493371963501
+    },
+    {
+      "start": 512.0,
+      "end": 541.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5413222312927246,
+      "no_speech_prob": 0.9478676915168762
+    },
+    {
+      "start": 541.0,
+      "end": 566.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4409453570842743,
+      "no_speech_prob": 0.8221589922904968
+    },
+    {
+      "start": 566.0,
+      "end": 579.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4747370779514313,
+      "no_speech_prob": 0.900973379611969
+    },
+    {
+      "start": 579.0,
+      "end": 590.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4747370779514313,
+      "no_speech_prob": 0.900973379611969
+    },
+    {
+      "start": 590.0,
+      "end": 619.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.3817868232727051,
+      "no_speech_prob": 0.8795005083084106
+    },
+    {
+      "start": 619.0,
+      "end": 632.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5638552308082581,
+      "no_speech_prob": 0.8996069431304932
+    },
+    {
+      "start": 632.0,
+      "end": 634.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5638552308082581,
+      "no_speech_prob": 0.8996069431304932
+    },
+    {
+      "start": 634.0,
+      "end": 644.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5638552308082581,
+      "no_speech_prob": 0.8996069431304932
+    },
+    {
+      "start": 644.0,
+      "end": 670.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.43322882056236267,
+      "no_speech_prob": 0.813347578048706
+    },
+    {
+      "start": 670.0,
+      "end": 695.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5133355855941772,
+      "no_speech_prob": 0.8301317691802979
+    },
+    {
+      "start": 695.0,
+      "end": 724.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4696774482727051,
+      "no_speech_prob": 0.8415495753288269
+    },
+    {
+      "start": 724.0,
+      "end": 734.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4726308584213257,
+      "no_speech_prob": 0.72158282995224
+    },
+    {
+      "start": 734.0,
+      "end": 753.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4726308584213257,
+      "no_speech_prob": 0.72158282995224
+    },
+    {
+      "start": 753.0,
+      "end": 778.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.39988401532173157,
+      "no_speech_prob": 0.9039206504821777
+    },
+    {
+      "start": 778.0,
+      "end": 807.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.41644734144210815,
+      "no_speech_prob": 0.9047977328300476
+    },
+    {
+      "start": 807.0,
+      "end": 836.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5063841938972473,
+      "no_speech_prob": 0.9276378750801086
+    },
+    {
+      "start": 836.0,
+      "end": 849.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.42693352699279785,
+      "no_speech_prob": 0.8848960399627686
+    },
+    {
+      "start": 849.0,
+      "end": 861.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.42693352699279785,
+      "no_speech_prob": 0.8848960399627686
+    },
+    {
+      "start": 861.0,
+      "end": 863.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.42693352699279785,
+      "no_speech_prob": 0.8848960399627686
+    },
+    {
+      "start": 863.0,
+      "end": 868.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.36813855171203613,
+      "no_speech_prob": 0.8290603756904602
+    },
+    {
+      "start": 868.0,
+      "end": 873.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.36813855171203613,
+      "no_speech_prob": 0.8290603756904602
+    },
+    {
+      "start": 873.0,
+      "end": 890.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.36813855171203613,
+      "no_speech_prob": 0.8290603756904602
+    },
+    {
+      "start": 890.0,
+      "end": 918.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4114350378513336,
+      "no_speech_prob": 0.5976929068565369
+    },
+    {
+      "start": 918.0,
+      "end": 923.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4286651909351349,
+      "no_speech_prob": 0.8067207336425781
+    },
+    {
+      "start": 923.0,
+      "end": 933.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4286651909351349,
+      "no_speech_prob": 0.8067207336425781
+    },
+    {
+      "start": 933.0,
+      "end": 946.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4286651909351349,
+      "no_speech_prob": 0.8067207336425781
+    },
+    {
+      "start": 946.0,
+      "end": 956.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4537298381328583,
+      "no_speech_prob": 0.7473999857902527
+    },
+    {
+      "start": 956.0,
+      "end": 968.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4537298381328583,
+      "no_speech_prob": 0.7473999857902527
+    },
+    {
+      "start": 968.0,
+      "end": 993.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.44948315620422363,
+      "no_speech_prob": 0.9837289452552795
+    },
+    {
+      "start": 993.0,
+      "end": 1022.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.455233097076416,
+      "no_speech_prob": 0.9541098475456238
+    },
+    {
+      "start": 1023.0,
+      "end": 1051.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5081191062927246,
+      "no_speech_prob": 0.9690305590629578
+    },
+    {
+      "start": 1051.0,
+      "end": 1079.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4068245589733124,
+      "no_speech_prob": 0.9407692551612854
+    },
+    {
+      "start": 1080.0,
+      "end": 1108.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5056688189506531,
+      "no_speech_prob": 0.9542742371559143
+    },
+    {
+      "start": 1108.0,
+      "end": 1123.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4314817488193512,
+      "no_speech_prob": 0.897167444229126
+    },
+    {
+      "start": 1123.0,
+      "end": 1134.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4314817488193512,
+      "no_speech_prob": 0.897167444229126
+    },
+    {
+      "start": 1135.0,
+      "end": 1163.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4588647484779358,
+      "no_speech_prob": 0.9732668995857239
+    },
+    {
+      "start": 1163.0,
+      "end": 1183.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4901868999004364,
+      "no_speech_prob": 0.7895098328590393
+    },
+    {
+      "start": 1183.0,
+      "end": 1211.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4439200460910797,
+      "no_speech_prob": 0.9829345345497131
+    },
+    {
+      "start": 1212.0,
+      "end": 1240.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.6171268224716187,
+      "no_speech_prob": 0.9752020239830017
+    },
+    {
+      "start": 1240.0,
+      "end": 1269.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.3998350501060486,
+      "no_speech_prob": 0.8140875697135925
+    },
+    {
+      "start": 1269.0,
+      "end": 1284.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5235077738761902,
+      "no_speech_prob": 0.8216408491134644
+    },
+    {
+      "start": 1284.0,
+      "end": 1305.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.46657589077949524,
+      "no_speech_prob": 0.8417670130729675
+    },
+    {
+      "start": 1306.0,
+      "end": 1330.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5160922408103943,
+      "no_speech_prob": 0.9552350044250488
+    },
+    {
+      "start": 1330.0,
+      "end": 1359.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4928905963897705,
+      "no_speech_prob": 0.9690635800361633
+    },
+    {
+      "start": 1359.0,
+      "end": 1372.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5041586756706238,
+      "no_speech_prob": 0.8803459405899048
+    },
+    {
+      "start": 1372.0,
+      "end": 1384.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5041586756706238,
+      "no_speech_prob": 0.8803459405899048
+    },
+    {
+      "start": 1384.0,
+      "end": 1404.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5378239750862122,
+      "no_speech_prob": 0.8758155107498169
+    },
+    {
+      "start": 1404.0,
+      "end": 1424.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.4449799358844757,
+      "no_speech_prob": 0.9627507328987122
+    },
+    {
+      "start": 1424.0,
+      "end": 1444.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.39352384209632874,
+      "no_speech_prob": 0.9408206343650818
+    },
+    {
+      "start": 1444.0,
+      "end": 1472.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.43466630578041077,
+      "no_speech_prob": 0.8802000880241394
+    },
+    {
+      "start": 1472.0,
+      "end": 1491.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.32896703481674194,
+      "no_speech_prob": 0.7769891023635864
+    },
+    {
+      "start": 1491.0,
+      "end": 1520.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.5000842213630676,
+      "no_speech_prob": 0.9816887378692627
+    },
+    {
+      "start": 1520.0,
+      "end": 1523.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.7914283871650696,
+      "no_speech_prob": 0.9257235527038574
+    },
+    {
+      "start": 1523.0,
+      "end": 1527.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.7914283871650696,
+      "no_speech_prob": 0.9257235527038574
+    },
+    {
+      "start": 1527.0,
+      "end": 1529.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.7914283871650696,
+      "no_speech_prob": 0.9257235527038574
+    },
+    {
+      "start": 1529.0,
+      "end": 1531.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.7914283871650696,
+      "no_speech_prob": 0.9257235527038574
+    },
+    {
+      "start": 1531.0,
+      "end": 1551.0,
+      "text": "Mkhay",
+      "avg_logprob": -0.8242356181144714,
+      "no_speech_prob": 0.9305274486541748
+    },
+    {
+      "start": 1611.0,
+      "end": 1614.0,
+      "text": "At writing, at writing, at writing",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1614.0,
+      "end": 1616.0,
+      "text": "At writing nje nyesema",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1616.0,
+      "end": 1618.0,
+      "text": "No, no",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1618.0,
+      "end": 1622.0,
+      "text": "I'll show you the list, okay?",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1622.0,
+      "end": 1624.0,
+      "text": "Term 2 haku kuhuwa na term",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1624.0,
+      "end": 1626.0,
+      "text": "Aliendia term 1",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1626.0,
+      "end": 1628.0,
+      "text": "Hakuwa term 2",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1628.0,
+      "end": 1630.0,
+      "text": "Ati ya term 1 haku marija",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1630.0,
+      "end": 1632.0,
+      "text": "Haku marija, yes",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1632.0,
+      "end": 1634.0,
+      "text": "Sika kama ya makamuta haku pali",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1636.0,
+      "end": 1638.0,
+      "text": "Atu fanya ye",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1638.0,
+      "end": 1640.0,
+      "text": "Kachafaya term 5",
+      "avg_logprob": -0.8424253463745117,
+      "no_speech_prob": 0.919640064239502
+    },
+    {
+      "start": 1640.0,
+      "end": 1647.0,
+      "text": "Kuz Bye",
+      "avg_logprob": -3.230832099914551,
+      "no_speech_prob": 0.3885616064071655
+    },
+    {
+      "start": 1647.0,
+      "end": 1650.0,
+      "text": "I don't understand",
+      "avg_logprob": -3.230832099914551,
+      "no_speech_prob": 0.3885616064071655
+    },
+    {
+      "start": 1650.0,
+      "end": 1666.0,
+      "text": "Why",
+      "avg_logprob": -3.230832099914551,
+      "no_speech_prob": 0.3885616064071655
+    },
+    {
+      "start": 1667.0,
+      "end": 1671.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1671.0,
+      "end": 1673.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1673.0,
+      "end": 1674.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1674.0,
+      "end": 1675.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1675.0,
+      "end": 1676.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1676.0,
+      "end": 1677.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1677.0,
+      "end": 1678.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1678.0,
+      "end": 1679.0,
+      "text": "I",
+      "avg_logprob": -0.9374788999557495,
+      "no_speech_prob": 0.7848816514015198
+    },
+    {
+      "start": 1680.0,
+      "end": 1682.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1682.0,
+      "end": 1683.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1683.0,
+      "end": 1683.0,
+      "text": "",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1683.0,
+      "end": 1684.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1684.0,
+      "end": 1685.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1685.0,
+      "end": 1687.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1690.0,
+      "end": 1691.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1691.0,
+      "end": 1691.0,
+      "text": "",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1691.0,
+      "end": 1691.0,
+      "text": "",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1691.0,
+      "end": 1693.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1694.0,
+      "end": 1696.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1696.0,
+      "end": 1697.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1697.0,
+      "end": 1699.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1699.0,
+      "end": 1701.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1701.0,
+      "end": 1703.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1703.0,
+      "end": 1705.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1705.0,
+      "end": 1707.0,
+      "text": "I",
+      "avg_logprob": -0.7225183248519897,
+      "no_speech_prob": 0.7734830975532532
+    },
+    {
+      "start": 1707.0,
+      "end": 1709.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1709.0,
+      "end": 1711.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1711.0,
+      "end": 1713.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1713.0,
+      "end": 1715.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1715.0,
+      "end": 1717.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1717.0,
+      "end": 1719.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1719.0,
+      "end": 1721.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1721.0,
+      "end": 1723.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1723.0,
+      "end": 1725.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1725.0,
+      "end": 1727.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1727.0,
+      "end": 1729.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1729.0,
+      "end": 1731.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1731.0,
+      "end": 1733.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1733.0,
+      "end": 1735.0,
+      "text": "I",
+      "avg_logprob": -0.0712660551071167,
+      "no_speech_prob": 0.6175799369812012
+    },
+    {
+      "start": 1735.0,
+      "end": 1737.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1737.0,
+      "end": 1739.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1739.0,
+      "end": 1741.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1741.0,
+      "end": 1743.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1743.0,
+      "end": 1745.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1745.0,
+      "end": 1747.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1747.0,
+      "end": 1749.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1749.0,
+      "end": 1751.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1751.0,
+      "end": 1753.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1753.0,
+      "end": 1755.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1755.0,
+      "end": 1757.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1757.0,
+      "end": 1759.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1759.0,
+      "end": 1761.0,
+      "text": "I",
+      "avg_logprob": -0.10714072734117508,
+      "no_speech_prob": 0.7350691556930542
+    },
+    {
+      "start": 1761.0,
+      "end": 1763.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1763.0,
+      "end": 1765.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1765.0,
+      "end": 1767.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1767.0,
+      "end": 1769.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1769.0,
+      "end": 1771.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1771.0,
+      "end": 1773.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1773.0,
+      "end": 1775.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1775.0,
+      "end": 1777.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1777.0,
+      "end": 1779.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1779.0,
+      "end": 1781.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1781.0,
+      "end": 1783.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1783.0,
+      "end": 1785.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1785.0,
+      "end": 1787.0,
+      "text": "I",
+      "avg_logprob": -0.10413669049739838,
+      "no_speech_prob": 0.8107351660728455
+    },
+    {
+      "start": 1787.0,
+      "end": 1789.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1789.0,
+      "end": 1791.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1791.0,
+      "end": 1793.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1793.0,
+      "end": 1795.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1795.0,
+      "end": 1797.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1797.0,
+      "end": 1799.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1799.0,
+      "end": 1801.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1801.0,
+      "end": 1803.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1803.0,
+      "end": 1805.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1805.0,
+      "end": 1807.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1807.0,
+      "end": 1809.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1809.0,
+      "end": 1811.0,
+      "text": "I",
+      "avg_logprob": -0.09583836048841476,
+      "no_speech_prob": 0.8987102508544922
+    },
+    {
+      "start": 1811.0,
+      "end": 1813.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1813.0,
+      "end": 1815.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1815.0,
+      "end": 1817.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1817.0,
+      "end": 1819.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1819.0,
+      "end": 1821.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1821.0,
+      "end": 1823.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1823.0,
+      "end": 1825.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1825.0,
+      "end": 1827.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1827.0,
+      "end": 1829.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1829.0,
+      "end": 1831.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1831.0,
+      "end": 1833.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1833.0,
+      "end": 1835.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1835.0,
+      "end": 1837.0,
+      "text": "I",
+      "avg_logprob": -0.10242215543985367,
+      "no_speech_prob": 0.8046113848686218
+    },
+    {
+      "start": 1838.0,
+      "end": 1840.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1840.0,
+      "end": 1843.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1843.0,
+      "end": 1845.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1845.0,
+      "end": 1847.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1847.0,
+      "end": 1849.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1849.0,
+      "end": 1851.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1851.0,
+      "end": 1853.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1853.0,
+      "end": 1855.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1855.0,
+      "end": 1857.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1857.0,
+      "end": 1859.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1859.0,
+      "end": 1861.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1861.0,
+      "end": 1863.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1863.0,
+      "end": 1865.0,
+      "text": "I",
+      "avg_logprob": -0.15132474899291992,
+      "no_speech_prob": 0.8801600337028503
+    },
+    {
+      "start": 1865.0,
+      "end": 1867.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1867.0,
+      "end": 1869.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1869.0,
+      "end": 1871.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1871.0,
+      "end": 1873.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1873.0,
+      "end": 1875.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1875.0,
+      "end": 1877.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1877.0,
+      "end": 1879.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1879.0,
+      "end": 1881.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1881.0,
+      "end": 1883.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1883.0,
+      "end": 1885.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1885.0,
+      "end": 1887.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1887.0,
+      "end": 1889.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1889.0,
+      "end": 1891.0,
+      "text": "I",
+      "avg_logprob": -0.1260940283536911,
+      "no_speech_prob": 0.8912960886955261
+    },
+    {
+      "start": 1891.0,
+      "end": 1921.0,
+      "text": "",
+      "avg_logprob": -0.056033678352832794,
+      "no_speech_prob": 0.9474434852600098
+    },
+    {
+      "start": 1921.0,
+      "end": 1923.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1923.0,
+      "end": 1925.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1925.0,
+      "end": 1927.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1927.0,
+      "end": 1929.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1929.0,
+      "end": 1931.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1931.0,
+      "end": 1933.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1933.0,
+      "end": 1935.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1935.0,
+      "end": 1937.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1937.0,
+      "end": 1939.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1939.0,
+      "end": 1941.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1941.0,
+      "end": 1943.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1943.0,
+      "end": 1945.0,
+      "text": "I",
+      "avg_logprob": -0.16728344559669495,
+      "no_speech_prob": 0.9181458353996277
+    },
+    {
+      "start": 1945.0,
+      "end": 1975.0,
+      "text": "",
+      "avg_logprob": -0.05222063511610031,
+      "no_speech_prob": 0.8341256976127625
+    },
+    {
+      "start": 1975.0,
+      "end": 2005.0,
+      "text": "",
+      "avg_logprob": -0.028967466205358505,
+      "no_speech_prob": 0.8916468024253845
+    },
+    {
+      "start": 2005.0,
+      "end": 2035.0,
+      "text": "",
+      "avg_logprob": -0.0505024753510952,
+      "no_speech_prob": 0.9150041341781616
+    },
+    {
+      "start": 2035.0,
+      "end": 2065.0,
+      "text": "",
+      "avg_logprob": -0.09786245971918106,
+      "no_speech_prob": 0.9390319585800171
+    },
+    {
+      "start": 2065.0,
+      "end": 2095.0,
+      "text": "",
+      "avg_logprob": -0.04179977625608444,
+      "no_speech_prob": 0.8672131299972534
+    },
+    {
+      "start": 2095.0,
+      "end": 2125.0,
+      "text": "",
+      "avg_logprob": -0.04115790128707886,
+      "no_speech_prob": 0.7668166756629944
+    },
+    {
+      "start": 2125.0,
+      "end": 2155.0,
+      "text": "",
+      "avg_logprob": -0.2914586067199707,
+      "no_speech_prob": 0.7826233506202698
+    },
+    {
+      "start": 2155.0,
+      "end": 2185.0,
+      "text": "",
+      "avg_logprob": -0.07219314575195312,
+      "no_speech_prob": 0.8897772431373596
+    },
+    {
+      "start": 2185.0,
+      "end": 2215.0,
+      "text": "",
+      "avg_logprob": -0.04913066700100899,
+      "no_speech_prob": 0.7852687835693359
+    },
+    {
+      "start": 2215.0,
+      "end": 2245.0,
+      "text": "",
+      "avg_logprob": -0.05787009745836258,
+      "no_speech_prob": 0.9019870162010193
+    },
+    {
+      "start": 2245.0,
+      "end": 2275.0,
+      "text": "",
+      "avg_logprob": -0.04494208097457886,
+      "no_speech_prob": 0.8783690333366394
+    },
+    {
+      "start": 2275.0,
+      "end": 2305.0,
+      "text": "",
+      "avg_logprob": -0.05486857891082764,
+      "no_speech_prob": 0.8806294798851013
+    },
+    {
+      "start": 2305.0,
+      "end": 2335.0,
+      "text": "",
+      "avg_logprob": -0.05657756328582764,
+      "no_speech_prob": 0.9147735834121704
+    },
+    {
+      "start": 2335.0,
+      "end": 2337.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2337.0,
+      "end": 2339.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2339.0,
+      "end": 2341.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2341.0,
+      "end": 2343.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2343.0,
+      "end": 2345.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2345.0,
+      "end": 2347.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2347.0,
+      "end": 2349.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2349.0,
+      "end": 2351.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2351.0,
+      "end": 2353.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2353.0,
+      "end": 2355.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2355.0,
+      "end": 2357.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2357.0,
+      "end": 2359.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2359.0,
+      "end": 2361.0,
+      "text": "I",
+      "avg_logprob": -0.1262231171131134,
+      "no_speech_prob": 0.8373741507530212
+    },
+    {
+      "start": 2361.0,
+      "end": 2391.0,
+      "text": "",
+      "avg_logprob": -0.03239418566226959,
+      "no_speech_prob": 0.8666706085205078
+    },
+    {
+      "start": 2391.0,
+      "end": 2421.0,
+      "text": "",
+      "avg_logprob": -0.03457682579755783,
+      "no_speech_prob": 0.8651400208473206
+    },
+    {
+      "start": 2421.0,
+      "end": 2451.0,
+      "text": "",
+      "avg_logprob": -0.035097282379865646,
+      "no_speech_prob": 0.9092703461647034
+    },
+    {
+      "start": 2451.0,
+      "end": 2481.0,
+      "text": "",
+      "avg_logprob": -0.03469587489962578,
+      "no_speech_prob": 0.8940702676773071
+    },
+    {
+      "start": 2481.0,
+      "end": 2511.0,
+      "text": "",
+      "avg_logprob": -0.041731737554073334,
+      "no_speech_prob": 0.8254638314247131
+    },
+    {
+      "start": 2511.0,
+      "end": 2513.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2513.0,
+      "end": 2515.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2515.0,
+      "end": 2517.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2517.0,
+      "end": 2519.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2519.0,
+      "end": 2521.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2521.0,
+      "end": 2523.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2523.0,
+      "end": 2525.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2525.0,
+      "end": 2527.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2527.0,
+      "end": 2529.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2529.0,
+      "end": 2531.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2531.0,
+      "end": 2533.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2533.0,
+      "end": 2535.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2535.0,
+      "end": 2537.0,
+      "text": "I",
+      "avg_logprob": -0.14556019008159637,
+      "no_speech_prob": 0.8600719571113586
+    },
+    {
+      "start": 2537.0,
+      "end": 2567.0,
+      "text": "",
+      "avg_logprob": -0.030381619930267334,
+      "no_speech_prob": 0.8779559135437012
+    },
+    {
+      "start": 2567.0,
+      "end": 2597.0,
+      "text": "",
+      "avg_logprob": -0.040574975311756134,
+      "no_speech_prob": 0.8142653703689575
+    },
+    {
+      "start": 2597.0,
+      "end": 2627.0,
+      "text": "",
+      "avg_logprob": -0.027109717950224876,
+      "no_speech_prob": 0.8985608220100403
+    },
+    {
+      "start": 2627.0,
+      "end": 2657.0,
+      "text": "",
+      "avg_logprob": -0.03462226316332817,
+      "no_speech_prob": 0.8815444111824036
+    },
+    {
+      "start": 2657.0,
+      "end": 2687.0,
+      "text": "",
+      "avg_logprob": -0.06776779890060425,
+      "no_speech_prob": 0.7420765161514282
+    },
+    {
+      "start": 2687.0,
+      "end": 2717.0,
+      "text": "",
+      "avg_logprob": -0.04818010330200195,
+      "no_speech_prob": 0.7493835687637329
+    },
+    {
+      "start": 2717.0,
+      "end": 2747.0,
+      "text": "",
+      "avg_logprob": -0.06788139790296555,
+      "no_speech_prob": 0.8002880215644836
+    },
+    {
+      "start": 2747.0,
+      "end": 2777.0,
+      "text": "",
+      "avg_logprob": -0.08802430331707001,
+      "no_speech_prob": 0.7269180417060852
+    },
+    {
+      "start": 2777.0,
+      "end": 2779.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2779.0,
+      "end": 2781.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2781.0,
+      "end": 2783.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2783.0,
+      "end": 2785.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2785.0,
+      "end": 2787.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2787.0,
+      "end": 2789.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2789.0,
+      "end": 2791.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2791.0,
+      "end": 2793.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2793.0,
+      "end": 2795.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2795.0,
+      "end": 2797.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2797.0,
+      "end": 2799.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2799.0,
+      "end": 2801.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2801.0,
+      "end": 2803.0,
+      "text": "I",
+      "avg_logprob": -0.10810505598783493,
+      "no_speech_prob": 0.8366347551345825
+    },
+    {
+      "start": 2803.0,
+      "end": 2805.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2805.0,
+      "end": 2807.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2807.0,
+      "end": 2809.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2809.0,
+      "end": 2811.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2811.0,
+      "end": 2813.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2813.0,
+      "end": 2815.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2815.0,
+      "end": 2817.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2817.0,
+      "end": 2819.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2819.0,
+      "end": 2821.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2821.0,
+      "end": 2823.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2823.0,
+      "end": 2825.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2825.0,
+      "end": 2827.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2827.0,
+      "end": 2829.0,
+      "text": "I",
+      "avg_logprob": -0.0990937128663063,
+      "no_speech_prob": 0.8518198728561401
+    },
+    {
+      "start": 2829.0,
+      "end": 2831.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2831.0,
+      "end": 2833.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2833.0,
+      "end": 2835.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2835.0,
+      "end": 2837.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2837.0,
+      "end": 2839.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2839.0,
+      "end": 2841.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2841.0,
+      "end": 2843.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2843.0,
+      "end": 2845.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2845.0,
+      "end": 2847.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2847.0,
+      "end": 2849.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2849.0,
+      "end": 2851.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2851.0,
+      "end": 2853.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2853.0,
+      "end": 2855.0,
+      "text": "I",
+      "avg_logprob": -0.0946921780705452,
+      "no_speech_prob": 0.8148546814918518
+    },
+    {
+      "start": 2855.0,
+      "end": 2857.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2857.0,
+      "end": 2859.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2859.0,
+      "end": 2861.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2861.0,
+      "end": 2863.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2863.0,
+      "end": 2865.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2865.0,
+      "end": 2867.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2867.0,
+      "end": 2869.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2869.0,
+      "end": 2871.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2871.0,
+      "end": 2873.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2873.0,
+      "end": 2875.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2875.0,
+      "end": 2877.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2877.0,
+      "end": 2879.0,
+      "text": "I",
+      "avg_logprob": -0.10238394886255264,
+      "no_speech_prob": 0.874667763710022
+    },
+    {
+      "start": 2879.0,
+      "end": 2881.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2881.0,
+      "end": 2883.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2883.0,
+      "end": 2885.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2885.0,
+      "end": 2887.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2887.0,
+      "end": 2889.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2889.0,
+      "end": 2891.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2891.0,
+      "end": 2893.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2893.0,
+      "end": 2895.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2895.0,
+      "end": 2897.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2897.0,
+      "end": 2899.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2899.0,
+      "end": 2901.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2901.0,
+      "end": 2903.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2903.0,
+      "end": 2905.0,
+      "text": "I",
+      "avg_logprob": -0.1505851149559021,
+      "no_speech_prob": 0.9109060764312744
+    },
+    {
+      "start": 2905.0,
+      "end": 2907.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2907.0,
+      "end": 2909.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2909.0,
+      "end": 2911.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2911.0,
+      "end": 2913.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2913.0,
+      "end": 2915.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2915.0,
+      "end": 2917.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2917.0,
+      "end": 2919.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2919.0,
+      "end": 2921.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2921.0,
+      "end": 2923.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2923.0,
+      "end": 2925.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2925.0,
+      "end": 2927.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2927.0,
+      "end": 2929.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2929.0,
+      "end": 2931.0,
+      "text": "I",
+      "avg_logprob": -0.07717221975326538,
+      "no_speech_prob": 0.8859150409698486
+    },
+    {
+      "start": 2931.0,
+      "end": 2933.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2933.0,
+      "end": 2935.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2935.0,
+      "end": 2937.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2937.0,
+      "end": 2939.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2939.0,
+      "end": 2941.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2941.0,
+      "end": 2943.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2943.0,
+      "end": 2945.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2945.0,
+      "end": 2947.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2947.0,
+      "end": 2949.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2949.0,
+      "end": 2951.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2951.0,
+      "end": 2953.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2953.0,
+      "end": 2955.0,
+      "text": "I",
+      "avg_logprob": -0.12216140329837799,
+      "no_speech_prob": 0.6902511119842529
+    },
+    {
+      "start": 2955.0,
+      "end": 2957.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2957.0,
+      "end": 2959.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2959.0,
+      "end": 2961.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2961.0,
+      "end": 2963.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2963.0,
+      "end": 2965.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2965.0,
+      "end": 2967.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2967.0,
+      "end": 2969.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2969.0,
+      "end": 2971.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2971.0,
+      "end": 2973.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2973.0,
+      "end": 2975.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2975.0,
+      "end": 2977.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2977.0,
+      "end": 2979.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2979.0,
+      "end": 2981.0,
+      "text": "I",
+      "avg_logprob": -0.09103990346193314,
+      "no_speech_prob": 0.8815195560455322
+    },
+    {
+      "start": 2981.0,
+      "end": 2983.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2983.0,
+      "end": 2985.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2985.0,
+      "end": 2987.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2987.0,
+      "end": 2989.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2989.0,
+      "end": 2991.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2991.0,
+      "end": 2993.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2993.0,
+      "end": 2995.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2995.0,
+      "end": 2997.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2997.0,
+      "end": 2999.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 2999.0,
+      "end": 3001.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 3001.0,
+      "end": 3003.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 3003.0,
+      "end": 3005.0,
+      "text": "I",
+      "avg_logprob": -0.12960019707679749,
+      "no_speech_prob": 0.8437018990516663
+    },
+    {
+      "start": 3005.0,
+      "end": 3007.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3007.0,
+      "end": 3009.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3009.0,
+      "end": 3011.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3011.0,
+      "end": 3013.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3013.0,
+      "end": 3015.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3015.0,
+      "end": 3017.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3029.0,
+      "end": 3031.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3031.0,
+      "end": 3033.0,
+      "text": "I",
+      "avg_logprob": -0.1905994713306427,
+      "no_speech_prob": 0.927737832069397
+    },
+    {
+      "start": 3033.0,
+      "end": 3035.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3043.0,
+      "end": 3045.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3045.0,
+      "end": 3047.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3047.0,
+      "end": 3049.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3049.0,
+      "end": 3051.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3051.0,
+      "end": 3053.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3053.0,
+      "end": 3055.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3055.0,
+      "end": 3057.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3057.0,
+      "end": 3059.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3059.0,
+      "end": 3061.0,
+      "text": "I",
+      "avg_logprob": -0.14180055260658264,
+      "no_speech_prob": 0.7832631468772888
+    },
+    {
+      "start": 3061.0,
+      "end": 3063.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3063.0,
+      "end": 3065.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3065.0,
+      "end": 3067.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3067.0,
+      "end": 3069.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3069.0,
+      "end": 3071.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3071.0,
+      "end": 3073.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3085.0,
+      "end": 3087.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3087.0,
+      "end": 3089.0,
+      "text": "I",
+      "avg_logprob": -0.174485981464386,
+      "no_speech_prob": 0.8296651244163513
+    },
+    {
+      "start": 3089.0,
+      "end": 3091.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3091.0,
+      "end": 3093.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3093.0,
+      "end": 3095.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3095.0,
+      "end": 3097.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3097.0,
+      "end": 3099.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3099.0,
+      "end": 3101.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3101.0,
+      "end": 3103.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3103.0,
+      "end": 3105.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3105.0,
+      "end": 3107.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3107.0,
+      "end": 3109.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3109.0,
+      "end": 3111.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3111.0,
+      "end": 3113.0,
+      "text": "I",
+      "avg_logprob": -0.1158413514494896,
+      "no_speech_prob": 0.8539045453071594
+    },
+    {
+      "start": 3113.0,
+      "end": 3143.0,
+      "text": "",
+      "avg_logprob": -0.07530463486909866,
+      "no_speech_prob": 0.893704891204834
+    },
+    {
+      "start": 3143.0,
+      "end": 3145.0,
+      "text": "I",
+      "avg_logprob": -0.07071887701749802,
+      "no_speech_prob": 0.6309854984283447
+    },
+    {
+      "start": 3145.0,
+      "end": 3147.0,
+      "text": "I",
+      "avg_logprob": -0.07071887701749802,
+      "no_speech_prob": 0.6309854984283447
+    },
+    {
+      "start": 3147.0,
+      "end": 3149.0,
+      "text": "I",
+      "avg_logprob": -0.07071887701749802,
+      "no_speech_prob": 0.6309854984283447
+    },
+    {
+      "start": 3149.0,
+      "end": 3151.0,
+      "text": "I",
+      "avg_logprob": -0.07071887701749802,
+      "no_speech_prob": 0.6309854984283447
+    }
+  ]
+}

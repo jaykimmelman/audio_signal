@@ -1,0 +1,1750 @@
+{
+  "source_audio": "mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_01_27_12_36_17.mp3",
+  "language": "swahili",
+  "duration": 1904.510009765625,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 69.0,
+      "text": "ya ya ya ya ya",
+      "avg_logprob": -1.4968812465667725,
+      "no_speech_prob": 0.529072642326355
+    },
+    {
+      "start": 69.0,
+      "end": 78.0199966430664,
+      "text": "ya ya ya ya ya",
+      "avg_logprob": -1.4968812465667725,
+      "no_speech_prob": 0.529072642326355
+    },
+    {
+      "start": 78.0199966430664,
+      "end": 84.0199966430664,
+      "text": "ya ya ya ya ya",
+      "avg_logprob": -1.4968812465667725,
+      "no_speech_prob": 0.529072642326355
+    },
+    {
+      "start": 84.0199966430664,
+      "end": 88.9800033569336,
+      "text": "ya ya ya ya ya",
+      "avg_logprob": -1.4968812465667725,
+      "no_speech_prob": 0.529072642326355
+    },
+    {
+      "start": 89.9800033569336,
+      "end": 97.9800033569336,
+      "text": "ya ya ya ya ya",
+      "avg_logprob": -1.2552032470703125,
+      "no_speech_prob": 0.18564189970493317
+    },
+    {
+      "start": 100.9800033569336,
+      "end": 104.0,
+      "text": "So today we multiply numbers",
+      "avg_logprob": -1.2552032470703125,
+      "no_speech_prob": 0.18564189970493317
+    },
+    {
+      "start": 105.0,
+      "end": 107.0,
+      "text": "yo yo yo yo",
+      "avg_logprob": -0.9349087476730347,
+      "no_speech_prob": 0.11223824322223663
+    },
+    {
+      "start": 109.0,
+      "end": 115.0,
+      "text": "In grade 5 we multiplied a 3 digit number",
+      "avg_logprob": -0.9349087476730347,
+      "no_speech_prob": 0.11223824322223663
+    },
+    {
+      "start": 115.0,
+      "end": 119.0,
+      "text": "by a 2 digit number without re-grouping",
+      "avg_logprob": -0.9349087476730347,
+      "no_speech_prob": 0.11223824322223663
+    },
+    {
+      "start": 119.0,
+      "end": 122.0,
+      "text": "I will show you an example",
+      "avg_logprob": -0.9349087476730347,
+      "no_speech_prob": 0.11223824322223663
+    },
+    {
+      "start": 122.0,
+      "end": 135.0,
+      "text": "When multiplying, how do we arrange the numbers?",
+      "avg_logprob": -2.028822422027588,
+      "no_speech_prob": 0.08867079019546509
+    },
+    {
+      "start": 135.0,
+      "end": 139.0,
+      "text": "We arrange them match rally",
+      "avg_logprob": -2.028822422027588,
+      "no_speech_prob": 0.08867079019546509
+    },
+    {
+      "start": 139.0,
+      "end": 155.0,
+      "text": "So we first multiply starting from the ones, then we go to the tens, then we go to the hundreds",
+      "avg_logprob": -0.37277039885520935,
+      "no_speech_prob": 0.3949466943740845
+    },
+    {
+      "start": 155.0,
+      "end": 159.0,
+      "text": "So what is two times five?",
+      "avg_logprob": -0.37277039885520935,
+      "no_speech_prob": 0.3949466943740845
+    },
+    {
+      "start": 159.0,
+      "end": 161.0,
+      "text": "Ten",
+      "avg_logprob": -0.37277039885520935,
+      "no_speech_prob": 0.3949466943740845
+    },
+    {
+      "start": 161.0,
+      "end": 164.0,
+      "text": "Zero per one",
+      "avg_logprob": -0.37277039885520935,
+      "no_speech_prob": 0.3949466943740845
+    },
+    {
+      "start": 164.0,
+      "end": 167.0,
+      "text": "Five times seven?",
+      "avg_logprob": -0.37277039885520935,
+      "no_speech_prob": 0.3949466943740845
+    },
+    {
+      "start": 167.0,
+      "end": 170.0,
+      "text": "Five plus one?",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 170.0,
+      "end": 173.0,
+      "text": "Thirty-three",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 173.0,
+      "end": 175.0,
+      "text": "Five times three?",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 175.0,
+      "end": 178.0,
+      "text": "Eighteen plus three?",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 178.0,
+      "end": 182.0,
+      "text": "Eighteen, right here, eighteen",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 182.0,
+      "end": 188.0,
+      "text": "Now, when multiplying the second digit, first write zero",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 188.0,
+      "end": 192.0,
+      "text": "You write zero first when multiplying the second digit",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 192.0,
+      "end": 195.0,
+      "text": "So what is two times two?",
+      "avg_logprob": -0.286676287651062,
+      "no_speech_prob": 0.07156568020582199
+    },
+    {
+      "start": 195.0,
+      "end": 196.0,
+      "text": "Four",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 196.0,
+      "end": 198.0,
+      "text": "Two times seven?",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 198.0,
+      "end": 200.0,
+      "text": "Four times one?",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 200.0,
+      "end": 205.0,
+      "text": "Four times one?",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 205.0,
+      "end": 208.0,
+      "text": "Two times three?",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 208.0,
+      "end": 210.0,
+      "text": "Six plus one?",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 210.0,
+      "end": 211.0,
+      "text": "Seven",
+      "avg_logprob": -0.3491801917552948,
+      "no_speech_prob": 0.20337128639221191
+    },
+    {
+      "start": 211.0,
+      "end": 236.0,
+      "text": "So we will now continue multiplying numbers",
+      "avg_logprob": -0.5149447321891785,
+      "no_speech_prob": 0.23427917063236237
+    },
+    {
+      "start": 236.0,
+      "end": 248.0,
+      "text": "We will multiply four digits numbers by two digits numbers",
+      "avg_logprob": -0.41619712114334106,
+      "no_speech_prob": 0.5957834720611572
+    },
+    {
+      "start": 248.0,
+      "end": 277.0,
+      "text": "So, now let us multiply a four digit number by a two digit number",
+      "avg_logprob": -0.40175268054008484,
+      "no_speech_prob": 0.6775634288787842
+    },
+    {
+      "start": 277.0,
+      "end": 295.0,
+      "text": "So, now when multiplying, how do we arrange the numbers?",
+      "avg_logprob": -0.37626951932907104,
+      "no_speech_prob": 0.6910572648048401
+    },
+    {
+      "start": 295.0,
+      "end": 306.0,
+      "text": "We arrange the numbers match rally",
+      "avg_logprob": -0.37626951932907104,
+      "no_speech_prob": 0.6910572648048401
+    },
+    {
+      "start": 306.0,
+      "end": 312.0,
+      "text": "So we begin by multiplying",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 312.0,
+      "end": 318.0,
+      "text": "So, in the ones, what is zero match rally by three?",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 318.0,
+      "end": 320.0,
+      "text": "Zero",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 320.0,
+      "end": 324.0,
+      "text": "In the tens, what is six match rally by three?",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 324.0,
+      "end": 326.0,
+      "text": "Eighteen",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 326.0,
+      "end": 330.0,
+      "text": "So eight per one",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 330.0,
+      "end": 335.0,
+      "text": "In the hundreds column, what is five match rally by three?",
+      "avg_logprob": -0.23997929692268372,
+      "no_speech_prob": 0.7916298508644104
+    },
+    {
+      "start": 335.0,
+      "end": 341.0,
+      "text": "Fifteen plus one",
+      "avg_logprob": -0.32012277841567993,
+      "no_speech_prob": 0.3707861602306366
+    },
+    {
+      "start": 341.0,
+      "end": 355.0,
+      "text": "Fifteen",
+      "avg_logprob": -0.32012277841567993,
+      "no_speech_prob": 0.3707861602306366
+    },
+    {
+      "start": 355.0,
+      "end": 360.0,
+      "text": "We now multiply the number by two",
+      "avg_logprob": -0.32012277841567993,
+      "no_speech_prob": 0.3707861602306366
+    },
+    {
+      "start": 360.0,
+      "end": 364.0,
+      "text": "Before multiplying, what do we do in the ones?",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 364.0,
+      "end": 367.0,
+      "text": "How do we do? What do we write in the ones?",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 367.0,
+      "end": 371.0,
+      "text": "We write zero here, we write zero",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 371.0,
+      "end": 375.0,
+      "text": "What is two times zero?",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 375.0,
+      "end": 377.0,
+      "text": "Two times six?",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 377.0,
+      "end": 381.0,
+      "text": "Twelve, two carry one",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 381.0,
+      "end": 383.0,
+      "text": "Two times five?",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 383.0,
+      "end": 386.0,
+      "text": "Ten plus one?",
+      "avg_logprob": -0.2808098793029785,
+      "no_speech_prob": 0.874572217464447
+    },
+    {
+      "start": 386.0,
+      "end": 401.0,
+      "text": "You write eleven here, then you add",
+      "avg_logprob": -0.5959888696670532,
+      "no_speech_prob": 0.7012991309165955
+    },
+    {
+      "start": 401.0,
+      "end": 410.0,
+      "text": "Three times one?",
+      "avg_logprob": -0.5959888696670532,
+      "no_speech_prob": 0.7012991309165955
+    },
+    {
+      "start": 410.0,
+      "end": 423.0,
+      "text": "How do we do?",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 423.0,
+      "end": 425.0,
+      "text": "Zero match rally by three?",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 425.0,
+      "end": 426.0,
+      "text": "Zero",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 426.0,
+      "end": 428.0,
+      "text": "Six match rally by three?",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 428.0,
+      "end": 430.0,
+      "text": "Eighteen",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 430.0,
+      "end": 432.0,
+      "text": "Eight carry one",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 432.0,
+      "end": 435.0,
+      "text": "Five match rally by three?",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 435.0,
+      "end": 438.0,
+      "text": "Eighteen plus one?",
+      "avg_logprob": -0.31678295135498047,
+      "no_speech_prob": 0.7760789394378662
+    },
+    {
+      "start": 438.0,
+      "end": 441.0,
+      "text": "Fifteen, six carry one",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 441.0,
+      "end": 443.0,
+      "text": "One multiply by three?",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 443.0,
+      "end": 445.0,
+      "text": "Plus one",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 445.0,
+      "end": 446.0,
+      "text": "Four",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 446.0,
+      "end": 448.0,
+      "text": "Tower, I attend",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 448.0,
+      "end": 450.0,
+      "text": "Zero",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 450.0,
+      "end": 454.0,
+      "text": "Twelve, two carry one",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 454.0,
+      "end": 458.0,
+      "text": "Ten, eleven, one carry one",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 458.0,
+      "end": 461.0,
+      "text": "Two plus one",
+      "avg_logprob": -0.34319838881492615,
+      "no_speech_prob": 0.3738747239112854
+    },
+    {
+      "start": 461.0,
+      "end": 471.0,
+      "text": "Four, two carry one",
+      "avg_logprob": -0.8410520553588867,
+      "no_speech_prob": 0.8849543333053589
+    },
+    {
+      "start": 471.0,
+      "end": 473.0,
+      "text": "Zero",
+      "avg_logprob": -0.8410520553588867,
+      "no_speech_prob": 0.8849543333053589
+    },
+    {
+      "start": 491.0,
+      "end": 496.0,
+      "text": "Four, two carry one",
+      "avg_logprob": -0.892699122428894,
+      "no_speech_prob": 0.8469727635383606
+    },
+    {
+      "start": 496.0,
+      "end": 498.0,
+      "text": "Five match rally by three?",
+      "avg_logprob": -0.892699122428894,
+      "no_speech_prob": 0.8469727635383606
+    },
+    {
+      "start": 498.0,
+      "end": 500.0,
+      "text": "Zero",
+      "avg_logprob": -0.892699122428894,
+      "no_speech_prob": 0.8469727635383606
+    },
+    {
+      "start": 500.0,
+      "end": 503.0,
+      "text": "Look, look, look",
+      "avg_logprob": -0.5597555041313171,
+      "no_speech_prob": 0.9450901746749878
+    },
+    {
+      "start": 531.0,
+      "end": 532.0,
+      "text": "Look, look, look",
+      "avg_logprob": -0.8076149225234985,
+      "no_speech_prob": 0.9732590317726135
+    },
+    {
+      "start": 532.0,
+      "end": 534.0,
+      "text": "Look, look, look",
+      "avg_logprob": -0.8076149225234985,
+      "no_speech_prob": 0.9732590317726135
+    },
+    {
+      "start": 591.0,
+      "end": 593.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 593.0,
+      "end": 595.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 595.0,
+      "end": 597.0,
+      "text": "Let's get out of here",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 597.0,
+      "end": 599.0,
+      "text": "Let's get out of here",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 599.0,
+      "end": 601.0,
+      "text": "Let's get out of here",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 601.0,
+      "end": 604.0,
+      "text": "Let's get out of here",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 604.0,
+      "end": 607.0,
+      "text": "Let's get out of here",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 607.0,
+      "end": 610.0,
+      "text": "Let's get out of here",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 610.0,
+      "end": 613.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 613.0,
+      "end": 616.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 616.0,
+      "end": 618.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8361559510231018,
+      "no_speech_prob": 0.9167590141296387
+    },
+    {
+      "start": 618.0,
+      "end": 621.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 623.0,
+      "end": 626.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 627.0,
+      "end": 630.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 631.0,
+      "end": 634.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 635.0,
+      "end": 638.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 639.0,
+      "end": 642.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 643.0,
+      "end": 646.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5869698524475098,
+      "no_speech_prob": 0.15529781579971313
+    },
+    {
+      "start": 647.0,
+      "end": 650.0,
+      "text": "Let me in",
+      "avg_logprob": -0.595139741897583,
+      "no_speech_prob": 0.04905029386281967
+    },
+    {
+      "start": 658.0,
+      "end": 661.0,
+      "text": "Let me in",
+      "avg_logprob": -0.595139741897583,
+      "no_speech_prob": 0.04905029386281967
+    },
+    {
+      "start": 665.0,
+      "end": 668.0,
+      "text": "Let me in",
+      "avg_logprob": -0.595139741897583,
+      "no_speech_prob": 0.04905029386281967
+    },
+    {
+      "start": 668.0,
+      "end": 671.0,
+      "text": "Let me in",
+      "avg_logprob": -0.595139741897583,
+      "no_speech_prob": 0.04905029386281967
+    },
+    {
+      "start": 672.0,
+      "end": 675.0,
+      "text": "Let me in",
+      "avg_logprob": -0.595139741897583,
+      "no_speech_prob": 0.04905029386281967
+    },
+    {
+      "start": 676.0,
+      "end": 679.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8104053139686584,
+      "no_speech_prob": 0.019761284813284874
+    },
+    {
+      "start": 680.0,
+      "end": 683.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8104053139686584,
+      "no_speech_prob": 0.019761284813284874
+    },
+    {
+      "start": 686.0,
+      "end": 689.0,
+      "text": "Let me in",
+      "avg_logprob": -0.8104053139686584,
+      "no_speech_prob": 0.019761284813284874
+    },
+    {
+      "start": 689.0,
+      "end": 692.0,
+      "text": "Let me in",
+      "avg_logprob": -0.7448577880859375,
+      "no_speech_prob": 0.02888554334640503
+    },
+    {
+      "start": 697.0,
+      "end": 700.0,
+      "text": "Let me in",
+      "avg_logprob": -0.7448577880859375,
+      "no_speech_prob": 0.02888554334640503
+    },
+    {
+      "start": 712.0,
+      "end": 715.0,
+      "text": "Let me in",
+      "avg_logprob": -0.7448577880859375,
+      "no_speech_prob": 0.02888554334640503
+    },
+    {
+      "start": 719.0,
+      "end": 722.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4089561104774475,
+      "no_speech_prob": 0.030420353636145592
+    },
+    {
+      "start": 730.0,
+      "end": 733.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4089561104774475,
+      "no_speech_prob": 0.030420353636145592
+    },
+    {
+      "start": 733.0,
+      "end": 736.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4089561104774475,
+      "no_speech_prob": 0.030420353636145592
+    },
+    {
+      "start": 744.0,
+      "end": 747.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4089561104774475,
+      "no_speech_prob": 0.030420353636145592
+    },
+    {
+      "start": 749.0,
+      "end": 752.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5060727596282959,
+      "no_speech_prob": 0.01599912717938423
+    },
+    {
+      "start": 756.0,
+      "end": 759.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5060727596282959,
+      "no_speech_prob": 0.01599912717938423
+    },
+    {
+      "start": 759.0,
+      "end": 762.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5060727596282959,
+      "no_speech_prob": 0.01599912717938423
+    },
+    {
+      "start": 762.0,
+      "end": 765.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5060727596282959,
+      "no_speech_prob": 0.01599912717938423
+    },
+    {
+      "start": 769.0,
+      "end": 772.0,
+      "text": "Let me in",
+      "avg_logprob": -0.5060727596282959,
+      "no_speech_prob": 0.01599912717938423
+    },
+    {
+      "start": 779.0,
+      "end": 782.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3875791132450104,
+      "no_speech_prob": 0.02454538643360138
+    },
+    {
+      "start": 784.0,
+      "end": 787.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3875791132450104,
+      "no_speech_prob": 0.02454538643360138
+    },
+    {
+      "start": 790.0,
+      "end": 793.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3875791132450104,
+      "no_speech_prob": 0.02454538643360138
+    },
+    {
+      "start": 796.0,
+      "end": 799.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3875791132450104,
+      "no_speech_prob": 0.02454538643360138
+    },
+    {
+      "start": 803.0,
+      "end": 806.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3875791132450104,
+      "no_speech_prob": 0.02454538643360138
+    },
+    {
+      "start": 809.0,
+      "end": 812.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2974993586540222,
+      "no_speech_prob": 0.07833897322416306
+    },
+    {
+      "start": 814.0,
+      "end": 817.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2974993586540222,
+      "no_speech_prob": 0.07833897322416306
+    },
+    {
+      "start": 820.0,
+      "end": 823.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2974993586540222,
+      "no_speech_prob": 0.07833897322416306
+    },
+    {
+      "start": 825.0,
+      "end": 828.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2974993586540222,
+      "no_speech_prob": 0.07833897322416306
+    },
+    {
+      "start": 833.0,
+      "end": 836.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2974993586540222,
+      "no_speech_prob": 0.07833897322416306
+    },
+    {
+      "start": 839.0,
+      "end": 842.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28690341114997864,
+      "no_speech_prob": 0.03500000387430191
+    },
+    {
+      "start": 845.0,
+      "end": 848.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28690341114997864,
+      "no_speech_prob": 0.03500000387430191
+    },
+    {
+      "start": 851.0,
+      "end": 854.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28690341114997864,
+      "no_speech_prob": 0.03500000387430191
+    },
+    {
+      "start": 857.0,
+      "end": 860.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28690341114997864,
+      "no_speech_prob": 0.03500000387430191
+    },
+    {
+      "start": 863.0,
+      "end": 866.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28690341114997864,
+      "no_speech_prob": 0.03500000387430191
+    },
+    {
+      "start": 869.0,
+      "end": 872.0,
+      "text": "Let me in",
+      "avg_logprob": -0.24323663115501404,
+      "no_speech_prob": 0.01773722469806671
+    },
+    {
+      "start": 874.0,
+      "end": 877.0,
+      "text": "Let me in",
+      "avg_logprob": -0.24323663115501404,
+      "no_speech_prob": 0.01773722469806671
+    },
+    {
+      "start": 879.0,
+      "end": 882.0,
+      "text": "Let me in",
+      "avg_logprob": -0.24323663115501404,
+      "no_speech_prob": 0.01773722469806671
+    },
+    {
+      "start": 886.0,
+      "end": 889.0,
+      "text": "Let me in",
+      "avg_logprob": -0.24323663115501404,
+      "no_speech_prob": 0.01773722469806671
+    },
+    {
+      "start": 893.0,
+      "end": 896.0,
+      "text": "Let me in",
+      "avg_logprob": -0.24323663115501404,
+      "no_speech_prob": 0.01773722469806671
+    },
+    {
+      "start": 899.0,
+      "end": 902.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35758015513420105,
+      "no_speech_prob": 0.08305980265140533
+    },
+    {
+      "start": 904.0,
+      "end": 907.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35758015513420105,
+      "no_speech_prob": 0.08305980265140533
+    },
+    {
+      "start": 909.0,
+      "end": 912.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35758015513420105,
+      "no_speech_prob": 0.08305980265140533
+    },
+    {
+      "start": 916.0,
+      "end": 919.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35758015513420105,
+      "no_speech_prob": 0.08305980265140533
+    },
+    {
+      "start": 921.0,
+      "end": 924.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35758015513420105,
+      "no_speech_prob": 0.08305980265140533
+    },
+    {
+      "start": 929.0,
+      "end": 932.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3156871199607849,
+      "no_speech_prob": 0.07656947523355484
+    },
+    {
+      "start": 943.0,
+      "end": 946.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3156871199607849,
+      "no_speech_prob": 0.07656947523355484
+    },
+    {
+      "start": 949.0,
+      "end": 952.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3156871199607849,
+      "no_speech_prob": 0.07656947523355484
+    },
+    {
+      "start": 955.0,
+      "end": 958.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3156871199607849,
+      "no_speech_prob": 0.07656947523355484
+    },
+    {
+      "start": 959.0,
+      "end": 962.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28431418538093567,
+      "no_speech_prob": 0.027458012104034424
+    },
+    {
+      "start": 970.0,
+      "end": 973.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28431418538093567,
+      "no_speech_prob": 0.027458012104034424
+    },
+    {
+      "start": 975.0,
+      "end": 978.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28431418538093567,
+      "no_speech_prob": 0.027458012104034424
+    },
+    {
+      "start": 983.0,
+      "end": 986.0,
+      "text": "Let me in",
+      "avg_logprob": -0.28431418538093567,
+      "no_speech_prob": 0.027458012104034424
+    },
+    {
+      "start": 989.0,
+      "end": 992.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3148459792137146,
+      "no_speech_prob": 0.2417239546775818
+    },
+    {
+      "start": 998.0,
+      "end": 1001.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3148459792137146,
+      "no_speech_prob": 0.2417239546775818
+    },
+    {
+      "start": 1006.0,
+      "end": 1009.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3148459792137146,
+      "no_speech_prob": 0.2417239546775818
+    },
+    {
+      "start": 1013.0,
+      "end": 1016.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3148459792137146,
+      "no_speech_prob": 0.2417239546775818
+    },
+    {
+      "start": 1019.0,
+      "end": 1022.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3580458462238312,
+      "no_speech_prob": 0.08318400382995605
+    },
+    {
+      "start": 1033.0,
+      "end": 1036.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3580458462238312,
+      "no_speech_prob": 0.08318400382995605
+    },
+    {
+      "start": 1041.0,
+      "end": 1044.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3580458462238312,
+      "no_speech_prob": 0.08318400382995605
+    },
+    {
+      "start": 1049.0,
+      "end": 1052.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3707039952278137,
+      "no_speech_prob": 0.12399175763130188
+    },
+    {
+      "start": 1059.0,
+      "end": 1062.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3707039952278137,
+      "no_speech_prob": 0.12399175763130188
+    },
+    {
+      "start": 1067.0,
+      "end": 1070.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3707039952278137,
+      "no_speech_prob": 0.12399175763130188
+    },
+    {
+      "start": 1074.0,
+      "end": 1077.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3707039952278137,
+      "no_speech_prob": 0.12399175763130188
+    },
+    {
+      "start": 1079.0,
+      "end": 1082.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3877117931842804,
+      "no_speech_prob": 0.20117653906345367
+    },
+    {
+      "start": 1088.0,
+      "end": 1091.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3877117931842804,
+      "no_speech_prob": 0.20117653906345367
+    },
+    {
+      "start": 1094.0,
+      "end": 1097.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3877117931842804,
+      "no_speech_prob": 0.20117653906345367
+    },
+    {
+      "start": 1101.0,
+      "end": 1104.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3877117931842804,
+      "no_speech_prob": 0.20117653906345367
+    },
+    {
+      "start": 1109.0,
+      "end": 1112.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2702133357524872,
+      "no_speech_prob": 0.14949093759059906
+    },
+    {
+      "start": 1115.0,
+      "end": 1118.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2702133357524872,
+      "no_speech_prob": 0.14949093759059906
+    },
+    {
+      "start": 1121.0,
+      "end": 1124.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2702133357524872,
+      "no_speech_prob": 0.14949093759059906
+    },
+    {
+      "start": 1128.0,
+      "end": 1131.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2702133357524872,
+      "no_speech_prob": 0.14949093759059906
+    },
+    {
+      "start": 1134.0,
+      "end": 1137.0,
+      "text": "Let me in",
+      "avg_logprob": -0.2702133357524872,
+      "no_speech_prob": 0.14949093759059906
+    },
+    {
+      "start": 1139.0,
+      "end": 1142.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3701746463775635,
+      "no_speech_prob": 0.024921808391809464
+    },
+    {
+      "start": 1149.0,
+      "end": 1152.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3701746463775635,
+      "no_speech_prob": 0.024921808391809464
+    },
+    {
+      "start": 1159.0,
+      "end": 1162.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3701746463775635,
+      "no_speech_prob": 0.024921808391809464
+    },
+    {
+      "start": 1163.0,
+      "end": 1166.0,
+      "text": "Let me in",
+      "avg_logprob": -0.32320550084114075,
+      "no_speech_prob": 0.05029235780239105
+    },
+    {
+      "start": 1173.0,
+      "end": 1176.0,
+      "text": "Let me in",
+      "avg_logprob": -0.32320550084114075,
+      "no_speech_prob": 0.05029235780239105
+    },
+    {
+      "start": 1179.0,
+      "end": 1182.0,
+      "text": "Let me in",
+      "avg_logprob": -0.32320550084114075,
+      "no_speech_prob": 0.05029235780239105
+    },
+    {
+      "start": 1186.0,
+      "end": 1189.0,
+      "text": "Let me in",
+      "avg_logprob": -0.32320550084114075,
+      "no_speech_prob": 0.05029235780239105
+    },
+    {
+      "start": 1192.0,
+      "end": 1195.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3595638871192932,
+      "no_speech_prob": 0.03332379832863808
+    },
+    {
+      "start": 1205.0,
+      "end": 1208.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3595638871192932,
+      "no_speech_prob": 0.03332379832863808
+    },
+    {
+      "start": 1217.0,
+      "end": 1220.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3595638871192932,
+      "no_speech_prob": 0.03332379832863808
+    },
+    {
+      "start": 1222.0,
+      "end": 1225.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3427068591117859,
+      "no_speech_prob": 0.03255651146173477
+    },
+    {
+      "start": 1229.0,
+      "end": 1232.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3427068591117859,
+      "no_speech_prob": 0.03255651146173477
+    },
+    {
+      "start": 1236.0,
+      "end": 1239.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3427068591117859,
+      "no_speech_prob": 0.03255651146173477
+    },
+    {
+      "start": 1243.0,
+      "end": 1246.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3427068591117859,
+      "no_speech_prob": 0.03255651146173477
+    },
+    {
+      "start": 1246.0,
+      "end": 1249.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27990657091140747,
+      "no_speech_prob": 0.05953311547636986
+    },
+    {
+      "start": 1254.0,
+      "end": 1257.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27990657091140747,
+      "no_speech_prob": 0.05953311547636986
+    },
+    {
+      "start": 1261.0,
+      "end": 1264.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27990657091140747,
+      "no_speech_prob": 0.05953311547636986
+    },
+    {
+      "start": 1271.0,
+      "end": 1274.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27990657091140747,
+      "no_speech_prob": 0.05953311547636986
+    },
+    {
+      "start": 1276.0,
+      "end": 1280.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27578797936439514,
+      "no_speech_prob": 0.028111450374126434
+    },
+    {
+      "start": 1306.0,
+      "end": 1309.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3331541121006012,
+      "no_speech_prob": 0.08159436285495758
+    },
+    {
+      "start": 1332.0,
+      "end": 1335.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3331541121006012,
+      "no_speech_prob": 0.08159436285495758
+    },
+    {
+      "start": 1336.0,
+      "end": 1339.0,
+      "text": "Let me in",
+      "avg_logprob": -0.39590486884117126,
+      "no_speech_prob": 0.0415053516626358
+    },
+    {
+      "start": 1343.0,
+      "end": 1346.0,
+      "text": "Let me in",
+      "avg_logprob": -0.39590486884117126,
+      "no_speech_prob": 0.0415053516626358
+    },
+    {
+      "start": 1351.0,
+      "end": 1354.0,
+      "text": "Let me in",
+      "avg_logprob": -0.39590486884117126,
+      "no_speech_prob": 0.0415053516626358
+    },
+    {
+      "start": 1358.0,
+      "end": 1361.0,
+      "text": "Let me in",
+      "avg_logprob": -0.39590486884117126,
+      "no_speech_prob": 0.0415053516626358
+    },
+    {
+      "start": 1366.0,
+      "end": 1369.0,
+      "text": "Let me in",
+      "avg_logprob": -0.36034148931503296,
+      "no_speech_prob": 0.019612088799476624
+    },
+    {
+      "start": 1381.0,
+      "end": 1384.0,
+      "text": "Let me in",
+      "avg_logprob": -0.36034148931503296,
+      "no_speech_prob": 0.019612088799476624
+    },
+    {
+      "start": 1397.0,
+      "end": 1400.0,
+      "text": "Let me in",
+      "avg_logprob": -0.39639177918434143,
+      "no_speech_prob": 0.040854137390851974
+    },
+    {
+      "start": 1408.0,
+      "end": 1411.0,
+      "text": "Let me in",
+      "avg_logprob": -0.39639177918434143,
+      "no_speech_prob": 0.040854137390851974
+    },
+    {
+      "start": 1426.0,
+      "end": 1429.0,
+      "text": "Let me in",
+      "avg_logprob": -0.38307100534439087,
+      "no_speech_prob": 0.09618306159973145
+    },
+    {
+      "start": 1435.0,
+      "end": 1438.0,
+      "text": "Let me in",
+      "avg_logprob": -0.38307100534439087,
+      "no_speech_prob": 0.09618306159973145
+    },
+    {
+      "start": 1444.0,
+      "end": 1447.0,
+      "text": "Let me in",
+      "avg_logprob": -0.38307100534439087,
+      "no_speech_prob": 0.09618306159973145
+    },
+    {
+      "start": 1447.0,
+      "end": 1450.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3863530158996582,
+      "no_speech_prob": 0.09367607533931732
+    },
+    {
+      "start": 1461.0,
+      "end": 1464.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3863530158996582,
+      "no_speech_prob": 0.09367607533931732
+    },
+    {
+      "start": 1464.0,
+      "end": 1467.0,
+      "text": "Let me in",
+      "avg_logprob": -0.38705527782440186,
+      "no_speech_prob": 0.0772075355052948
+    },
+    {
+      "start": 1477.0,
+      "end": 1480.0,
+      "text": "Let me in",
+      "avg_logprob": -0.38705527782440186,
+      "no_speech_prob": 0.0772075355052948
+    },
+    {
+      "start": 1495.0,
+      "end": 1498.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27361807227134705,
+      "no_speech_prob": 0.0923687145113945
+    },
+    {
+      "start": 1513.0,
+      "end": 1516.0,
+      "text": "Let me in",
+      "avg_logprob": -0.27361807227134705,
+      "no_speech_prob": 0.0923687145113945
+    },
+    {
+      "start": 1524.0,
+      "end": 1527.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35289889574050903,
+      "no_speech_prob": 0.04256847873330116
+    },
+    {
+      "start": 1535.0,
+      "end": 1538.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35289889574050903,
+      "no_speech_prob": 0.04256847873330116
+    },
+    {
+      "start": 1545.0,
+      "end": 1548.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35289889574050903,
+      "no_speech_prob": 0.04256847873330116
+    },
+    {
+      "start": 1555.0,
+      "end": 1558.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3935944736003876,
+      "no_speech_prob": 0.051421042531728745
+    },
+    {
+      "start": 1570.0,
+      "end": 1573.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3935944736003876,
+      "no_speech_prob": 0.051421042531728745
+    },
+    {
+      "start": 1573.0,
+      "end": 1576.0,
+      "text": "Let me in",
+      "avg_logprob": -0.30271032452583313,
+      "no_speech_prob": 0.05168084427714348
+    },
+    {
+      "start": 1584.0,
+      "end": 1587.0,
+      "text": "Let me in",
+      "avg_logprob": -0.30271032452583313,
+      "no_speech_prob": 0.05168084427714348
+    },
+    {
+      "start": 1594.0,
+      "end": 1597.0,
+      "text": "Let me in",
+      "avg_logprob": -0.30271032452583313,
+      "no_speech_prob": 0.05168084427714348
+    },
+    {
+      "start": 1603.0,
+      "end": 1606.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35633301734924316,
+      "no_speech_prob": 0.03761905059218407
+    },
+    {
+      "start": 1616.0,
+      "end": 1619.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35633301734924316,
+      "no_speech_prob": 0.03761905059218407
+    },
+    {
+      "start": 1627.0,
+      "end": 1630.0,
+      "text": "Let me in",
+      "avg_logprob": -0.35633301734924316,
+      "no_speech_prob": 0.03761905059218407
+    },
+    {
+      "start": 1633.0,
+      "end": 1636.0,
+      "text": "Let me in",
+      "avg_logprob": -0.29906800389289856,
+      "no_speech_prob": 0.015185926109552383
+    },
+    {
+      "start": 1642.0,
+      "end": 1645.0,
+      "text": "Let me in",
+      "avg_logprob": -0.29906800389289856,
+      "no_speech_prob": 0.015185926109552383
+    },
+    {
+      "start": 1652.0,
+      "end": 1655.0,
+      "text": "Let me in",
+      "avg_logprob": -0.29906800389289856,
+      "no_speech_prob": 0.015185926109552383
+    },
+    {
+      "start": 1663.0,
+      "end": 1666.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4707438051700592,
+      "no_speech_prob": 0.05549948662519455
+    },
+    {
+      "start": 1677.0,
+      "end": 1680.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4707438051700592,
+      "no_speech_prob": 0.05549948662519455
+    },
+    {
+      "start": 1681.0,
+      "end": 1684.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3695715069770813,
+      "no_speech_prob": 0.0260494202375412
+    },
+    {
+      "start": 1693.0,
+      "end": 1696.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3695715069770813,
+      "no_speech_prob": 0.0260494202375412
+    },
+    {
+      "start": 1705.0,
+      "end": 1708.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3695715069770813,
+      "no_speech_prob": 0.0260494202375412
+    },
+    {
+      "start": 1710.0,
+      "end": 1713.0,
+      "text": "Let me in",
+      "avg_logprob": -0.359119713306427,
+      "no_speech_prob": 0.019153472036123276
+    },
+    {
+      "start": 1728.0,
+      "end": 1731.0,
+      "text": "Let me in",
+      "avg_logprob": -0.359119713306427,
+      "no_speech_prob": 0.019153472036123276
+    },
+    {
+      "start": 1740.0,
+      "end": 1743.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3908649981021881,
+      "no_speech_prob": 0.0894332155585289
+    },
+    {
+      "start": 1749.0,
+      "end": 1752.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3908649981021881,
+      "no_speech_prob": 0.0894332155585289
+    },
+    {
+      "start": 1760.0,
+      "end": 1763.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3908649981021881,
+      "no_speech_prob": 0.0894332155585289
+    },
+    {
+      "start": 1771.0,
+      "end": 1774.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4211384356021881,
+      "no_speech_prob": 0.07885410636663437
+    },
+    {
+      "start": 1780.0,
+      "end": 1783.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4211384356021881,
+      "no_speech_prob": 0.07885410636663437
+    },
+    {
+      "start": 1790.0,
+      "end": 1793.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4211384356021881,
+      "no_speech_prob": 0.07885410636663437
+    },
+    {
+      "start": 1800.0,
+      "end": 1803.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3638002872467041,
+      "no_speech_prob": 0.1023375615477562
+    },
+    {
+      "start": 1811.0,
+      "end": 1814.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3638002872467041,
+      "no_speech_prob": 0.1023375615477562
+    },
+    {
+      "start": 1821.0,
+      "end": 1824.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3638002872467041,
+      "no_speech_prob": 0.1023375615477562
+    },
+    {
+      "start": 1830.0,
+      "end": 1833.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3547406494617462,
+      "no_speech_prob": 0.09335470199584961
+    },
+    {
+      "start": 1844.0,
+      "end": 1847.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3547406494617462,
+      "no_speech_prob": 0.09335470199584961
+    },
+    {
+      "start": 1855.0,
+      "end": 1858.0,
+      "text": "Let me in",
+      "avg_logprob": -0.3547406494617462,
+      "no_speech_prob": 0.09335470199584961
+    },
+    {
+      "start": 1860.0,
+      "end": 1863.0,
+      "text": "Let me in",
+      "avg_logprob": -0.40627872943878174,
+      "no_speech_prob": 0.04447958618402481
+    },
+    {
+      "start": 1869.0,
+      "end": 1872.0,
+      "text": "Let me in",
+      "avg_logprob": -0.40627872943878174,
+      "no_speech_prob": 0.04447958618402481
+    },
+    {
+      "start": 1878.0,
+      "end": 1881.0,
+      "text": "Let me in",
+      "avg_logprob": -0.40627872943878174,
+      "no_speech_prob": 0.04447958618402481
+    },
+    {
+      "start": 1882.0,
+      "end": 1885.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4155220091342926,
+      "no_speech_prob": 0.11499731242656708
+    },
+    {
+      "start": 1896.0,
+      "end": 1899.0,
+      "text": "Let me in",
+      "avg_logprob": -0.4155220091342926,
+      "no_speech_prob": 0.11499731242656708
+    }
+  ]
+}

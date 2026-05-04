@@ -4,15 +4,15 @@
     "name": "Gachie Primary School",
     "town": "Gachie",
     "lga": "Kiambu",
-    "lat": -1.213,
-    "lon": 36.785
+    "lat": -1.216913,
+    "lon": 36.769484
   },
   {
     "school_id": "SCHBF4FFE2D",
     "name": "Lau Primary School",
     "town": "Lau",
     "lga": "Lamu",
-    "lat": -2.27,
-    "lon": 40.89
+    "lat": -2.269813,
+    "lon": 40.898359
   }
 ]

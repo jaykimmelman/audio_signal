@@ -1,0 +1,1778 @@
+{
+  "source_audio": "mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_24_10_26_56.mp3",
+  "language": "swahili",
+  "duration": 2427.199951171875,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "wakati",
+      "avg_logprob": -0.8503254652023315,
+      "no_speech_prob": 0.3980919122695923
+    },
+    {
+      "start": 74.0,
+      "end": 76.0,
+      "text": "wakati",
+      "avg_logprob": -0.8503254652023315,
+      "no_speech_prob": 0.3980919122695923
+    },
+    {
+      "start": 84.0,
+      "end": 86.0,
+      "text": "wakati",
+      "avg_logprob": -0.8503254652023315,
+      "no_speech_prob": 0.3980919122695923
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "wakati",
+      "avg_logprob": -0.4101620614528656,
+      "no_speech_prob": 0.19634759426116943
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "text": "wakati",
+      "avg_logprob": -0.4101620614528656,
+      "no_speech_prob": 0.19634759426116943
+    },
+    {
+      "start": 104.0,
+      "end": 106.0,
+      "text": "wakati",
+      "avg_logprob": -0.4101620614528656,
+      "no_speech_prob": 0.19634759426116943
+    },
+    {
+      "start": 110.0,
+      "end": 112.0,
+      "text": "wakati",
+      "avg_logprob": -0.4101620614528656,
+      "no_speech_prob": 0.19634759426116943
+    },
+    {
+      "start": 120.0,
+      "end": 122.0,
+      "text": "wakati",
+      "avg_logprob": -0.4491467773914337,
+      "no_speech_prob": 0.03828344866633415
+    },
+    {
+      "start": 130.0,
+      "end": 132.0,
+      "text": "wakati",
+      "avg_logprob": -0.4491467773914337,
+      "no_speech_prob": 0.03828344866633415
+    },
+    {
+      "start": 132.0,
+      "end": 134.0,
+      "text": "wakati",
+      "avg_logprob": -0.4491467773914337,
+      "no_speech_prob": 0.03828344866633415
+    },
+    {
+      "start": 134.0,
+      "end": 136.0,
+      "text": "wakati",
+      "avg_logprob": -0.4491467773914337,
+      "no_speech_prob": 0.03828344866633415
+    },
+    {
+      "start": 136.0,
+      "end": 138.0,
+      "text": "wakati",
+      "avg_logprob": -0.4491467773914337,
+      "no_speech_prob": 0.03828344866633415
+    },
+    {
+      "start": 146.0,
+      "end": 148.0,
+      "text": "wakati",
+      "avg_logprob": -0.4491467773914337,
+      "no_speech_prob": 0.03828344866633415
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "wakati",
+      "avg_logprob": -0.5569669008255005,
+      "no_speech_prob": 0.3854644000530243
+    },
+    {
+      "start": 172.0,
+      "end": 174.0,
+      "text": "wakati",
+      "avg_logprob": -0.5569669008255005,
+      "no_speech_prob": 0.3854644000530243
+    },
+    {
+      "start": 174.0,
+      "end": 176.0,
+      "text": "wakati",
+      "avg_logprob": -0.5569669008255005,
+      "no_speech_prob": 0.3854644000530243
+    },
+    {
+      "start": 176.0,
+      "end": 178.0,
+      "text": "wakati",
+      "avg_logprob": -0.5569669008255005,
+      "no_speech_prob": 0.3854644000530243
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "wakati",
+      "avg_logprob": -0.9699251651763916,
+      "no_speech_prob": 0.0250092800706625
+    },
+    {
+      "start": 198.0,
+      "end": 200.0,
+      "text": "wakati",
+      "avg_logprob": -0.9699251651763916,
+      "no_speech_prob": 0.0250092800706625
+    },
+    {
+      "start": 200.0,
+      "end": 202.0,
+      "text": "wakati",
+      "avg_logprob": -0.9699251651763916,
+      "no_speech_prob": 0.0250092800706625
+    },
+    {
+      "start": 210.0,
+      "end": 212.0,
+      "text": "water",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 214.0,
+      "end": 216.0,
+      "text": "water",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 216.0,
+      "end": 218.0,
+      "text": "ngo ni mochi",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 219.0,
+      "end": 220.0,
+      "text": "sime",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 224.0,
+      "end": 226.0,
+      "text": "divyo",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 226.0,
+      "end": 229.0,
+      "text": "m\"-",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 229.0,
+      "end": 231.0,
+      "text": "Mami",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 231.0,
+      "end": 233.0,
+      "text": "todia",
+      "avg_logprob": -3.7560393810272217,
+      "no_speech_prob": 0.056582603603601456
+    },
+    {
+      "start": 233.0,
+      "end": 238.0,
+      "text": "pa",
+      "avg_logprob": -3.2917912006378174,
+      "no_speech_prob": 0.530694305896759
+    },
+    {
+      "start": 238.0,
+      "end": 240.0,
+      "text": "pawo",
+      "avg_logprob": -3.2917912006378174,
+      "no_speech_prob": 0.530694305896759
+    },
+    {
+      "start": 250.0,
+      "end": 252.5,
+      "text": "pangu",
+      "avg_logprob": -3.2917912006378174,
+      "no_speech_prob": 0.530694305896759
+    },
+    {
+      "start": 255.0,
+      "end": 257.0,
+      "text": "venya",
+      "avg_logprob": -3.2917912006378174,
+      "no_speech_prob": 0.530694305896759
+    },
+    {
+      "start": 263.0,
+      "end": 265.0,
+      "text": "pangu",
+      "avg_logprob": -0.9394363760948181,
+      "no_speech_prob": 0.1396055370569229
+    },
+    {
+      "start": 268.0,
+      "end": 270.0,
+      "text": "pango",
+      "avg_logprob": -0.9394363760948181,
+      "no_speech_prob": 0.1396055370569229
+    },
+    {
+      "start": 273.0,
+      "end": 275.0,
+      "text": "pangu",
+      "avg_logprob": -0.9394363760948181,
+      "no_speech_prob": 0.1396055370569229
+    },
+    {
+      "start": 277.0,
+      "end": 279.0,
+      "text": "pangu",
+      "avg_logprob": -0.9394363760948181,
+      "no_speech_prob": 0.1396055370569229
+    },
+    {
+      "start": 281.0,
+      "end": 283.0,
+      "text": "pangu",
+      "avg_logprob": -0.9394363760948181,
+      "no_speech_prob": 0.1396055370569229
+    },
+    {
+      "start": 285.0,
+      "end": 287.0,
+      "text": "pangu",
+      "avg_logprob": -0.9394363760948181,
+      "no_speech_prob": 0.1396055370569229
+    },
+    {
+      "start": 287.0,
+      "end": 289.0,
+      "text": "pangu",
+      "avg_logprob": -0.518399178981781,
+      "no_speech_prob": 0.15789736807346344
+    },
+    {
+      "start": 291.0,
+      "end": 293.0,
+      "text": "pango",
+      "avg_logprob": -0.518399178981781,
+      "no_speech_prob": 0.15789736807346344
+    },
+    {
+      "start": 297.0,
+      "end": 299.0,
+      "text": "pango",
+      "avg_logprob": -0.518399178981781,
+      "no_speech_prob": 0.15789736807346344
+    },
+    {
+      "start": 305.0,
+      "end": 307.0,
+      "text": "pango",
+      "avg_logprob": -0.518399178981781,
+      "no_speech_prob": 0.15789736807346344
+    },
+    {
+      "start": 311.0,
+      "end": 313.0,
+      "text": "pango",
+      "avg_logprob": -0.518399178981781,
+      "no_speech_prob": 0.15789736807346344
+    },
+    {
+      "start": 317.0,
+      "end": 319.0,
+      "text": "pango",
+      "avg_logprob": -0.39557623863220215,
+      "no_speech_prob": 0.1921461671590805
+    },
+    {
+      "start": 321.0,
+      "end": 323.0,
+      "text": "pango",
+      "avg_logprob": -0.39557623863220215,
+      "no_speech_prob": 0.1921461671590805
+    },
+    {
+      "start": 327.0,
+      "end": 329.0,
+      "text": "pango",
+      "avg_logprob": -0.39557623863220215,
+      "no_speech_prob": 0.1921461671590805
+    },
+    {
+      "start": 333.0,
+      "end": 335.0,
+      "text": "pango",
+      "avg_logprob": -0.39557623863220215,
+      "no_speech_prob": 0.1921461671590805
+    },
+    {
+      "start": 337.0,
+      "end": 339.0,
+      "text": "pango",
+      "avg_logprob": -0.39557623863220215,
+      "no_speech_prob": 0.1921461671590805
+    },
+    {
+      "start": 343.0,
+      "end": 345.0,
+      "text": "pango",
+      "avg_logprob": -0.39557623863220215,
+      "no_speech_prob": 0.1921461671590805
+    },
+    {
+      "start": 347.0,
+      "end": 349.0,
+      "text": "pango",
+      "avg_logprob": -0.3408127725124359,
+      "no_speech_prob": 0.0816158577799797
+    },
+    {
+      "start": 351.0,
+      "end": 353.0,
+      "text": "pango",
+      "avg_logprob": -0.3408127725124359,
+      "no_speech_prob": 0.0816158577799797
+    },
+    {
+      "start": 357.0,
+      "end": 359.0,
+      "text": "pango",
+      "avg_logprob": -0.3408127725124359,
+      "no_speech_prob": 0.0816158577799797
+    },
+    {
+      "start": 361.0,
+      "end": 363.0,
+      "text": "pango",
+      "avg_logprob": -0.3408127725124359,
+      "no_speech_prob": 0.0816158577799797
+    },
+    {
+      "start": 367.0,
+      "end": 369.0,
+      "text": "pango",
+      "avg_logprob": -0.3408127725124359,
+      "no_speech_prob": 0.0816158577799797
+    },
+    {
+      "start": 373.0,
+      "end": 375.0,
+      "text": "pango",
+      "avg_logprob": -0.3408127725124359,
+      "no_speech_prob": 0.0816158577799797
+    },
+    {
+      "start": 377.0,
+      "end": 379.0,
+      "text": "pango",
+      "avg_logprob": -0.25431957840919495,
+      "no_speech_prob": 0.127631276845932
+    },
+    {
+      "start": 383.0,
+      "end": 385.0,
+      "text": "pango",
+      "avg_logprob": -0.25431957840919495,
+      "no_speech_prob": 0.127631276845932
+    },
+    {
+      "start": 387.0,
+      "end": 389.0,
+      "text": "pango",
+      "avg_logprob": -0.25431957840919495,
+      "no_speech_prob": 0.127631276845932
+    },
+    {
+      "start": 393.0,
+      "end": 395.0,
+      "text": "pango",
+      "avg_logprob": -0.25431957840919495,
+      "no_speech_prob": 0.127631276845932
+    },
+    {
+      "start": 397.0,
+      "end": 399.0,
+      "text": "pango",
+      "avg_logprob": -0.25431957840919495,
+      "no_speech_prob": 0.127631276845932
+    },
+    {
+      "start": 401.0,
+      "end": 403.0,
+      "text": "pango",
+      "avg_logprob": -0.25431957840919495,
+      "no_speech_prob": 0.127631276845932
+    },
+    {
+      "start": 403.0,
+      "end": 405.0,
+      "text": "pango",
+      "avg_logprob": -0.33294281363487244,
+      "no_speech_prob": 0.22026406228542328
+    },
+    {
+      "start": 407.0,
+      "end": 409.0,
+      "text": "pango",
+      "avg_logprob": -0.33294281363487244,
+      "no_speech_prob": 0.22026406228542328
+    },
+    {
+      "start": 415.0,
+      "end": 417.0,
+      "text": "pango",
+      "avg_logprob": -0.33294281363487244,
+      "no_speech_prob": 0.22026406228542328
+    },
+    {
+      "start": 419.0,
+      "end": 421.0,
+      "text": "pango",
+      "avg_logprob": -0.33294281363487244,
+      "no_speech_prob": 0.22026406228542328
+    },
+    {
+      "start": 425.0,
+      "end": 427.0,
+      "text": "pango",
+      "avg_logprob": -0.33294281363487244,
+      "no_speech_prob": 0.22026406228542328
+    },
+    {
+      "start": 427.0,
+      "end": 429.0,
+      "text": "pango",
+      "avg_logprob": -0.3083881437778473,
+      "no_speech_prob": 0.22692805528640747
+    },
+    {
+      "start": 431.0,
+      "end": 433.0,
+      "text": "pango",
+      "avg_logprob": -0.3083881437778473,
+      "no_speech_prob": 0.22692805528640747
+    },
+    {
+      "start": 437.0,
+      "end": 439.0,
+      "text": "pango",
+      "avg_logprob": -0.3083881437778473,
+      "no_speech_prob": 0.22692805528640747
+    },
+    {
+      "start": 441.0,
+      "end": 443.0,
+      "text": "pango",
+      "avg_logprob": -0.3083881437778473,
+      "no_speech_prob": 0.22692805528640747
+    },
+    {
+      "start": 447.0,
+      "end": 449.0,
+      "text": "pango",
+      "avg_logprob": -0.3083881437778473,
+      "no_speech_prob": 0.22692805528640747
+    },
+    {
+      "start": 453.0,
+      "end": 455.0,
+      "text": "pango",
+      "avg_logprob": -0.3083881437778473,
+      "no_speech_prob": 0.22692805528640747
+    },
+    {
+      "start": 457.0,
+      "end": 459.0,
+      "text": "pango",
+      "avg_logprob": -0.2867238521575928,
+      "no_speech_prob": 0.267959326505661
+    },
+    {
+      "start": 463.0,
+      "end": 465.0,
+      "text": "pango",
+      "avg_logprob": -0.2867238521575928,
+      "no_speech_prob": 0.267959326505661
+    },
+    {
+      "start": 469.0,
+      "end": 471.0,
+      "text": "pango",
+      "avg_logprob": -0.2867238521575928,
+      "no_speech_prob": 0.267959326505661
+    },
+    {
+      "start": 475.0,
+      "end": 477.0,
+      "text": "pango",
+      "avg_logprob": -0.2867238521575928,
+      "no_speech_prob": 0.267959326505661
+    },
+    {
+      "start": 481.0,
+      "end": 483.0,
+      "text": "pango",
+      "avg_logprob": -0.2867238521575928,
+      "no_speech_prob": 0.267959326505661
+    },
+    {
+      "start": 487.0,
+      "end": 489.0,
+      "text": "pango",
+      "avg_logprob": -0.2713913917541504,
+      "no_speech_prob": 0.15599550306797028
+    },
+    {
+      "start": 493.0,
+      "end": 495.0,
+      "text": "pango",
+      "avg_logprob": -0.2713913917541504,
+      "no_speech_prob": 0.15599550306797028
+    },
+    {
+      "start": 499.0,
+      "end": 501.0,
+      "text": "pango",
+      "avg_logprob": -0.2713913917541504,
+      "no_speech_prob": 0.15599550306797028
+    },
+    {
+      "start": 505.0,
+      "end": 507.0,
+      "text": "pango",
+      "avg_logprob": -0.2713913917541504,
+      "no_speech_prob": 0.15599550306797028
+    },
+    {
+      "start": 511.0,
+      "end": 513.0,
+      "text": "pango",
+      "avg_logprob": -0.2713913917541504,
+      "no_speech_prob": 0.15599550306797028
+    },
+    {
+      "start": 517.0,
+      "end": 519.0,
+      "text": "pango",
+      "avg_logprob": -0.31347692012786865,
+      "no_speech_prob": 0.29529431462287903
+    },
+    {
+      "start": 527.0,
+      "end": 529.0,
+      "text": "pango",
+      "avg_logprob": -0.31347692012786865,
+      "no_speech_prob": 0.29529431462287903
+    },
+    {
+      "start": 537.0,
+      "end": 539.0,
+      "text": "pango",
+      "avg_logprob": -0.31347692012786865,
+      "no_speech_prob": 0.29529431462287903
+    },
+    {
+      "start": 547.0,
+      "end": 549.0,
+      "text": "pango",
+      "avg_logprob": -0.3082275986671448,
+      "no_speech_prob": 0.43833762407302856
+    },
+    {
+      "start": 555.0,
+      "end": 557.0,
+      "text": "pango",
+      "avg_logprob": -0.3082275986671448,
+      "no_speech_prob": 0.43833762407302856
+    },
+    {
+      "start": 561.0,
+      "end": 563.0,
+      "text": "pango",
+      "avg_logprob": -0.3082275986671448,
+      "no_speech_prob": 0.43833762407302856
+    },
+    {
+      "start": 567.0,
+      "end": 569.0,
+      "text": "pango",
+      "avg_logprob": -0.3082275986671448,
+      "no_speech_prob": 0.43833762407302856
+    },
+    {
+      "start": 573.0,
+      "end": 575.0,
+      "text": "pango",
+      "avg_logprob": -0.3082275986671448,
+      "no_speech_prob": 0.43833762407302856
+    },
+    {
+      "start": 577.0,
+      "end": 579.0,
+      "text": "pango",
+      "avg_logprob": -0.34008288383483887,
+      "no_speech_prob": 0.21035222709178925
+    },
+    {
+      "start": 581.0,
+      "end": 583.0,
+      "text": "pango",
+      "avg_logprob": -0.34008288383483887,
+      "no_speech_prob": 0.21035222709178925
+    },
+    {
+      "start": 591.0,
+      "end": 593.0,
+      "text": "pango",
+      "avg_logprob": -0.34008288383483887,
+      "no_speech_prob": 0.21035222709178925
+    },
+    {
+      "start": 597.0,
+      "end": 599.0,
+      "text": "pango",
+      "avg_logprob": -0.34008288383483887,
+      "no_speech_prob": 0.21035222709178925
+    },
+    {
+      "start": 603.0,
+      "end": 605.0,
+      "text": "pango",
+      "avg_logprob": -0.34008288383483887,
+      "no_speech_prob": 0.21035222709178925
+    },
+    {
+      "start": 607.0,
+      "end": 609.0,
+      "text": "pango",
+      "avg_logprob": -0.3228418529033661,
+      "no_speech_prob": 0.0964091420173645
+    },
+    {
+      "start": 611.0,
+      "end": 613.0,
+      "text": "pango",
+      "avg_logprob": -0.3228418529033661,
+      "no_speech_prob": 0.0964091420173645
+    },
+    {
+      "start": 617.0,
+      "end": 619.0,
+      "text": "pango",
+      "avg_logprob": -0.3228418529033661,
+      "no_speech_prob": 0.0964091420173645
+    },
+    {
+      "start": 623.0,
+      "end": 625.0,
+      "text": "pango",
+      "avg_logprob": -0.3228418529033661,
+      "no_speech_prob": 0.0964091420173645
+    },
+    {
+      "start": 629.0,
+      "end": 631.0,
+      "text": "pango",
+      "avg_logprob": -0.3228418529033661,
+      "no_speech_prob": 0.0964091420173645
+    },
+    {
+      "start": 637.0,
+      "end": 639.0,
+      "text": "pango",
+      "avg_logprob": -0.29615700244903564,
+      "no_speech_prob": 0.03733460232615471
+    },
+    {
+      "start": 643.0,
+      "end": 645.0,
+      "text": "pango",
+      "avg_logprob": -0.29615700244903564,
+      "no_speech_prob": 0.03733460232615471
+    },
+    {
+      "start": 649.0,
+      "end": 651.0,
+      "text": "pango",
+      "avg_logprob": -0.29615700244903564,
+      "no_speech_prob": 0.03733460232615471
+    },
+    {
+      "start": 655.0,
+      "end": 657.0,
+      "text": "pango",
+      "avg_logprob": -0.29615700244903564,
+      "no_speech_prob": 0.03733460232615471
+    },
+    {
+      "start": 661.0,
+      "end": 663.0,
+      "text": "pango",
+      "avg_logprob": -0.29615700244903564,
+      "no_speech_prob": 0.03733460232615471
+    },
+    {
+      "start": 667.0,
+      "end": 669.0,
+      "text": "pango",
+      "avg_logprob": -0.30909985303878784,
+      "no_speech_prob": 0.04861324653029442
+    },
+    {
+      "start": 677.0,
+      "end": 679.0,
+      "text": "pango",
+      "avg_logprob": -0.30909985303878784,
+      "no_speech_prob": 0.04861324653029442
+    },
+    {
+      "start": 685.0,
+      "end": 687.0,
+      "text": "pango",
+      "avg_logprob": -0.30909985303878784,
+      "no_speech_prob": 0.04861324653029442
+    },
+    {
+      "start": 691.0,
+      "end": 693.0,
+      "text": "pango",
+      "avg_logprob": -0.30909985303878784,
+      "no_speech_prob": 0.04861324653029442
+    },
+    {
+      "start": 697.0,
+      "end": 699.0,
+      "text": "pango",
+      "avg_logprob": -0.27756157517433167,
+      "no_speech_prob": 0.04939460754394531
+    },
+    {
+      "start": 707.0,
+      "end": 709.0,
+      "text": "pango",
+      "avg_logprob": -0.27756157517433167,
+      "no_speech_prob": 0.04939460754394531
+    },
+    {
+      "start": 717.0,
+      "end": 719.0,
+      "text": "pango",
+      "avg_logprob": -0.27756157517433167,
+      "no_speech_prob": 0.04939460754394531
+    },
+    {
+      "start": 727.0,
+      "end": 729.0,
+      "text": "pango",
+      "avg_logprob": -0.2843031585216522,
+      "no_speech_prob": 0.09347613155841827
+    },
+    {
+      "start": 733.0,
+      "end": 735.0,
+      "text": "pango",
+      "avg_logprob": -0.2843031585216522,
+      "no_speech_prob": 0.09347613155841827
+    },
+    {
+      "start": 739.0,
+      "end": 741.0,
+      "text": "pango",
+      "avg_logprob": -0.2843031585216522,
+      "no_speech_prob": 0.09347613155841827
+    },
+    {
+      "start": 745.0,
+      "end": 747.0,
+      "text": "pango",
+      "avg_logprob": -0.2843031585216522,
+      "no_speech_prob": 0.09347613155841827
+    },
+    {
+      "start": 751.0,
+      "end": 753.0,
+      "text": "pango",
+      "avg_logprob": -0.2843031585216522,
+      "no_speech_prob": 0.09347613155841827
+    },
+    {
+      "start": 757.0,
+      "end": 759.0,
+      "text": "pango",
+      "avg_logprob": -0.3456684350967407,
+      "no_speech_prob": 0.059711940586566925
+    },
+    {
+      "start": 767.0,
+      "end": 769.0,
+      "text": "pango",
+      "avg_logprob": -0.3456684350967407,
+      "no_speech_prob": 0.059711940586566925
+    },
+    {
+      "start": 777.0,
+      "end": 779.0,
+      "text": "pango",
+      "avg_logprob": -0.3456684350967407,
+      "no_speech_prob": 0.059711940586566925
+    },
+    {
+      "start": 787.0,
+      "end": 789.0,
+      "text": "pango",
+      "avg_logprob": -0.32724446058273315,
+      "no_speech_prob": 0.16202929615974426
+    },
+    {
+      "start": 797.0,
+      "end": 799.0,
+      "text": "pango",
+      "avg_logprob": -0.32724446058273315,
+      "no_speech_prob": 0.16202929615974426
+    },
+    {
+      "start": 807.0,
+      "end": 809.0,
+      "text": "pango",
+      "avg_logprob": -0.32724446058273315,
+      "no_speech_prob": 0.16202929615974426
+    },
+    {
+      "start": 817.0,
+      "end": 819.0,
+      "text": "pango",
+      "avg_logprob": -0.33341550827026367,
+      "no_speech_prob": 0.07617340981960297
+    },
+    {
+      "start": 827.0,
+      "end": 829.0,
+      "text": "pango",
+      "avg_logprob": -0.33341550827026367,
+      "no_speech_prob": 0.07617340981960297
+    },
+    {
+      "start": 837.0,
+      "end": 839.0,
+      "text": "pango",
+      "avg_logprob": -0.33341550827026367,
+      "no_speech_prob": 0.07617340981960297
+    },
+    {
+      "start": 847.0,
+      "end": 849.0,
+      "text": "pango",
+      "avg_logprob": -0.2902880012989044,
+      "no_speech_prob": 0.039968788623809814
+    },
+    {
+      "start": 859.0,
+      "end": 861.0,
+      "text": "pango",
+      "avg_logprob": -0.2902880012989044,
+      "no_speech_prob": 0.039968788623809814
+    },
+    {
+      "start": 869.0,
+      "end": 871.0,
+      "text": "pango",
+      "avg_logprob": -0.2902880012989044,
+      "no_speech_prob": 0.039968788623809814
+    },
+    {
+      "start": 877.0,
+      "end": 879.0,
+      "text": "pango",
+      "avg_logprob": -0.3140259385108948,
+      "no_speech_prob": 0.08926568925380707
+    },
+    {
+      "start": 887.0,
+      "end": 889.0,
+      "text": "pango",
+      "avg_logprob": -0.3140259385108948,
+      "no_speech_prob": 0.08926568925380707
+    },
+    {
+      "start": 897.0,
+      "end": 899.0,
+      "text": "pango",
+      "avg_logprob": -0.3140259385108948,
+      "no_speech_prob": 0.08926568925380707
+    },
+    {
+      "start": 907.0,
+      "end": 909.0,
+      "text": "pango",
+      "avg_logprob": -0.3317108750343323,
+      "no_speech_prob": 0.07806453853845596
+    },
+    {
+      "start": 917.0,
+      "end": 919.0,
+      "text": "pango",
+      "avg_logprob": -0.3317108750343323,
+      "no_speech_prob": 0.07806453853845596
+    },
+    {
+      "start": 927.0,
+      "end": 929.0,
+      "text": "pango",
+      "avg_logprob": -0.3317108750343323,
+      "no_speech_prob": 0.07806453853845596
+    },
+    {
+      "start": 937.0,
+      "end": 939.0,
+      "text": "pango",
+      "avg_logprob": -0.3462200462818146,
+      "no_speech_prob": 0.0437857024371624
+    },
+    {
+      "start": 947.0,
+      "end": 949.0,
+      "text": "pango",
+      "avg_logprob": -0.3462200462818146,
+      "no_speech_prob": 0.0437857024371624
+    },
+    {
+      "start": 955.0,
+      "end": 957.0,
+      "text": "pango",
+      "avg_logprob": -0.3462200462818146,
+      "no_speech_prob": 0.0437857024371624
+    },
+    {
+      "start": 967.0,
+      "end": 969.0,
+      "text": "pango",
+      "avg_logprob": -0.2996179163455963,
+      "no_speech_prob": 0.10618270188570023
+    },
+    {
+      "start": 977.0,
+      "end": 979.0,
+      "text": "pango",
+      "avg_logprob": -0.2996179163455963,
+      "no_speech_prob": 0.10618270188570023
+    },
+    {
+      "start": 987.0,
+      "end": 989.0,
+      "text": "pango",
+      "avg_logprob": -0.2996179163455963,
+      "no_speech_prob": 0.10618270188570023
+    },
+    {
+      "start": 997.0,
+      "end": 999.0,
+      "text": "pango",
+      "avg_logprob": -0.32146650552749634,
+      "no_speech_prob": 0.08358126878738403
+    },
+    {
+      "start": 1009.0,
+      "end": 1011.0,
+      "text": "pango",
+      "avg_logprob": -0.32146650552749634,
+      "no_speech_prob": 0.08358126878738403
+    },
+    {
+      "start": 1021.0,
+      "end": 1023.0,
+      "text": "pango",
+      "avg_logprob": -0.32146650552749634,
+      "no_speech_prob": 0.08358126878738403
+    },
+    {
+      "start": 1027.0,
+      "end": 1029.0,
+      "text": "pango",
+      "avg_logprob": -0.31734251976013184,
+      "no_speech_prob": 0.04329388961195946
+    },
+    {
+      "start": 1037.0,
+      "end": 1039.0,
+      "text": "pango",
+      "avg_logprob": -0.31734251976013184,
+      "no_speech_prob": 0.04329388961195946
+    },
+    {
+      "start": 1043.0,
+      "end": 1045.0,
+      "text": "pango",
+      "avg_logprob": -0.31734251976013184,
+      "no_speech_prob": 0.04329388961195946
+    },
+    {
+      "start": 1049.0,
+      "end": 1051.0,
+      "text": "pango",
+      "avg_logprob": -0.31734251976013184,
+      "no_speech_prob": 0.04329388961195946
+    },
+    {
+      "start": 1057.0,
+      "end": 1059.0,
+      "text": "pango",
+      "avg_logprob": -0.3496948778629303,
+      "no_speech_prob": 0.04350627213716507
+    },
+    {
+      "start": 1067.0,
+      "end": 1069.0,
+      "text": "pango",
+      "avg_logprob": -0.3496948778629303,
+      "no_speech_prob": 0.04350627213716507
+    },
+    {
+      "start": 1077.0,
+      "end": 1079.0,
+      "text": "pango",
+      "avg_logprob": -0.3496948778629303,
+      "no_speech_prob": 0.04350627213716507
+    },
+    {
+      "start": 1087.0,
+      "end": 1089.0,
+      "text": "pango",
+      "avg_logprob": -0.3027515709400177,
+      "no_speech_prob": 0.04510442912578583
+    },
+    {
+      "start": 1097.0,
+      "end": 1099.0,
+      "text": "pango",
+      "avg_logprob": -0.3027515709400177,
+      "no_speech_prob": 0.04510442912578583
+    },
+    {
+      "start": 1107.0,
+      "end": 1109.0,
+      "text": "pango",
+      "avg_logprob": -0.3027515709400177,
+      "no_speech_prob": 0.04510442912578583
+    },
+    {
+      "start": 1117.0,
+      "end": 1119.0,
+      "text": "pango",
+      "avg_logprob": -0.32182931900024414,
+      "no_speech_prob": 0.0476384237408638
+    },
+    {
+      "start": 1127.0,
+      "end": 1129.0,
+      "text": "pango",
+      "avg_logprob": -0.32182931900024414,
+      "no_speech_prob": 0.0476384237408638
+    },
+    {
+      "start": 1137.0,
+      "end": 1139.0,
+      "text": "pango",
+      "avg_logprob": -0.32182931900024414,
+      "no_speech_prob": 0.0476384237408638
+    },
+    {
+      "start": 1147.0,
+      "end": 1149.0,
+      "text": "pango",
+      "avg_logprob": -0.31999582052230835,
+      "no_speech_prob": 0.03704610466957092
+    },
+    {
+      "start": 1157.0,
+      "end": 1159.0,
+      "text": "pango",
+      "avg_logprob": -0.31999582052230835,
+      "no_speech_prob": 0.03704610466957092
+    },
+    {
+      "start": 1167.0,
+      "end": 1169.0,
+      "text": "pango",
+      "avg_logprob": -0.31999582052230835,
+      "no_speech_prob": 0.03704610466957092
+    },
+    {
+      "start": 1177.0,
+      "end": 1179.0,
+      "text": "pango",
+      "avg_logprob": -0.3203800618648529,
+      "no_speech_prob": 0.0653676986694336
+    },
+    {
+      "start": 1187.0,
+      "end": 1189.0,
+      "text": "pango",
+      "avg_logprob": -0.3203800618648529,
+      "no_speech_prob": 0.0653676986694336
+    },
+    {
+      "start": 1197.0,
+      "end": 1199.0,
+      "text": "pango",
+      "avg_logprob": -0.3203800618648529,
+      "no_speech_prob": 0.0653676986694336
+    },
+    {
+      "start": 1207.0,
+      "end": 1209.0,
+      "text": "pango",
+      "avg_logprob": -0.3531142771244049,
+      "no_speech_prob": 0.11860697716474533
+    },
+    {
+      "start": 1217.0,
+      "end": 1219.0,
+      "text": "pango",
+      "avg_logprob": -0.3531142771244049,
+      "no_speech_prob": 0.11860697716474533
+    },
+    {
+      "start": 1227.0,
+      "end": 1229.0,
+      "text": "pango",
+      "avg_logprob": -0.3531142771244049,
+      "no_speech_prob": 0.11860697716474533
+    },
+    {
+      "start": 1237.0,
+      "end": 1239.0,
+      "text": "pango",
+      "avg_logprob": -0.27986735105514526,
+      "no_speech_prob": 0.07760055363178253
+    },
+    {
+      "start": 1247.0,
+      "end": 1249.0,
+      "text": "pango",
+      "avg_logprob": -0.27986735105514526,
+      "no_speech_prob": 0.07760055363178253
+    },
+    {
+      "start": 1257.0,
+      "end": 1259.0,
+      "text": "pango",
+      "avg_logprob": -0.27986735105514526,
+      "no_speech_prob": 0.07760055363178253
+    },
+    {
+      "start": 1267.0,
+      "end": 1269.0,
+      "text": "pango",
+      "avg_logprob": -0.2780967354774475,
+      "no_speech_prob": 0.054716359823942184
+    },
+    {
+      "start": 1277.0,
+      "end": 1279.0,
+      "text": "pango",
+      "avg_logprob": -0.2780967354774475,
+      "no_speech_prob": 0.054716359823942184
+    },
+    {
+      "start": 1287.0,
+      "end": 1289.0,
+      "text": "pango",
+      "avg_logprob": -0.2780967354774475,
+      "no_speech_prob": 0.054716359823942184
+    },
+    {
+      "start": 1297.0,
+      "end": 1299.0,
+      "text": "pango",
+      "avg_logprob": -0.3330781161785126,
+      "no_speech_prob": 0.031092757359147072
+    },
+    {
+      "start": 1307.0,
+      "end": 1309.0,
+      "text": "pango",
+      "avg_logprob": -0.3330781161785126,
+      "no_speech_prob": 0.031092757359147072
+    },
+    {
+      "start": 1317.0,
+      "end": 1319.0,
+      "text": "pango",
+      "avg_logprob": -0.3330781161785126,
+      "no_speech_prob": 0.031092757359147072
+    },
+    {
+      "start": 1327.0,
+      "end": 1335.0,
+      "text": "uh",
+      "avg_logprob": -0.7170265316963196,
+      "no_speech_prob": 0.028941242024302483
+    },
+    {
+      "start": 1347.0,
+      "end": 1349.0,
+      "text": "uh",
+      "avg_logprob": -0.7170265316963196,
+      "no_speech_prob": 0.028941242024302483
+    },
+    {
+      "start": 1357.0,
+      "end": 1365.0,
+      "text": "um",
+      "avg_logprob": -0.7522177696228027,
+      "no_speech_prob": 0.06330302357673645
+    },
+    {
+      "start": 1377.0,
+      "end": 1379.0,
+      "text": "uh",
+      "avg_logprob": -0.7522177696228027,
+      "no_speech_prob": 0.06330302357673645
+    },
+    {
+      "start": 1387.0,
+      "end": 1395.0,
+      "text": "um",
+      "avg_logprob": -0.780194878578186,
+      "no_speech_prob": 0.03902421146631241
+    },
+    {
+      "start": 1405.0,
+      "end": 1409.0,
+      "text": "um",
+      "avg_logprob": -0.780194878578186,
+      "no_speech_prob": 0.03902421146631241
+    },
+    {
+      "start": 1417.0,
+      "end": 1425.0,
+      "text": "um",
+      "avg_logprob": -0.536980152130127,
+      "no_speech_prob": 0.052968624979257584
+    },
+    {
+      "start": 1431.0,
+      "end": 1439.0,
+      "text": "um",
+      "avg_logprob": -0.536980152130127,
+      "no_speech_prob": 0.052968624979257584
+    },
+    {
+      "start": 1447.0,
+      "end": 1455.0,
+      "text": "um",
+      "avg_logprob": -0.6783617734909058,
+      "no_speech_prob": 0.04540518671274185
+    },
+    {
+      "start": 1461.0,
+      "end": 1469.0,
+      "text": "um",
+      "avg_logprob": -0.6783617734909058,
+      "no_speech_prob": 0.04540518671274185
+    },
+    {
+      "start": 1477.0,
+      "end": 1485.0,
+      "text": "um",
+      "avg_logprob": -0.6302465200424194,
+      "no_speech_prob": 0.10148808360099792
+    },
+    {
+      "start": 1491.0,
+      "end": 1499.0,
+      "text": "um",
+      "avg_logprob": -0.6302465200424194,
+      "no_speech_prob": 0.10148808360099792
+    },
+    {
+      "start": 1507.0,
+      "end": 1515.0,
+      "text": "um",
+      "avg_logprob": -0.659296452999115,
+      "no_speech_prob": 0.10909485816955566
+    },
+    {
+      "start": 1527.0,
+      "end": 1529.0,
+      "text": "um",
+      "avg_logprob": -0.659296452999115,
+      "no_speech_prob": 0.10909485816955566
+    },
+    {
+      "start": 1537.0,
+      "end": 1545.0,
+      "text": "um",
+      "avg_logprob": -0.6456022262573242,
+      "no_speech_prob": 0.15885311365127563
+    },
+    {
+      "start": 1551.0,
+      "end": 1559.0,
+      "text": "um",
+      "avg_logprob": -0.6456022262573242,
+      "no_speech_prob": 0.15885311365127563
+    },
+    {
+      "start": 1567.0,
+      "end": 1575.0,
+      "text": "um",
+      "avg_logprob": -0.736493706703186,
+      "no_speech_prob": 0.13685601949691772
+    },
+    {
+      "start": 1581.0,
+      "end": 1589.0,
+      "text": "um",
+      "avg_logprob": -0.736493706703186,
+      "no_speech_prob": 0.13685601949691772
+    },
+    {
+      "start": 1597.0,
+      "end": 1605.0,
+      "text": "um",
+      "avg_logprob": -0.8889480829238892,
+      "no_speech_prob": 0.05062348023056984
+    },
+    {
+      "start": 1605.0,
+      "end": 1619.0,
+      "text": "um",
+      "avg_logprob": -0.8343545794487,
+      "no_speech_prob": 0.060110609978437424
+    },
+    {
+      "start": 1619.0,
+      "end": 1629.0,
+      "text": "um",
+      "avg_logprob": -0.6887738108634949,
+      "no_speech_prob": 0.09330958127975464
+    },
+    {
+      "start": 1631.0,
+      "end": 1643.0,
+      "text": "um",
+      "avg_logprob": -0.6887738108634949,
+      "no_speech_prob": 0.09330958127975464
+    },
+    {
+      "start": 1649.0,
+      "end": 1657.0,
+      "text": "um",
+      "avg_logprob": -0.7591363787651062,
+      "no_speech_prob": 0.07152754813432693
+    },
+    {
+      "start": 1659.0,
+      "end": 1671.0,
+      "text": "um",
+      "avg_logprob": -0.7591363787651062,
+      "no_speech_prob": 0.07152754813432693
+    },
+    {
+      "start": 1679.0,
+      "end": 1687.0,
+      "text": "um",
+      "avg_logprob": -0.6864175796508789,
+      "no_speech_prob": 0.13663318753242493
+    },
+    {
+      "start": 1695.0,
+      "end": 1701.0,
+      "text": "um",
+      "avg_logprob": -0.6864175796508789,
+      "no_speech_prob": 0.13663318753242493
+    },
+    {
+      "start": 1709.0,
+      "end": 1717.0,
+      "text": "um",
+      "avg_logprob": -0.684723973274231,
+      "no_speech_prob": 0.04645681381225586
+    },
+    {
+      "start": 1717.0,
+      "end": 1727.0,
+      "text": "um",
+      "avg_logprob": -0.738646924495697,
+      "no_speech_prob": 0.05180136859416962
+    },
+    {
+      "start": 1737.0,
+      "end": 1741.0,
+      "text": "um",
+      "avg_logprob": -0.738646924495697,
+      "no_speech_prob": 0.05180136859416962
+    },
+    {
+      "start": 1747.0,
+      "end": 1755.0,
+      "text": "um",
+      "avg_logprob": -0.6889249682426453,
+      "no_speech_prob": 0.048506688326597214
+    },
+    {
+      "start": 1757.0,
+      "end": 1769.0,
+      "text": "um",
+      "avg_logprob": -0.6889249682426453,
+      "no_speech_prob": 0.048506688326597214
+    },
+    {
+      "start": 1777.0,
+      "end": 1785.0,
+      "text": "um",
+      "avg_logprob": -0.6686305999755859,
+      "no_speech_prob": 0.09484946727752686
+    },
+    {
+      "start": 1795.0,
+      "end": 1799.0,
+      "text": "um",
+      "avg_logprob": -0.6686305999755859,
+      "no_speech_prob": 0.09484946727752686
+    },
+    {
+      "start": 1807.0,
+      "end": 1815.0,
+      "text": "um",
+      "avg_logprob": -0.6719821095466614,
+      "no_speech_prob": 0.16843624413013458
+    },
+    {
+      "start": 1821.0,
+      "end": 1829.0,
+      "text": "um",
+      "avg_logprob": -0.6719821095466614,
+      "no_speech_prob": 0.16843624413013458
+    },
+    {
+      "start": 1837.0,
+      "end": 1845.0,
+      "text": "um",
+      "avg_logprob": -0.5847727656364441,
+      "no_speech_prob": 0.10067012161016464
+    },
+    {
+      "start": 1857.0,
+      "end": 1859.0,
+      "text": "um",
+      "avg_logprob": -0.5847727656364441,
+      "no_speech_prob": 0.10067012161016464
+    },
+    {
+      "start": 1867.0,
+      "end": 1875.0,
+      "text": "um",
+      "avg_logprob": -0.7493771314620972,
+      "no_speech_prob": 0.0851672813296318
+    },
+    {
+      "start": 1885.0,
+      "end": 1889.0,
+      "text": "um",
+      "avg_logprob": -0.7493771314620972,
+      "no_speech_prob": 0.0851672813296318
+    },
+    {
+      "start": 1897.0,
+      "end": 1905.0,
+      "text": "um",
+      "avg_logprob": -0.7422077059745789,
+      "no_speech_prob": 0.14716848731040955
+    },
+    {
+      "start": 1907.0,
+      "end": 1919.0,
+      "text": "um",
+      "avg_logprob": -0.7422077059745789,
+      "no_speech_prob": 0.14716848731040955
+    },
+    {
+      "start": 1927.0,
+      "end": 1935.0,
+      "text": "um",
+      "avg_logprob": -0.7112053632736206,
+      "no_speech_prob": 0.06478556245565414
+    },
+    {
+      "start": 1949.0,
+      "end": 1949.0,
+      "text": "",
+      "avg_logprob": -0.7112053632736206,
+      "no_speech_prob": 0.06478556245565414
+    },
+    {
+      "start": 1957.0,
+      "end": 1967.0,
+      "text": "um",
+      "avg_logprob": -0.5959781408309937,
+      "no_speech_prob": 0.11611303687095642
+    },
+    {
+      "start": 1971.0,
+      "end": 1981.0,
+      "text": "um",
+      "avg_logprob": -0.5959781408309937,
+      "no_speech_prob": 0.11611303687095642
+    },
+    {
+      "start": 1987.0,
+      "end": 1997.0,
+      "text": "um",
+      "avg_logprob": -0.6485952734947205,
+      "no_speech_prob": 0.09521763771772385
+    },
+    {
+      "start": 2001.0,
+      "end": 2011.0,
+      "text": "um",
+      "avg_logprob": -0.6485952734947205,
+      "no_speech_prob": 0.09521763771772385
+    },
+    {
+      "start": 2017.0,
+      "end": 2027.0,
+      "text": "um",
+      "avg_logprob": -0.6870619058609009,
+      "no_speech_prob": 0.06302567571401596
+    },
+    {
+      "start": 2029.0,
+      "end": 2041.0,
+      "text": "um",
+      "avg_logprob": -0.6870619058609009,
+      "no_speech_prob": 0.06302567571401596
+    },
+    {
+      "start": 2047.0,
+      "end": 2057.0,
+      "text": "um",
+      "avg_logprob": -0.7607157230377197,
+      "no_speech_prob": 0.1524476408958435
+    },
+    {
+      "start": 2057.0,
+      "end": 2067.0,
+      "text": "um",
+      "avg_logprob": -0.7143679261207581,
+      "no_speech_prob": 0.1315515786409378
+    },
+    {
+      "start": 2069.0,
+      "end": 2081.0,
+      "text": "um",
+      "avg_logprob": -0.7143679261207581,
+      "no_speech_prob": 0.1315515786409378
+    },
+    {
+      "start": 2087.0,
+      "end": 2097.0,
+      "text": "um",
+      "avg_logprob": -0.671069324016571,
+      "no_speech_prob": 0.11138451099395752
+    },
+    {
+      "start": 2101.0,
+      "end": 2111.0,
+      "text": "um",
+      "avg_logprob": -0.671069324016571,
+      "no_speech_prob": 0.11138451099395752
+    },
+    {
+      "start": 2117.0,
+      "end": 2127.0,
+      "text": "um",
+      "avg_logprob": -0.7102832794189453,
+      "no_speech_prob": 0.16852155327796936
+    },
+    {
+      "start": 2127.0,
+      "end": 2137.0,
+      "text": "uh",
+      "avg_logprob": -0.9135692715644836,
+      "no_speech_prob": 0.1913808435201645
+    },
+    {
+      "start": 2137.0,
+      "end": 2147.0,
+      "text": "um",
+      "avg_logprob": -0.8828738927841187,
+      "no_speech_prob": 0.12625358998775482
+    },
+    {
+      "start": 2147.0,
+      "end": 2157.0,
+      "text": "um",
+      "avg_logprob": -0.7743987441062927,
+      "no_speech_prob": 0.10761615633964539
+    },
+    {
+      "start": 2161.0,
+      "end": 2171.0,
+      "text": "um",
+      "avg_logprob": -0.7743987441062927,
+      "no_speech_prob": 0.10761615633964539
+    },
+    {
+      "start": 2177.0,
+      "end": 2187.0,
+      "text": "um",
+      "avg_logprob": -0.9692127108573914,
+      "no_speech_prob": 0.10214412212371826
+    },
+    {
+      "start": 2187.0,
+      "end": 2197.0,
+      "text": "um",
+      "avg_logprob": -0.7998476028442383,
+      "no_speech_prob": 0.1286519467830658
+    },
+    {
+      "start": 2201.0,
+      "end": 2211.0,
+      "text": "um",
+      "avg_logprob": -0.7998476028442383,
+      "no_speech_prob": 0.1286519467830658
+    },
+    {
+      "start": 2217.0,
+      "end": 2227.0,
+      "text": "um",
+      "avg_logprob": -0.7724036574363708,
+      "no_speech_prob": 0.10146813094615936
+    },
+    {
+      "start": 2231.0,
+      "end": 2241.0,
+      "text": "um",
+      "avg_logprob": -0.7724036574363708,
+      "no_speech_prob": 0.10146813094615936
+    },
+    {
+      "start": 2247.0,
+      "end": 2255.0,
+      "text": "hey",
+      "avg_logprob": -0.7994157075881958,
+      "no_speech_prob": 0.09540362656116486
+    },
+    {
+      "start": 2261.0,
+      "end": 2269.0,
+      "text": "hey",
+      "avg_logprob": -0.7994157075881958,
+      "no_speech_prob": 0.09540362656116486
+    },
+    {
+      "start": 2277.0,
+      "end": 2287.0,
+      "text": "um",
+      "avg_logprob": -0.8390940427780151,
+      "no_speech_prob": 0.06223009526729584
+    },
+    {
+      "start": 2289.0,
+      "end": 2301.0,
+      "text": "yes",
+      "avg_logprob": -0.8390940427780151,
+      "no_speech_prob": 0.06223009526729584
+    },
+    {
+      "start": 2307.0,
+      "end": 2317.0,
+      "text": "um",
+      "avg_logprob": -0.914794921875,
+      "no_speech_prob": 0.07262516021728516
+    },
+    {
+      "start": 2321.0,
+      "end": 2331.0,
+      "text": "um",
+      "avg_logprob": -0.914794921875,
+      "no_speech_prob": 0.07262516021728516
+    },
+    {
+      "start": 2337.0,
+      "end": 2347.0,
+      "text": "um",
+      "avg_logprob": -0.5815770030021667,
+      "no_speech_prob": 0.11484294384717941
+    },
+    {
+      "start": 2349.0,
+      "end": 2361.0,
+      "text": "um",
+      "avg_logprob": -0.5815770030021667,
+      "no_speech_prob": 0.11484294384717941
+    },
+    {
+      "start": 2367.0,
+      "end": 2377.0,
+      "text": "um",
+      "avg_logprob": -0.7145930528640747,
+      "no_speech_prob": 0.39157238602638245
+    },
+    {
+      "start": 2385.0,
+      "end": 2391.0,
+      "text": "um",
+      "avg_logprob": -0.7145930528640747,
+      "no_speech_prob": 0.39157238602638245
+    },
+    {
+      "start": 2397.0,
+      "end": 2407.0,
+      "text": "um",
+      "avg_logprob": -0.7561918497085571,
+      "no_speech_prob": 0.12216203659772873
+    },
+    {
+      "start": 2411.0,
+      "end": 2421.0,
+      "text": "um",
+      "avg_logprob": -0.7561918497085571,
+      "no_speech_prob": 0.12216203659772873
+    },
+    {
+      "start": 2427.0,
+      "end": 2429.0,
+      "text": "um",
+      "avg_logprob": -0.3947919011116028,
+      "no_speech_prob": 0.4161287844181061
+    }
+  ]
+}

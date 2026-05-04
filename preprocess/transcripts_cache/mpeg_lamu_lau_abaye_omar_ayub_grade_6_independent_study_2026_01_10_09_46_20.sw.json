@@ -1,0 +1,14 @@
+{
+  "source_audio": "mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_10_09_46_20.mp3",
+  "language": "swahili",
+  "duration": 5.630000114440918,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.320000171661377,
+      "text": "Watu busyika wa kuneya",
+      "avg_logprob": -3.899580478668213,
+      "no_speech_prob": 0.31104183197021484
+    }
+  ]
+}

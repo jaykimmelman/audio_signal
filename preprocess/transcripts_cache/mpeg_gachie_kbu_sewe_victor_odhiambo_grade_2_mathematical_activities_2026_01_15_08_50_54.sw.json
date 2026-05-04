@@ -1,0 +1,406 @@
+{
+  "source_audio": "mpeg_gachie_kbu_sewe_victor_odhiambo_grade_2_mathematical_activities_2026_01_15_08_50_54.mp3",
+  "language": "swahili",
+  "duration": 1117.8199462890625,
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 40.0,
+      "text": "Omba massa",
+      "avg_logprob": -3.5522780418395996,
+      "no_speech_prob": 0.30557480454444885
+    },
+    {
+      "start": 40.0,
+      "end": 44.0,
+      "text": "Hawa Hulipenda",
+      "avg_logprob": -3.5522780418395996,
+      "no_speech_prob": 0.30557480454444885
+    },
+    {
+      "start": 44.0,
+      "end": 52.0,
+      "text": "Xiwesili",
+      "avg_logprob": -3.5522780418395996,
+      "no_speech_prob": 0.30557480454444885
+    },
+    {
+      "start": 52.0,
+      "end": 62.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.5274101495742798,
+      "no_speech_prob": 0.6359155178070068
+    },
+    {
+      "start": 62.0,
+      "end": 72.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.5274101495742798,
+      "no_speech_prob": 0.6359155178070068
+    },
+    {
+      "start": 72.0,
+      "end": 92.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.6261287331581116,
+      "no_speech_prob": 0.7455632090568542
+    },
+    {
+      "start": 92.0,
+      "end": 112.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.46145299077033997,
+      "no_speech_prob": 0.9376124739646912
+    },
+    {
+      "start": 112.0,
+      "end": 132.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.4880763590335846,
+      "no_speech_prob": 0.8073404431343079
+    },
+    {
+      "start": 132.0,
+      "end": 152.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.3827279806137085,
+      "no_speech_prob": 0.7553842067718506
+    },
+    {
+      "start": 152.0,
+      "end": 172.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.4716265797615051,
+      "no_speech_prob": 0.8166770935058594
+    },
+    {
+      "start": 172.0,
+      "end": 192.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.28298476338386536,
+      "no_speech_prob": 0.9279525279998779
+    },
+    {
+      "start": 192.0,
+      "end": 212.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.32034313678741455,
+      "no_speech_prob": 0.926986038684845
+    },
+    {
+      "start": 212.0,
+      "end": 232.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.3437516391277313,
+      "no_speech_prob": 0.7062163352966309
+    },
+    {
+      "start": 232.0,
+      "end": 252.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.3418201804161072,
+      "no_speech_prob": 0.8635250329971313
+    },
+    {
+      "start": 252.0,
+      "end": 272.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.20603999495506287,
+      "no_speech_prob": 0.9165127277374268
+    },
+    {
+      "start": 272.0,
+      "end": 292.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.22744736075401306,
+      "no_speech_prob": 0.9153639078140259
+    },
+    {
+      "start": 292.0,
+      "end": 312.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.20138618350028992,
+      "no_speech_prob": 0.9366854429244995
+    },
+    {
+      "start": 312.0,
+      "end": 332.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.272373229265213,
+      "no_speech_prob": 0.8763410449028015
+    },
+    {
+      "start": 332.0,
+      "end": 352.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.20151439309120178,
+      "no_speech_prob": 0.9324060082435608
+    },
+    {
+      "start": 352.0,
+      "end": 372.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.1732620894908905,
+      "no_speech_prob": 0.941227376461029
+    },
+    {
+      "start": 372.0,
+      "end": 392.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.163488507270813,
+      "no_speech_prob": 0.941371738910675
+    },
+    {
+      "start": 392.0,
+      "end": 412.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.15970441699028015,
+      "no_speech_prob": 0.9309961795806885
+    },
+    {
+      "start": 412.0,
+      "end": 432.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.1857530176639557,
+      "no_speech_prob": 0.9164395928382874
+    },
+    {
+      "start": 432.0,
+      "end": 452.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.13562552630901337,
+      "no_speech_prob": 0.9469354748725891
+    },
+    {
+      "start": 452.0,
+      "end": 472.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.17527934908866882,
+      "no_speech_prob": 0.8834352493286133
+    },
+    {
+      "start": 472.0,
+      "end": 492.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.16962331533432007,
+      "no_speech_prob": 0.9099559187889099
+    },
+    {
+      "start": 492.0,
+      "end": 512.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.08449235558509827,
+      "no_speech_prob": 0.9561782479286194
+    },
+    {
+      "start": 512.0,
+      "end": 532.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.10368511825799942,
+      "no_speech_prob": 0.8429309129714966
+    },
+    {
+      "start": 532.0,
+      "end": 552.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.1273595690727234,
+      "no_speech_prob": 0.9193459749221802
+    },
+    {
+      "start": 552.0,
+      "end": 572.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.15279629826545715,
+      "no_speech_prob": 0.868189811706543
+    },
+    {
+      "start": 572.0,
+      "end": 592.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.1272713840007782,
+      "no_speech_prob": 0.9205453991889954
+    },
+    {
+      "start": 592.0,
+      "end": 612.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.11194582283496857,
+      "no_speech_prob": 0.9227100610733032
+    },
+    {
+      "start": 612.0,
+      "end": 632.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.09046995639801025,
+      "no_speech_prob": 0.9002076983451843
+    },
+    {
+      "start": 632.0,
+      "end": 652.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.13016526401042938,
+      "no_speech_prob": 0.8964203000068665
+    },
+    {
+      "start": 652.0,
+      "end": 672.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.15952642261981964,
+      "no_speech_prob": 0.8132399320602417
+    },
+    {
+      "start": 672.0,
+      "end": 692.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.11056260764598846,
+      "no_speech_prob": 0.9166602492332458
+    },
+    {
+      "start": 692.0,
+      "end": 712.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.10268689692020416,
+      "no_speech_prob": 0.8961222767829895
+    },
+    {
+      "start": 712.0,
+      "end": 732.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.16336672008037567,
+      "no_speech_prob": 0.9597781896591187
+    },
+    {
+      "start": 732.0,
+      "end": 752.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.14442285895347595,
+      "no_speech_prob": 0.964354932308197
+    },
+    {
+      "start": 752.0,
+      "end": 772.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.17471490800380707,
+      "no_speech_prob": 0.9130101799964905
+    },
+    {
+      "start": 772.0,
+      "end": 792.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.1928647756576538,
+      "no_speech_prob": 0.9534634947776794
+    },
+    {
+      "start": 792.0,
+      "end": 812.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.16546215116977692,
+      "no_speech_prob": 0.9741326570510864
+    },
+    {
+      "start": 812.0,
+      "end": 832.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.2068401724100113,
+      "no_speech_prob": 0.965594470500946
+    },
+    {
+      "start": 832.0,
+      "end": 852.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.18858548998832703,
+      "no_speech_prob": 0.9595955610275269
+    },
+    {
+      "start": 852.0,
+      "end": 872.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.20850224792957306,
+      "no_speech_prob": 0.9712578058242798
+    },
+    {
+      "start": 872.0,
+      "end": 892.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.2022763341665268,
+      "no_speech_prob": 0.9746706485748291
+    },
+    {
+      "start": 892.0,
+      "end": 912.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.2388731837272644,
+      "no_speech_prob": 0.9671021103858948
+    },
+    {
+      "start": 912.0,
+      "end": 932.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.21461555361747742,
+      "no_speech_prob": 0.9700531363487244
+    },
+    {
+      "start": 932.0,
+      "end": 952.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.22881664335727692,
+      "no_speech_prob": 0.9569597840309143
+    },
+    {
+      "start": 952.0,
+      "end": 972.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.23323316872119904,
+      "no_speech_prob": 0.9579814672470093
+    },
+    {
+      "start": 972.0,
+      "end": 992.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.20981349050998688,
+      "no_speech_prob": 0.9232683181762695
+    },
+    {
+      "start": 992.0,
+      "end": 1012.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.23247617483139038,
+      "no_speech_prob": 0.9561777114868164
+    },
+    {
+      "start": 1012.0,
+      "end": 1032.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.22185863554477692,
+      "no_speech_prob": 0.9683481454849243
+    },
+    {
+      "start": 1032.0,
+      "end": 1052.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.18048109114170074,
+      "no_speech_prob": 0.9665886163711548
+    },
+    {
+      "start": 1052.0,
+      "end": 1072.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.2789875566959381,
+      "no_speech_prob": 0.956445574760437
+    },
+    {
+      "start": 1072.0,
+      "end": 1092.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.2076522707939148,
+      "no_speech_prob": 0.9658344984054565
+    },
+    {
+      "start": 1092.0,
+      "end": 1118.0,
+      "text": "Omba massa",
+      "avg_logprob": -0.41386768221855164,
+      "no_speech_prob": 0.9724889397621155
+    }
+  ]
+}

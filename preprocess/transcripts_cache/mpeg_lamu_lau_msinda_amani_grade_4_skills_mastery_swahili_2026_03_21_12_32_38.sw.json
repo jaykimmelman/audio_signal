@@ -1,0 +1,1176 @@
+{
+  "source_audio": "mpeg_lamu_lau_msinda_amani_grade_4_skills_mastery_swahili_2026_03_21_12_32_38.mp3",
+  "language": "swahili",
+  "duration": 3257.530029296875,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "Kwasiliza",
+      "avg_logprob": -3.431062698364258,
+      "no_speech_prob": 0.5845261216163635
+    },
+    {
+      "start": 20.0,
+      "end": 24.0,
+      "text": "Sena",
+      "avg_logprob": -3.431062698364258,
+      "no_speech_prob": 0.5845261216163635
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "Sena",
+      "avg_logprob": -3.431062698364258,
+      "no_speech_prob": 0.5845261216163635
+    },
+    {
+      "start": 28.0,
+      "end": 36.0,
+      "text": "Kwafa",
+      "avg_logprob": -2.4345500469207764,
+      "no_speech_prob": 0.20102056860923767
+    },
+    {
+      "start": 58.0,
+      "end": 68.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.8799306750297546,
+      "no_speech_prob": 0.819104015827179
+    },
+    {
+      "start": 88.0,
+      "end": 98.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7147952914237976,
+      "no_speech_prob": 0.6105189919471741
+    },
+    {
+      "start": 118.0,
+      "end": 128.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5210402011871338,
+      "no_speech_prob": 0.44552597403526306
+    },
+    {
+      "start": 128.0,
+      "end": 138.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5210402011871338,
+      "no_speech_prob": 0.44552597403526306
+    },
+    {
+      "start": 138.0,
+      "end": 148.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.23005202412605286,
+      "no_speech_prob": 0.14752979576587677
+    },
+    {
+      "start": 148.0,
+      "end": 158.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.23005202412605286,
+      "no_speech_prob": 0.14752979576587677
+    },
+    {
+      "start": 158.0,
+      "end": 168.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2511737048625946,
+      "no_speech_prob": 0.6583419442176819
+    },
+    {
+      "start": 168.0,
+      "end": 178.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2511737048625946,
+      "no_speech_prob": 0.6583419442176819
+    },
+    {
+      "start": 178.0,
+      "end": 188.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2578602433204651,
+      "no_speech_prob": 0.7731105089187622
+    },
+    {
+      "start": 188.0,
+      "end": 198.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2578602433204651,
+      "no_speech_prob": 0.7731105089187622
+    },
+    {
+      "start": 198.0,
+      "end": 208.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.23107460141181946,
+      "no_speech_prob": 0.7414889931678772
+    },
+    {
+      "start": 208.0,
+      "end": 218.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.23107460141181946,
+      "no_speech_prob": 0.7414889931678772
+    },
+    {
+      "start": 218.0,
+      "end": 228.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.23112528026103973,
+      "no_speech_prob": 0.7328450083732605
+    },
+    {
+      "start": 228.0,
+      "end": 238.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.23112528026103973,
+      "no_speech_prob": 0.7328450083732605
+    },
+    {
+      "start": 238.0,
+      "end": 248.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.248475581407547,
+      "no_speech_prob": 0.7708837985992432
+    },
+    {
+      "start": 248.0,
+      "end": 258.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.248475581407547,
+      "no_speech_prob": 0.7708837985992432
+    },
+    {
+      "start": 258.0,
+      "end": 278.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.21662743389606476,
+      "no_speech_prob": 0.820556104183197
+    },
+    {
+      "start": 278.0,
+      "end": 298.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2903251349925995,
+      "no_speech_prob": 0.8978650569915771
+    },
+    {
+      "start": 298.0,
+      "end": 318.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.31412091851234436,
+      "no_speech_prob": 0.8901857137680054
+    },
+    {
+      "start": 318.0,
+      "end": 338.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2558428943157196,
+      "no_speech_prob": 0.867813229560852
+    },
+    {
+      "start": 338.0,
+      "end": 358.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2729886770248413,
+      "no_speech_prob": 0.9205467104911804
+    },
+    {
+      "start": 358.0,
+      "end": 378.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.26151543855667114,
+      "no_speech_prob": 0.9145410656929016
+    },
+    {
+      "start": 378.0,
+      "end": 398.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.2534373104572296,
+      "no_speech_prob": 0.8542435169219971
+    },
+    {
+      "start": 398.0,
+      "end": 418.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3251565992832184,
+      "no_speech_prob": 0.892964243888855
+    },
+    {
+      "start": 418.0,
+      "end": 438.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.27500197291374207,
+      "no_speech_prob": 0.8627169728279114
+    },
+    {
+      "start": 438.0,
+      "end": 458.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3229408860206604,
+      "no_speech_prob": 0.8532869219779968
+    },
+    {
+      "start": 458.0,
+      "end": 478.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.35336825251579285,
+      "no_speech_prob": 0.8550833463668823
+    },
+    {
+      "start": 478.0,
+      "end": 498.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3791057765483856,
+      "no_speech_prob": 0.002238253364339471
+    },
+    {
+      "start": 498.0,
+      "end": 526.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.36272409558296204,
+      "no_speech_prob": 0.8869319558143616
+    },
+    {
+      "start": 526.0,
+      "end": 546.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.1955142766237259,
+      "no_speech_prob": 0.9733976125717163
+    },
+    {
+      "start": 546.0,
+      "end": 574.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.29274922609329224,
+      "no_speech_prob": 0.8821738362312317
+    },
+    {
+      "start": 574.0,
+      "end": 594.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.42176082730293274,
+      "no_speech_prob": 0.9531660079956055
+    },
+    {
+      "start": 594.0,
+      "end": 622.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4750996530056,
+      "no_speech_prob": 0.8852230310440063
+    },
+    {
+      "start": 622.0,
+      "end": 642.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3054500222206116,
+      "no_speech_prob": 0.07042208313941956
+    },
+    {
+      "start": 642.0,
+      "end": 662.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3806147873401642,
+      "no_speech_prob": 0.015038633719086647
+    },
+    {
+      "start": 662.0,
+      "end": 690.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4104869067668915,
+      "no_speech_prob": 0.8477722406387329
+    },
+    {
+      "start": 690.0,
+      "end": 710.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.49678894877433777,
+      "no_speech_prob": 0.06627411395311356
+    },
+    {
+      "start": 710.0,
+      "end": 730.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4441280663013458,
+      "no_speech_prob": 0.8449629545211792
+    },
+    {
+      "start": 730.0,
+      "end": 750.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4281480610370636,
+      "no_speech_prob": 0.853328287601471
+    },
+    {
+      "start": 750.0,
+      "end": 770.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4498256742954254,
+      "no_speech_prob": 0.799275279045105
+    },
+    {
+      "start": 770.0,
+      "end": 790.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.46671202778816223,
+      "no_speech_prob": 0.8231974244117737
+    },
+    {
+      "start": 790.0,
+      "end": 810.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.43413254618644714,
+      "no_speech_prob": 0.7506619691848755
+    },
+    {
+      "start": 810.0,
+      "end": 830.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4061868488788605,
+      "no_speech_prob": 0.7069854736328125
+    },
+    {
+      "start": 830.0,
+      "end": 850.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.42714205384254456,
+      "no_speech_prob": 0.8078798055648804
+    },
+    {
+      "start": 850.0,
+      "end": 870.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4625362455844879,
+      "no_speech_prob": 0.7695633172988892
+    },
+    {
+      "start": 870.0,
+      "end": 890.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3590816557407379,
+      "no_speech_prob": 0.7219858765602112
+    },
+    {
+      "start": 890.0,
+      "end": 910.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.47572410106658936,
+      "no_speech_prob": 0.7332152724266052
+    },
+    {
+      "start": 910.0,
+      "end": 930.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.47771719098091125,
+      "no_speech_prob": 0.679081380367279
+    },
+    {
+      "start": 930.0,
+      "end": 958.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.585127592086792,
+      "no_speech_prob": 0.688883900642395
+    },
+    {
+      "start": 958.0,
+      "end": 978.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5832603573799133,
+      "no_speech_prob": 0.8078492283821106
+    },
+    {
+      "start": 978.0,
+      "end": 1006.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6561138033866882,
+      "no_speech_prob": 0.6476534008979797
+    },
+    {
+      "start": 1006.0,
+      "end": 1034.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5888723134994507,
+      "no_speech_prob": 0.436461478471756
+    },
+    {
+      "start": 1034.0,
+      "end": 1062.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5411880612373352,
+      "no_speech_prob": 0.0018382207490503788
+    },
+    {
+      "start": 1062.0,
+      "end": 1082.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6494559645652771,
+      "no_speech_prob": 6.985263478753723e-10
+    },
+    {
+      "start": 1082.0,
+      "end": 1110.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7389140129089355,
+      "no_speech_prob": 0.9186723828315735
+    },
+    {
+      "start": 1110.0,
+      "end": 1124.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.729529082775116,
+      "no_speech_prob": 0.9007583856582642
+    },
+    {
+      "start": 1124.0,
+      "end": 1152.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7778358459472656,
+      "no_speech_prob": 0.915309488773346
+    },
+    {
+      "start": 1152.0,
+      "end": 1172.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7218210101127625,
+      "no_speech_prob": 0.8749648332595825
+    },
+    {
+      "start": 1172.0,
+      "end": 1200.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.8136907815933228,
+      "no_speech_prob": 0.8250584006309509
+    },
+    {
+      "start": 1200.0,
+      "end": 1220.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6460586190223694,
+      "no_speech_prob": 0.9114351868629456
+    },
+    {
+      "start": 1220.0,
+      "end": 1240.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.735782265663147,
+      "no_speech_prob": 0.9273633360862732
+    },
+    {
+      "start": 1240.0,
+      "end": 1260.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6566317677497864,
+      "no_speech_prob": 0.9239054918289185
+    },
+    {
+      "start": 1260.0,
+      "end": 1280.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5998449325561523,
+      "no_speech_prob": 0.9169659614562988
+    },
+    {
+      "start": 1280.0,
+      "end": 1300.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7245694398880005,
+      "no_speech_prob": 0.869621753692627
+    },
+    {
+      "start": 1300.0,
+      "end": 1320.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.8248839378356934,
+      "no_speech_prob": 0.9560698866844177
+    },
+    {
+      "start": 1320.0,
+      "end": 1340.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5285106301307678,
+      "no_speech_prob": 0.925743818283081
+    },
+    {
+      "start": 1340.0,
+      "end": 1360.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6254604458808899,
+      "no_speech_prob": 0.9428388476371765
+    },
+    {
+      "start": 1360.0,
+      "end": 1380.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6190427541732788,
+      "no_speech_prob": 0.8837540745735168
+    },
+    {
+      "start": 1380.0,
+      "end": 1400.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7023970484733582,
+      "no_speech_prob": 0.9328777194023132
+    },
+    {
+      "start": 1400.0,
+      "end": 1420.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5566365718841553,
+      "no_speech_prob": 0.926017165184021
+    },
+    {
+      "start": 1420.0,
+      "end": 1440.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6154793500900269,
+      "no_speech_prob": 0.8711644411087036
+    },
+    {
+      "start": 1440.0,
+      "end": 1460.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5862130522727966,
+      "no_speech_prob": 0.8705509305000305
+    },
+    {
+      "start": 1460.0,
+      "end": 1480.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.535156786441803,
+      "no_speech_prob": 0.9459546804428101
+    },
+    {
+      "start": 1480.0,
+      "end": 1500.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.44558030366897583,
+      "no_speech_prob": 0.941193699836731
+    },
+    {
+      "start": 1500.0,
+      "end": 1520.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7039919495582581,
+      "no_speech_prob": 0.9556686282157898
+    },
+    {
+      "start": 1520.0,
+      "end": 1540.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6646912693977356,
+      "no_speech_prob": 0.9087712168693542
+    },
+    {
+      "start": 1540.0,
+      "end": 1560.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5827317833900452,
+      "no_speech_prob": 0.9464641213417053
+    },
+    {
+      "start": 1560.0,
+      "end": 1580.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6802042722702026,
+      "no_speech_prob": 0.9231725931167603
+    },
+    {
+      "start": 1580.0,
+      "end": 1600.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5993639826774597,
+      "no_speech_prob": 0.9460774064064026
+    },
+    {
+      "start": 1600.0,
+      "end": 1620.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6516036987304688,
+      "no_speech_prob": 0.8944874405860901
+    },
+    {
+      "start": 1620.0,
+      "end": 1640.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5386347770690918,
+      "no_speech_prob": 0.9670385718345642
+    },
+    {
+      "start": 1640.0,
+      "end": 1660.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.531227707862854,
+      "no_speech_prob": 0.9735749363899231
+    },
+    {
+      "start": 1660.0,
+      "end": 1670.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7550281286239624,
+      "no_speech_prob": 0.9487348198890686
+    },
+    {
+      "start": 1670.0,
+      "end": 1680.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7550281286239624,
+      "no_speech_prob": 0.9487348198890686
+    },
+    {
+      "start": 1680.0,
+      "end": 1700.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4838889241218567,
+      "no_speech_prob": 0.8817191123962402
+    },
+    {
+      "start": 1700.0,
+      "end": 1720.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6889905333518982,
+      "no_speech_prob": 0.8761798143386841
+    },
+    {
+      "start": 1720.0,
+      "end": 1740.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5061549544334412,
+      "no_speech_prob": 0.938442051410675
+    },
+    {
+      "start": 1740.0,
+      "end": 1768.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.561917245388031,
+      "no_speech_prob": 0.9406271576881409
+    },
+    {
+      "start": 1768.0,
+      "end": 1778.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5799521803855896,
+      "no_speech_prob": 0.916877269744873
+    },
+    {
+      "start": 1778.0,
+      "end": 1798.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5604923367500305,
+      "no_speech_prob": 0.9070120453834534
+    },
+    {
+      "start": 1798.0,
+      "end": 1818.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4865633547306061,
+      "no_speech_prob": 0.9556075930595398
+    },
+    {
+      "start": 1818.0,
+      "end": 1838.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5523880124092102,
+      "no_speech_prob": 0.9203498363494873
+    },
+    {
+      "start": 1838.0,
+      "end": 1858.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5039566159248352,
+      "no_speech_prob": 0.9509265422821045
+    },
+    {
+      "start": 1858.0,
+      "end": 1878.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6976713538169861,
+      "no_speech_prob": 0.9462070465087891
+    },
+    {
+      "start": 1878.0,
+      "end": 1898.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.730221152305603,
+      "no_speech_prob": 0.9527219533920288
+    },
+    {
+      "start": 1898.0,
+      "end": 1918.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.669044017791748,
+      "no_speech_prob": 0.9128494262695312
+    },
+    {
+      "start": 1918.0,
+      "end": 1938.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6238714456558228,
+      "no_speech_prob": 0.8742685914039612
+    },
+    {
+      "start": 1938.0,
+      "end": 1958.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.7056527137756348,
+      "no_speech_prob": 0.92226642370224
+    },
+    {
+      "start": 1958.0,
+      "end": 1978.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4717608094215393,
+      "no_speech_prob": 0.9125933051109314
+    },
+    {
+      "start": 1978.0,
+      "end": 1998.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6035922765731812,
+      "no_speech_prob": 0.9361882209777832
+    },
+    {
+      "start": 1998.0,
+      "end": 2018.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.6094359755516052,
+      "no_speech_prob": 0.9480070471763611
+    },
+    {
+      "start": 2018.0,
+      "end": 2038.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5642261505126953,
+      "no_speech_prob": 0.8692795038223267
+    },
+    {
+      "start": 2038.0,
+      "end": 2058.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4353378415107727,
+      "no_speech_prob": 0.8896802067756653
+    },
+    {
+      "start": 2058.0,
+      "end": 2078.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3836962580680847,
+      "no_speech_prob": 0.9775700569152832
+    },
+    {
+      "start": 2078.0,
+      "end": 2098.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4028807282447815,
+      "no_speech_prob": 0.9849640727043152
+    },
+    {
+      "start": 2098.0,
+      "end": 2118.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4433891773223877,
+      "no_speech_prob": 0.9834222793579102
+    },
+    {
+      "start": 2118.0,
+      "end": 2138.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.44397714734077454,
+      "no_speech_prob": 0.9780235886573792
+    },
+    {
+      "start": 2138.0,
+      "end": 2158.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.42895612120628357,
+      "no_speech_prob": 0.972377598285675
+    },
+    {
+      "start": 2158.0,
+      "end": 2178.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.43717160820961,
+      "no_speech_prob": 0.9538782835006714
+    },
+    {
+      "start": 2178.0,
+      "end": 2198.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.524734616279602,
+      "no_speech_prob": 0.9718390703201294
+    },
+    {
+      "start": 2198.0,
+      "end": 2218.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.49974894523620605,
+      "no_speech_prob": 0.9675704836845398
+    },
+    {
+      "start": 2218.0,
+      "end": 2238.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5102023482322693,
+      "no_speech_prob": 0.9802056550979614
+    },
+    {
+      "start": 2238.0,
+      "end": 2258.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4421309530735016,
+      "no_speech_prob": 0.971053957939148
+    },
+    {
+      "start": 2258.0,
+      "end": 2278.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4580094814300537,
+      "no_speech_prob": 0.9649131894111633
+    },
+    {
+      "start": 2278.0,
+      "end": 2298.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4237697422504425,
+      "no_speech_prob": 0.971247673034668
+    },
+    {
+      "start": 2298.0,
+      "end": 2318.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4348523020744324,
+      "no_speech_prob": 0.9647327661514282
+    },
+    {
+      "start": 2318.0,
+      "end": 2338.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.47811785340309143,
+      "no_speech_prob": 0.9757698178291321
+    },
+    {
+      "start": 2338.0,
+      "end": 2358.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.40308284759521484,
+      "no_speech_prob": 0.9783071279525757
+    },
+    {
+      "start": 2358.0,
+      "end": 2378.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4784272611141205,
+      "no_speech_prob": 0.979994535446167
+    },
+    {
+      "start": 2378.0,
+      "end": 2398.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4796695411205292,
+      "no_speech_prob": 0.9395805597305298
+    },
+    {
+      "start": 2398.0,
+      "end": 2418.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3936484456062317,
+      "no_speech_prob": 0.9696751236915588
+    },
+    {
+      "start": 2418.0,
+      "end": 2438.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.37984898686408997,
+      "no_speech_prob": 0.973848819732666
+    },
+    {
+      "start": 2438.0,
+      "end": 2458.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.3986162841320038,
+      "no_speech_prob": 0.9478581547737122
+    },
+    {
+      "start": 2458.0,
+      "end": 2478.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.47279757261276245,
+      "no_speech_prob": 0.9776210188865662
+    },
+    {
+      "start": 2478.0,
+      "end": 2498.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5014019012451172,
+      "no_speech_prob": 0.9743437767028809
+    },
+    {
+      "start": 2498.0,
+      "end": 2518.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5476682782173157,
+      "no_speech_prob": 0.9704822897911072
+    },
+    {
+      "start": 2518.0,
+      "end": 2538.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.38864782452583313,
+      "no_speech_prob": 0.9706041812896729
+    },
+    {
+      "start": 2538.0,
+      "end": 2558.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5049010515213013,
+      "no_speech_prob": 0.9755656719207764
+    },
+    {
+      "start": 2558.0,
+      "end": 2578.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.414465993642807,
+      "no_speech_prob": 0.9753133654594421
+    },
+    {
+      "start": 2578.0,
+      "end": 2598.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4739605486392975,
+      "no_speech_prob": 0.9719094634056091
+    },
+    {
+      "start": 2598.0,
+      "end": 2618.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4490359127521515,
+      "no_speech_prob": 0.9689418077468872
+    },
+    {
+      "start": 2618.0,
+      "end": 2638.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4703657329082489,
+      "no_speech_prob": 0.9859127402305603
+    },
+    {
+      "start": 2638.0,
+      "end": 2658.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.44567814469337463,
+      "no_speech_prob": 0.9711275100708008
+    },
+    {
+      "start": 2658.0,
+      "end": 2678.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.41972097754478455,
+      "no_speech_prob": 0.9793502688407898
+    },
+    {
+      "start": 2678.0,
+      "end": 2698.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.45068201422691345,
+      "no_speech_prob": 0.9800553321838379
+    },
+    {
+      "start": 2698.0,
+      "end": 2718.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4067642390727997,
+      "no_speech_prob": 0.9763814806938171
+    },
+    {
+      "start": 2718.0,
+      "end": 2738.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.447397917509079,
+      "no_speech_prob": 0.9703265428543091
+    },
+    {
+      "start": 2738.0,
+      "end": 2758.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.49741873145103455,
+      "no_speech_prob": 0.9787084460258484
+    },
+    {
+      "start": 2758.0,
+      "end": 2778.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.44350185990333557,
+      "no_speech_prob": 0.9720426201820374
+    },
+    {
+      "start": 2778.0,
+      "end": 2798.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5528895258903503,
+      "no_speech_prob": 0.9469719529151917
+    },
+    {
+      "start": 2798.0,
+      "end": 2818.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.37297290563583374,
+      "no_speech_prob": 0.9657776951789856
+    },
+    {
+      "start": 2818.0,
+      "end": 2838.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.40007075667381287,
+      "no_speech_prob": 0.9835683107376099
+    },
+    {
+      "start": 2838.0,
+      "end": 2858.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5424694418907166,
+      "no_speech_prob": 0.9655182361602783
+    },
+    {
+      "start": 2858.0,
+      "end": 2878.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5978536009788513,
+      "no_speech_prob": 0.8794229626655579
+    },
+    {
+      "start": 2878.0,
+      "end": 2898.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4954111874103546,
+      "no_speech_prob": 0.9056788086891174
+    },
+    {
+      "start": 2898.0,
+      "end": 2918.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.417969286441803,
+      "no_speech_prob": 0.9722781777381897
+    },
+    {
+      "start": 2918.0,
+      "end": 2938.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.45726683735847473,
+      "no_speech_prob": 0.9724002480506897
+    },
+    {
+      "start": 2938.0,
+      "end": 2958.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5568407773971558,
+      "no_speech_prob": 0.9288184642791748
+    },
+    {
+      "start": 2958.0,
+      "end": 2978.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5180660486221313,
+      "no_speech_prob": 0.9335706233978271
+    },
+    {
+      "start": 2978.0,
+      "end": 2998.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.45074304938316345,
+      "no_speech_prob": 0.9139271378517151
+    },
+    {
+      "start": 2998.0,
+      "end": 3018.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.47803518176078796,
+      "no_speech_prob": 0.89605712890625
+    },
+    {
+      "start": 3018.0,
+      "end": 3038.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4148934483528137,
+      "no_speech_prob": 0.9716110229492188
+    },
+    {
+      "start": 3038.0,
+      "end": 3058.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5058758854866028,
+      "no_speech_prob": 0.9789212346076965
+    },
+    {
+      "start": 3058.0,
+      "end": 3078.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4204981029033661,
+      "no_speech_prob": 0.9635151028633118
+    },
+    {
+      "start": 3078.0,
+      "end": 3098.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.4769352376461029,
+      "no_speech_prob": 0.9793270230293274
+    },
+    {
+      "start": 3098.0,
+      "end": 3118.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.39103323221206665,
+      "no_speech_prob": 0.9775837659835815
+    },
+    {
+      "start": 3118.0,
+      "end": 3138.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.44886523485183716,
+      "no_speech_prob": 0.9748023748397827
+    },
+    {
+      "start": 3138.0,
+      "end": 3158.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.580141544342041,
+      "no_speech_prob": 0.9170345067977905
+    },
+    {
+      "start": 3158.0,
+      "end": 3178.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.9172276258468628,
+      "no_speech_prob": 0.9500962495803833
+    },
+    {
+      "start": 3178.0,
+      "end": 3198.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.49829918146133423,
+      "no_speech_prob": 0.9528396725654602
+    },
+    {
+      "start": 3198.0,
+      "end": 3218.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5033748745918274,
+      "no_speech_prob": 0.9743490219116211
+    },
+    {
+      "start": 3218.0,
+      "end": 3238.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.46930983662605286,
+      "no_speech_prob": 0.9701312184333801
+    },
+    {
+      "start": 3238.0,
+      "end": 3258.0,
+      "text": "Kwafa",
+      "avg_logprob": -0.5135616064071655,
+      "no_speech_prob": 0.8642790913581848
+    }
+  ]
+}

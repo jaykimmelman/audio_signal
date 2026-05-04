@@ -24,52 +24,61 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import shutil
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env")
 KEYWORDS_FILE = ROOT / "data" / "keywords.txt"
 TRANSCRIPT_CACHE = ROOT / "preprocess" / "transcripts_cache"
+TRANSLATIONS_CACHE = ROOT / "preprocess" / "translations_cache.json"
 AUDIO_INBOX = ROOT / "audio_inbox"
 PUB = ROOT / "frontend" / "public" / "data"
 PUB_AUDIO = PUB / "audio"
 AUDIO_SEARCH_DIRS = [AUDIO_INBOX, ROOT]  # also accept MP3s at project root
 
 LOCATION_COORDS: dict[str, tuple[str, str, float, float]] = {
-    "lamu_lau":            ("Lau",         "Lamu",       -2.270, 40.890),
-    "lamu_mpeketoni":      ("Mpeketoni",   "Lamu",       -2.270, 40.700),
-    "lamu_witu":           ("Witu",        "Lamu",       -2.380, 40.450),
-    "gachie_kbu":          ("Gachie",      "Kiambu",     -1.213, 36.785),
-    "kilifi_malindi":      ("Malindi",     "Kilifi",     -3.220, 40.117),
-    "kwale_msambweni":     ("Msambweni",   "Kwale",      -4.470, 39.485),
-    "mombasa_nyali":       ("Nyali",       "Mombasa",    -4.030, 39.700),
-    "tana_river_garsen":   ("Garsen",      "Tana River", -2.270, 40.117),
-    "garissa_garissa":     ("Garissa",     "Garissa",    -0.453, 39.658),
-    "isiolo_isiolo":       ("Isiolo",      "Isiolo",      0.353, 37.583),
+    # Coordinates from official Plus Codes provided by NewGlobe.
+    # Will move into a real DB lookup once we wire up the backend.
+    "lamu_lau":            ("Lau",         "Lamu",       -2.269813, 40.898359),  # PVJX+38H, Lamu
+    "gachie_kbu":          ("Gachie",      "Kiambu",     -1.216913, 36.769484),  # QQM9+6QQ, Ruaka
+    "lamu_mpeketoni":      ("Mpeketoni",   "Lamu",       -2.270000, 40.700000),
+    "lamu_witu":           ("Witu",        "Lamu",       -2.380000, 40.450000),
+    "kilifi_malindi":      ("Malindi",     "Kilifi",     -3.220000, 40.117000),
+    "kwale_msambweni":     ("Msambweni",   "Kwale",      -4.470000, 39.485000),
+    "mombasa_nyali":       ("Nyali",       "Mombasa",    -4.030000, 39.700000),
+    "tana_river_garsen":   ("Garsen",      "Tana River", -2.270000, 40.117000),
+    "garissa_garissa":     ("Garissa",     "Garissa",    -0.453000, 39.658000),
+    "isiolo_isiolo":       ("Isiolo",      "Isiolo",      0.353000, 37.583000),
 }
 DEFAULT_KENYA_CENTER = (-1.292, 36.821)
 
 # ffmpeg audio-filter presets. Each maps a variant key → (filename suffix, -af string).
 # All variants preserve duration so the segment timestamps stay aligned with the audio.
+# Uses `dynaudnorm` (single-pass, real-time) instead of `loudnorm` (two-pass) so the
+# whole pipeline runs ~3× faster — important when generating dozens of files.
 AUDIO_VARIANTS: dict[str, tuple[str, str]] = {
     "denoised": (
         "denoised",
-        "highpass=f=80,lowpass=f=7000,afftdn=nr=12:nf=-25,loudnorm=I=-16:LRA=11:TP=-1.5",
+        "highpass=f=80,lowpass=f=7000,afftdn=nr=12:nf=-25,dynaudnorm=f=400:g=15",
     ),
     "gated": (
         # noise gate: attenuates anything below ~ -32 dB. Keeps duration intact.
         "gated",
-        "highpass=f=80,agate=threshold=-32dB:ratio=8:attack=10:release=200,loudnorm=I=-16:LRA=11:TP=-1.5",
+        "highpass=f=80,agate=threshold=-32dB:ratio=8:attack=10:release=200,dynaudnorm=f=400:g=15",
     ),
     "enhanced": (
-        # speech-band EQ + denoise + compression + loudnorm. Most aggressive.
+        # speech-band EQ + denoise + compression + dynamic loudness norm. Most aggressive.
         "enhanced",
         "highpass=f=100,lowpass=f=6500,afftdn=nr=20:nf=-20,"
         "acompressor=threshold=-25dB:ratio=4:attack=5:release=50,"
-        "loudnorm=I=-14:LRA=11:TP=-1.5",
+        "dynaudnorm=f=400:g=15",
     ),
 }
 
@@ -134,6 +143,65 @@ def stable_id(prefix: str, *parts: str) -> str:
     return f"{prefix}{h}"
 
 
+def load_translations_cache() -> dict[str, str]:
+    if TRANSLATIONS_CACHE.exists():
+        return json.loads(TRANSLATIONS_CACHE.read_text())
+    return {}
+
+
+def translate_swahili(unique_texts: list[str]) -> dict[str, str]:
+    """Translate every Swahili phrase to English with gpt-4o-mini, batched.
+    Cached to disk (preprocess/translations_cache.json) so re-runs are free.
+    """
+    cache = load_translations_cache()
+    todo = [t for t in unique_texts if t and t not in cache]
+    if not todo:
+        return cache
+
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        print("  ⚠ OPENAI_API_KEY missing; skipping Swahili translations")
+        return cache
+
+    from openai import OpenAI
+    client = OpenAI(api_key=api_key)
+
+    BATCH = 20
+    print(f"  translating {len(todo)} Swahili phrases…")
+    for i in range(0, len(todo), BATCH):
+        batch = todo[i:i + BATCH]
+        numbered = "\n".join(f"{j + 1}. {t}" for j, t in enumerate(batch))
+        try:
+            resp = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": (
+                        "Translate each numbered Swahili phrase to natural English. "
+                        "Reply ONLY with a JSON object: "
+                        "{\"translations\": [\"...\", ...]} containing exactly "
+                        f"{len(batch)} entries in the same order as the input. "
+                        "No commentary, no extra fields."
+                    )},
+                    {"role": "user", "content": numbered},
+                ],
+                response_format={"type": "json_object"},
+                temperature=0,
+            )
+            obj = json.loads(resp.choices[0].message.content or "{}")
+            translations = obj.get("translations") or []
+            if len(translations) != len(batch):
+                print(f"    ⚠ batch {i // BATCH + 1}: count mismatch "
+                      f"({len(translations)} ≠ {len(batch)}), skipped")
+                continue
+            for src, dst in zip(batch, translations):
+                cache[src] = dst
+        except Exception as e:
+            print(f"    ⚠ batch {i // BATCH + 1} failed: {e}")
+
+    TRANSLATIONS_CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
+    return cache
+
+
 def load_lang_transcripts(stem: str) -> dict[str, dict]:
     """Find <stem>.<lang>.json files for one audio. Returns {lang: payload}.
 
@@ -151,6 +219,32 @@ def load_lang_transcripts(stem: str) -> dict[str, dict]:
     if legacy.exists() and "en" not in transcripts:
         transcripts["en"] = json.loads(legacy.read_text())
     return transcripts
+
+
+def dedupe_repetitive_segments(segments: list[dict]) -> list[dict]:
+    """Remove Whisper "hallucinated repetition" — when the model gets stuck
+    in a token loop and emits the same phrase 5–50 times in a row at the end
+    of a transcript or after silence.
+
+    Rule: keep at most the first 4 consecutive occurrences of the same text.
+    Genuine 'repeat after me' drills (teacher x2, class x2 = ≤4) stay intact.
+    """
+    if not segments:
+        return segments
+    out: list[dict] = []
+    run_text: str | None = None
+    run_count = 0
+    for seg in segments:
+        text = (seg.get("text") or "").strip().lower()
+        if text == run_text:
+            run_count += 1
+            if run_count <= 4:
+                out.append(seg)
+        else:
+            run_text = text
+            run_count = 1
+            out.append(seg)
+    return out
 
 
 def merge_bilingual_segments(
@@ -236,22 +330,24 @@ def main() -> int:
             continue
 
         # Decide segments. If we have both EN and SW, merge per-segment by confidence.
+        # Dedup hallucinated repetition before merging or shipping.
         en = lang_transcripts.get("en")
         sw = lang_transcripts.get("sw")
         if en and sw:
+            en_segs = dedupe_repetitive_segments(en.get("segments", []))
+            sw_segs = dedupe_repetitive_segments(sw.get("segments", []))
             segments = merge_bilingual_segments(
-                en.get("segments", []), sw.get("segments", []),
+                en_segs, sw_segs,
                 primary_lang="en", alt_lang="sw",
             )
             sw_count = sum(1 for s in segments if s.get("lang") == "sw")
             print(f"  ⤿ merged en+sw: {len(segments)} segs ({sw_count} swahili)")
-            transcript = en  # use EN payload for source_audio / duration metadata
+            transcript = en
         else:
-            primary = next(iter(lang_transcripts.values()))
-            segments = [
-                {**s, "lang": next(iter(lang_transcripts.keys()))}
-                for s in primary.get("segments", [])
-            ]
+            primary_lang = next(iter(lang_transcripts.keys()))
+            primary = lang_transcripts[primary_lang]
+            raw_segments = dedupe_repetitive_segments(primary.get("segments", []))
+            segments = [{**s, "lang": primary_lang} for s in raw_segments]
             transcript = primary
 
         # Strip avg_logprob/no_speech_prob from segments before shipping —
@@ -349,7 +445,7 @@ def main() -> int:
                                 "ffmpeg", "-loglevel", "error", "-y",
                                 "-i", str(src_path),
                                 "-af", filter_chain,
-                                "-c:a", "aac", "-b:a", "64k",
+                                "-c:a", "aac", "-b:a", "24k",
                                 "-movflags", "+faststart",
                                 str(variant_dest),
                             ],
@@ -375,6 +471,19 @@ def main() -> int:
             "segments": segments,
         })
         print(f"  ✓ {stem}: {len(segments)} segments")
+
+    # Translate every unique Swahili segment to English; attach text_en.
+    sw_texts = sorted({
+        s["text"]
+        for lesson in lessons
+        for s in lesson["segments"]
+        if s.get("lang") == "sw" and s.get("text")
+    })
+    translations = translate_swahili(sw_texts)
+    for lesson in lessons:
+        for s in lesson["segments"]:
+            if s.get("lang") == "sw" and s["text"] in translations:
+                s["text_en"] = translations[s["text"]]
 
     PUB.mkdir(parents=True, exist_ok=True)
     (PUB / "keywords.json").write_text(json.dumps(keywords, indent=2))

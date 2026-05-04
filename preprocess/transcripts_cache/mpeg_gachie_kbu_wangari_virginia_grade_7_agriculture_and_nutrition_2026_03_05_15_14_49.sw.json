@@ -1,0 +1,1337 @@
+{
+  "source_audio": "mpeg_gachie_kbu_wangari_virginia_grade_7_agriculture_and_nutrition_2026_03_05_15_14_49.mp3",
+  "language": "swahili",
+  "duration": 1560.8900146484375,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 17.700000762939453,
+      "text": "Hiskoa",
+      "avg_logprob": -1.8181123733520508,
+      "no_speech_prob": 0.2877194583415985
+    },
+    {
+      "start": 17.700000762939453,
+      "end": 23.399999618530273,
+      "text": "when you take it on the",
+      "avg_logprob": -1.8181123733520508,
+      "no_speech_prob": 0.2877194583415985
+    },
+    {
+      "start": 23.399999618530273,
+      "end": 23.479999542236328,
+      "text": "when you take it on the",
+      "avg_logprob": -1.8181123733520508,
+      "no_speech_prob": 0.2877194583415985
+    },
+    {
+      "start": 23.479999542236328,
+      "end": 27.479999542236328,
+      "text": "when you take it on the nutrition book",
+      "avg_logprob": -1.8181123733520508,
+      "no_speech_prob": 0.2877194583415985
+    },
+    {
+      "start": 27.479999542236328,
+      "end": 27.540000915527344,
+      "text": "nutrition book",
+      "avg_logprob": -1.8181123733520508,
+      "no_speech_prob": 0.2877194583415985
+    },
+    {
+      "start": 57.86000061035156,
+      "end": 83.36000061035156,
+      "text": "Thank you.",
+      "avg_logprob": -2.4796969890594482,
+      "no_speech_prob": 0.5561332106590271
+    },
+    {
+      "start": 83.36000061035156,
+      "end": 94.36000061035156,
+      "text": "Shahidi Ring to programs alamatareakwa",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 94.36000061035156,
+      "end": 94.5999984741211,
+      "text": "De H块",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 94.5999984741211,
+      "end": 95.4000015258789,
+      "text": "De H块",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 95.4000015258789,
+      "end": 95.81999969482422,
+      "text": "De H塊",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 95.81999969482422,
+      "end": 100.86000061035156,
+      "text": "De H块 Hphonetic",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 100.86000061035156,
+      "end": 101.66000366210938,
+      "text": "Kitata",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 101.66000366210938,
+      "end": 103.16000366210938,
+      "text": "Kitata HPhonetic",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 103.62000274658203,
+      "end": 110.37999725341797,
+      "text": "Mahara",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 111.94000244140625,
+      "end": 113.33999633789062,
+      "text": "Today we'll take a quiz",
+      "avg_logprob": -3.859051465988159,
+      "no_speech_prob": 0.38045257329940796
+    },
+    {
+      "start": 113.55999755859375,
+      "end": 115.12000274658203,
+      "text": "What will you be?",
+      "avg_logprob": -2.0933141708374023,
+      "no_speech_prob": 0.03891000524163246
+    },
+    {
+      "start": 119.16000366210938,
+      "end": 122.16000366210938,
+      "text": "What style?",
+      "avg_logprob": -2.0933141708374023,
+      "no_speech_prob": 0.03891000524163246
+    },
+    {
+      "start": 125.5199966430664,
+      "end": 128.32000732421875,
+      "text": "It is time for a quiz",
+      "avg_logprob": -2.0933141708374023,
+      "no_speech_prob": 0.03891000524163246
+    },
+    {
+      "start": 128.32000732421875,
+      "end": 128.67999267578125,
+      "text": "It is time for a quiz",
+      "avg_logprob": -2.0933141708374023,
+      "no_speech_prob": 0.03891000524163246
+    },
+    {
+      "start": 128.67999267578125,
+      "end": 131.67999267578125,
+      "text": "What have we learnt?",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 131.67999267578125,
+      "end": 134.67999267578125,
+      "text": "Turn to a blank page",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 134.67999267578125,
+      "end": 137.67999267578125,
+      "text": "Take it out on your surface book",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 137.67999267578125,
+      "end": 140.67999267578125,
+      "text": "Close your surface book",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 140.67999267578125,
+      "end": 143.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 143.67999267578125,
+      "end": 146.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 146.67999267578125,
+      "end": 149.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 149.67999267578125,
+      "end": 152.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 152.67999267578125,
+      "end": 155.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.5873412489891052,
+      "no_speech_prob": 0.11346573382616043
+    },
+    {
+      "start": 155.67999267578125,
+      "end": 158.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 158.67999267578125,
+      "end": 161.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 161.67999267578125,
+      "end": 164.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 164.67999267578125,
+      "end": 167.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 167.67999267578125,
+      "end": 170.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 170.67999267578125,
+      "end": 173.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 173.67999267578125,
+      "end": 176.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 176.67999267578125,
+      "end": 179.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 179.67999267578125,
+      "end": 182.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.43487945199012756,
+      "no_speech_prob": 0.06644377112388611
+    },
+    {
+      "start": 182.67999267578125,
+      "end": 185.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 185.67999267578125,
+      "end": 188.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 188.67999267578125,
+      "end": 191.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 191.67999267578125,
+      "end": 194.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 194.67999267578125,
+      "end": 197.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 197.67999267578125,
+      "end": 200.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 200.67999267578125,
+      "end": 203.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 203.67999267578125,
+      "end": 206.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 206.67999267578125,
+      "end": 209.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.20346778631210327,
+      "no_speech_prob": 0.270705908536911
+    },
+    {
+      "start": 209.67999267578125,
+      "end": 212.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 212.67999267578125,
+      "end": 215.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 215.67999267578125,
+      "end": 218.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 218.67999267578125,
+      "end": 221.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 221.67999267578125,
+      "end": 224.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 224.67999267578125,
+      "end": 227.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 227.67999267578125,
+      "end": 230.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 230.67999267578125,
+      "end": 233.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 233.67999267578125,
+      "end": 236.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.1749294251203537,
+      "no_speech_prob": 0.018516672775149345
+    },
+    {
+      "start": 236.67999267578125,
+      "end": 239.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 239.67999267578125,
+      "end": 242.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 242.67999267578125,
+      "end": 245.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 245.67999267578125,
+      "end": 248.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 248.67999267578125,
+      "end": 251.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 251.67999267578125,
+      "end": 254.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 254.67999267578125,
+      "end": 257.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 257.67999267578125,
+      "end": 260.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 260.67999267578125,
+      "end": 263.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.15805384516716003,
+      "no_speech_prob": 0.3551563322544098
+    },
+    {
+      "start": 263.67999267578125,
+      "end": 266.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 266.67999267578125,
+      "end": 269.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 269.67999267578125,
+      "end": 272.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 272.67999267578125,
+      "end": 275.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 275.67999267578125,
+      "end": 278.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 278.67999267578125,
+      "end": 281.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 281.67999267578125,
+      "end": 284.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 284.67999267578125,
+      "end": 287.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 287.67999267578125,
+      "end": 290.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.14021435379981995,
+      "no_speech_prob": 0.7674041986465454
+    },
+    {
+      "start": 290.67999267578125,
+      "end": 293.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 293.67999267578125,
+      "end": 296.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 296.67999267578125,
+      "end": 299.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 299.67999267578125,
+      "end": 302.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 302.67999267578125,
+      "end": 305.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 305.67999267578125,
+      "end": 308.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 308.67999267578125,
+      "end": 311.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 311.67999267578125,
+      "end": 314.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 314.67999267578125,
+      "end": 317.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.15209200978279114,
+      "no_speech_prob": 0.2289125919342041
+    },
+    {
+      "start": 317.67999267578125,
+      "end": 320.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 320.67999267578125,
+      "end": 323.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 323.67999267578125,
+      "end": 326.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 326.67999267578125,
+      "end": 329.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 329.67999267578125,
+      "end": 332.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 332.67999267578125,
+      "end": 335.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 335.67999267578125,
+      "end": 338.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 338.67999267578125,
+      "end": 341.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 341.67999267578125,
+      "end": 344.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.14909285306930542,
+      "no_speech_prob": 0.4781569838523865
+    },
+    {
+      "start": 344.67999267578125,
+      "end": 347.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 347.67999267578125,
+      "end": 350.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 350.67999267578125,
+      "end": 353.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 353.67999267578125,
+      "end": 356.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 356.67999267578125,
+      "end": 359.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 359.67999267578125,
+      "end": 362.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 362.67999267578125,
+      "end": 365.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 365.67999267578125,
+      "end": 368.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 368.67999267578125,
+      "end": 371.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.12088128924369812,
+      "no_speech_prob": 0.3760372996330261
+    },
+    {
+      "start": 371.67999267578125,
+      "end": 374.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 374.67999267578125,
+      "end": 377.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 377.67999267578125,
+      "end": 380.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 380.67999267578125,
+      "end": 383.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 383.67999267578125,
+      "end": 386.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 386.67999267578125,
+      "end": 389.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 389.67999267578125,
+      "end": 392.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 392.67999267578125,
+      "end": 395.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 395.67999267578125,
+      "end": 398.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.13885605335235596,
+      "no_speech_prob": 0.30398109555244446
+    },
+    {
+      "start": 398.67999267578125,
+      "end": 401.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 401.67999267578125,
+      "end": 404.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 404.67999267578125,
+      "end": 407.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 407.67999267578125,
+      "end": 410.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 410.67999267578125,
+      "end": 413.67999267578125,
+      "text": "Copy and paste",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 413.67999267578125,
+      "end": 416.67999267578125,
+      "text": "Answer the question",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 416.67999267578125,
+      "end": 419.67999267578125,
+      "text": "I read for you",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 419.67999267578125,
+      "end": 422.67999267578125,
+      "text": "You have 10 minutes",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 422.67999267578125,
+      "end": 425.67999267578125,
+      "text": "Write your name",
+      "avg_logprob": -0.15790534019470215,
+      "no_speech_prob": 0.311207115650177
+    },
+    {
+      "start": 425.67999267578125,
+      "end": 430.67999267578125,
+      "text": "How do trees contribute to soil conservation?",
+      "avg_logprob": -0.3742314875125885,
+      "no_speech_prob": 0.26788538694381714
+    },
+    {
+      "start": 430.67999267578125,
+      "end": 436.67999267578125,
+      "text": "How do trees contribute to soil conservation?",
+      "avg_logprob": -0.3742314875125885,
+      "no_speech_prob": 0.26788538694381714
+    },
+    {
+      "start": 436.67999267578125,
+      "end": 439.67999267578125,
+      "text": "Soil conservation",
+      "avg_logprob": -0.3742314875125885,
+      "no_speech_prob": 0.26788538694381714
+    },
+    {
+      "start": 448.67999267578125,
+      "end": 449.67999267578125,
+      "text": "Number 3",
+      "avg_logprob": -0.3742314875125885,
+      "no_speech_prob": 0.26788538694381714
+    },
+    {
+      "start": 449.67999267578125,
+      "end": 454.67999267578125,
+      "text": "Why are trees important for biodiversity?",
+      "avg_logprob": -0.3742314875125885,
+      "no_speech_prob": 0.26788538694381714
+    },
+    {
+      "start": 456.67999267578125,
+      "end": 459.67999267578125,
+      "text": "Why are trees important for biodiversity?",
+      "avg_logprob": -0.351550430059433,
+      "no_speech_prob": 0.006252928636968136
+    },
+    {
+      "start": 467.67999267578125,
+      "end": 469.67999267578125,
+      "text": "Number 4",
+      "avg_logprob": -0.351550430059433,
+      "no_speech_prob": 0.006252928636968136
+    },
+    {
+      "start": 473.67999267578125,
+      "end": 477.67999267578125,
+      "text": "What is important to remember about watering seeds?",
+      "avg_logprob": -0.351550430059433,
+      "no_speech_prob": 0.006252928636968136
+    },
+    {
+      "start": 478.67999267578125,
+      "end": 484.67999267578125,
+      "text": "What is important to remember about watering seeds?",
+      "avg_logprob": -0.351550430059433,
+      "no_speech_prob": 0.006252928636968136
+    },
+    {
+      "start": 485.67999267578125,
+      "end": 491.67999267578125,
+      "text": "What is important to remember about watering seeds?",
+      "avg_logprob": -0.3079144060611725,
+      "no_speech_prob": 0.02788461372256279
+    },
+    {
+      "start": 508.67999267578125,
+      "end": 512.6799926757812,
+      "text": "What should you monitor after planting seeds?",
+      "avg_logprob": -0.3079144060611725,
+      "no_speech_prob": 0.02788461372256279
+    },
+    {
+      "start": 513.6799926757812,
+      "end": 518.6799926757812,
+      "text": "What should you monitor after planting seeds?",
+      "avg_logprob": -0.29934102296829224,
+      "no_speech_prob": 0.005954225081950426
+    },
+    {
+      "start": 526.6799926757812,
+      "end": 530.6799926757812,
+      "text": "What should you monitor after planting seeds?",
+      "avg_logprob": -0.29934102296829224,
+      "no_speech_prob": 0.005954225081950426
+    },
+    {
+      "start": 535.6799926757812,
+      "end": 537.6799926757812,
+      "text": "Number 6",
+      "avg_logprob": -0.29934102296829224,
+      "no_speech_prob": 0.005954225081950426
+    },
+    {
+      "start": 538.6799926757812,
+      "end": 544.6799926757812,
+      "text": "How should you prepare the soil for planting seedlings?",
+      "avg_logprob": -0.28633740544319153,
+      "no_speech_prob": 0.011175095103681087
+    },
+    {
+      "start": 556.6799926757812,
+      "end": 562.6799926757812,
+      "text": "How should you prepare the soil for planting seedlings?",
+      "avg_logprob": -0.28633740544319153,
+      "no_speech_prob": 0.011175095103681087
+    },
+    {
+      "start": 568.6799926757812,
+      "end": 574.6799926757812,
+      "text": "How should you prepare the soil for planting seedlings?",
+      "avg_logprob": -0.31814494729042053,
+      "no_speech_prob": 0.05914897471666336
+    },
+    {
+      "start": 587.6799926757812,
+      "end": 592.6799926757812,
+      "text": "How should the cuttings be prepared before planting?",
+      "avg_logprob": -0.31814494729042053,
+      "no_speech_prob": 0.05914897471666336
+    },
+    {
+      "start": 598.6799926757812,
+      "end": 605.6799926757812,
+      "text": "Cuttings be prepared before planting",
+      "avg_logprob": -0.33058691024780273,
+      "no_speech_prob": 0.03376993536949158
+    },
+    {
+      "start": 607.6799926757812,
+      "end": 612.6799926757812,
+      "text": "How should cuttings be prepared before planting?",
+      "avg_logprob": -0.33058691024780273,
+      "no_speech_prob": 0.03376993536949158
+    },
+    {
+      "start": 614.6799926757812,
+      "end": 618.6799926757812,
+      "text": "Should cuttings be prepared before planting?",
+      "avg_logprob": -0.33058691024780273,
+      "no_speech_prob": 0.03376993536949158
+    },
+    {
+      "start": 618.6799926757812,
+      "end": 626.6799926757812,
+      "text": "When is the best time to prune?",
+      "avg_logprob": -0.4474966824054718,
+      "no_speech_prob": 0.06612307578325272
+    },
+    {
+      "start": 631.6799926757812,
+      "end": 636.6799926757812,
+      "text": "When is the best time to prune?",
+      "avg_logprob": -0.4474966824054718,
+      "no_speech_prob": 0.06612307578325272
+    },
+    {
+      "start": 637.6799926757812,
+      "end": 642.6799926757812,
+      "text": "When is the best time to prune?",
+      "avg_logprob": -0.4474966824054718,
+      "no_speech_prob": 0.06612307578325272
+    },
+    {
+      "start": 642.6799926757812,
+      "end": 647.6799926757812,
+      "text": "When is the best time to prune?",
+      "avg_logprob": -0.2104867845773697,
+      "no_speech_prob": 0.09926871955394745
+    },
+    {
+      "start": 647.6799926757812,
+      "end": 667.6799926757812,
+      "text": "When is the best time to prune?",
+      "avg_logprob": -0.5866096615791321,
+      "no_speech_prob": 0.25201717019081116
+    },
+    {
+      "start": 667.6799926757812,
+      "end": 674.6799926757812,
+      "text": "When is the best time to prune?",
+      "avg_logprob": -0.3290312886238098,
+      "no_speech_prob": 0.2755902111530304
+    },
+    {
+      "start": 679.6799926757812,
+      "end": 684.6799926757812,
+      "text": "How do fertilizers benefit trees?",
+      "avg_logprob": -0.3290312886238098,
+      "no_speech_prob": 0.2755902111530304
+    },
+    {
+      "start": 687.6799926757812,
+      "end": 693.6799926757812,
+      "text": "How do fertilizers benefit trees?",
+      "avg_logprob": -0.3290312886238098,
+      "no_speech_prob": 0.2755902111530304
+    },
+    {
+      "start": 697.6799926757812,
+      "end": 703.6799926757812,
+      "text": "How do fertilizers benefit trees?",
+      "avg_logprob": -0.46260973811149597,
+      "no_speech_prob": 0.02662787027657032
+    },
+    {
+      "start": 711.6799926757812,
+      "end": 726.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.46260973811149597,
+      "no_speech_prob": 0.02662787027657032
+    },
+    {
+      "start": 727.6799926757812,
+      "end": 732.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.4592268168926239,
+      "no_speech_prob": 0.12100832164287567
+    },
+    {
+      "start": 732.6799926757812,
+      "end": 737.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.5642503499984741,
+      "no_speech_prob": 0.46029356122016907
+    },
+    {
+      "start": 739.6799926757812,
+      "end": 747.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.5642503499984741,
+      "no_speech_prob": 0.46029356122016907
+    },
+    {
+      "start": 751.6799926757812,
+      "end": 758.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.5642503499984741,
+      "no_speech_prob": 0.46029356122016907
+    },
+    {
+      "start": 758.6799926757812,
+      "end": 773.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.4625244140625,
+      "no_speech_prob": 0.037295881658792496
+    },
+    {
+      "start": 775.6799926757812,
+      "end": 785.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.4625244140625,
+      "no_speech_prob": 0.037295881658792496
+    },
+    {
+      "start": 785.6799926757812,
+      "end": 800.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.5258548855781555,
+      "no_speech_prob": 0.10985761135816574
+    },
+    {
+      "start": 800.6799926757812,
+      "end": 810.6799926757812,
+      "text": "How should you plant cuttings?",
+      "avg_logprob": -0.40156251192092896,
+      "no_speech_prob": 0.13047750294208527
+    },
+    {
+      "start": 812.6799926757812,
+      "end": 815.6799926757812,
+      "text": "Do you know the answers to the questions?",
+      "avg_logprob": -0.40156251192092896,
+      "no_speech_prob": 0.13047750294208527
+    },
+    {
+      "start": 815.6799926757812,
+      "end": 823.6799926757812,
+      "text": "Do you know the answers to the questions?",
+      "avg_logprob": -0.40156251192092896,
+      "no_speech_prob": 0.13047750294208527
+    },
+    {
+      "start": 824.6799926757812,
+      "end": 827.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.40156251192092896,
+      "no_speech_prob": 0.13047750294208527
+    },
+    {
+      "start": 827.6799926757812,
+      "end": 837.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.5509878993034363,
+      "no_speech_prob": 0.2577647566795349
+    },
+    {
+      "start": 837.6799926757812,
+      "end": 847.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.5509878993034363,
+      "no_speech_prob": 0.2577647566795349
+    },
+    {
+      "start": 847.6799926757812,
+      "end": 867.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.6280803084373474,
+      "no_speech_prob": 0.6282205581665039
+    },
+    {
+      "start": 867.6799926757812,
+      "end": 887.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.5638504028320312,
+      "no_speech_prob": 0.7097600698471069
+    },
+    {
+      "start": 887.6799926757812,
+      "end": 912.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.5161484479904175,
+      "no_speech_prob": 0.7215206623077393
+    },
+    {
+      "start": 912.6799926757812,
+      "end": 932.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.4631788432598114,
+      "no_speech_prob": 0.5194363594055176
+    },
+    {
+      "start": 932.6799926757812,
+      "end": 957.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.4065411686897278,
+      "no_speech_prob": 0.7243446111679077
+    },
+    {
+      "start": 957.6799926757812,
+      "end": 977.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.46282392740249634,
+      "no_speech_prob": 0.8671565651893616
+    },
+    {
+      "start": 977.6799926757812,
+      "end": 997.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3832707405090332,
+      "no_speech_prob": 0.8047730922698975
+    },
+    {
+      "start": 997.6799926757812,
+      "end": 1017.6799926757812,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3460463881492615,
+      "no_speech_prob": 0.5197157859802246
+    },
+    {
+      "start": 1017.6799926757812,
+      "end": 1037.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.37736648321151733,
+      "no_speech_prob": 0.4352318346500397
+    },
+    {
+      "start": 1037.6800537109375,
+      "end": 1052.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.4159368872642517,
+      "no_speech_prob": 0.4093358516693115
+    },
+    {
+      "start": 1052.6800537109375,
+      "end": 1077.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3118031322956085,
+      "no_speech_prob": 0.7051573991775513
+    },
+    {
+      "start": 1077.6800537109375,
+      "end": 1102.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.4032019376754761,
+      "no_speech_prob": 0.14384041726589203
+    },
+    {
+      "start": 1102.6800537109375,
+      "end": 1129.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3626122772693634,
+      "no_speech_prob": 0.8065341711044312
+    },
+    {
+      "start": 1129.6800537109375,
+      "end": 1154.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.35097935795783997,
+      "no_speech_prob": 0.7335029244422913
+    },
+    {
+      "start": 1154.6800537109375,
+      "end": 1183.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.33981212973594666,
+      "no_speech_prob": 0.7702338695526123
+    },
+    {
+      "start": 1184.6800537109375,
+      "end": 1211.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3469095528125763,
+      "no_speech_prob": 0.6967833638191223
+    },
+    {
+      "start": 1211.6800537109375,
+      "end": 1240.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3208235204219818,
+      "no_speech_prob": 0.8323142528533936
+    },
+    {
+      "start": 1241.6800537109375,
+      "end": 1270.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3203860819339752,
+      "no_speech_prob": 0.757817804813385
+    },
+    {
+      "start": 1271.6800537109375,
+      "end": 1300.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3098125159740448,
+      "no_speech_prob": 0.9145940542221069
+    },
+    {
+      "start": 1301.6800537109375,
+      "end": 1330.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3129844665527344,
+      "no_speech_prob": 0.9233892560005188
+    },
+    {
+      "start": 1331.6800537109375,
+      "end": 1356.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.30048733949661255,
+      "no_speech_prob": 0.9061357378959656
+    },
+    {
+      "start": 1356.6800537109375,
+      "end": 1385.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.3011973202228546,
+      "no_speech_prob": 0.951166570186615
+    },
+    {
+      "start": 1386.6800537109375,
+      "end": 1415.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.323318213224411,
+      "no_speech_prob": 0.9384410381317139
+    },
+    {
+      "start": 1416.6800537109375,
+      "end": 1445.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.2465859055519104,
+      "no_speech_prob": 0.8883111476898193
+    },
+    {
+      "start": 1446.6800537109375,
+      "end": 1475.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.2518627643585205,
+      "no_speech_prob": 0.8987711668014526
+    },
+    {
+      "start": 1476.6800537109375,
+      "end": 1505.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.2673375904560089,
+      "no_speech_prob": 0.8678634762763977
+    },
+    {
+      "start": 1506.6800537109375,
+      "end": 1535.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.21923933923244476,
+      "no_speech_prob": 0.8663430213928223
+    },
+    {
+      "start": 1536.6800537109375,
+      "end": 1560.6800537109375,
+      "text": "I'll give you 10 minutes to answer them",
+      "avg_logprob": -0.2216394692659378,
+      "no_speech_prob": 0.8483553528785706
+    }
+  ]
+}

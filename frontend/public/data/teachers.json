@@ -8,7 +8,7 @@
     "hire_date": "\u2014",
     "last_training_date": "\u2014",
     "pupils": 0,
-    "headshot_url": "https://api.dicebear.com/9.x/personas/svg?seed=T51101C1E&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F&backgroundColor=0b1220"
+    "headshot_url": "https://api.dicebear.com/9.x/notionists/svg?seed=T51101C1E&backgroundColor=0b1220"
   },
   {
     "employee_id": "TEE0BE888",
@@ -19,7 +19,7 @@
     "hire_date": "\u2014",
     "last_training_date": "\u2014",
     "pupils": 0,
-    "headshot_url": "https://api.dicebear.com/9.x/personas/svg?seed=TEE0BE888&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F&backgroundColor=0b1220"
+    "headshot_url": "https://api.dicebear.com/9.x/notionists/svg?seed=TEE0BE888&backgroundColor=0b1220"
   },
   {
     "employee_id": "TF88E765C",
@@ -30,7 +30,7 @@
     "hire_date": "\u2014",
     "last_training_date": "\u2014",
     "pupils": 0,
-    "headshot_url": "https://api.dicebear.com/9.x/personas/svg?seed=TF88E765C&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F&backgroundColor=0b1220"
+    "headshot_url": "https://api.dicebear.com/9.x/notionists/svg?seed=TF88E765C&backgroundColor=0b1220"
   },
   {
     "employee_id": "T2D4ED525",
@@ -41,7 +41,7 @@
     "hire_date": "\u2014",
     "last_training_date": "\u2014",
     "pupils": 0,
-    "headshot_url": "https://api.dicebear.com/9.x/personas/svg?seed=T2D4ED525&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F&backgroundColor=0b1220"
+    "headshot_url": "https://api.dicebear.com/9.x/notionists/svg?seed=T2D4ED525&backgroundColor=0b1220"
   },
   {
     "employee_id": "TCCB351D3",
@@ -52,7 +52,7 @@
     "hire_date": "\u2014",
     "last_training_date": "\u2014",
     "pupils": 0,
-    "headshot_url": "https://api.dicebear.com/9.x/personas/svg?seed=TCCB351D3&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F&backgroundColor=0b1220"
+    "headshot_url": "https://api.dicebear.com/9.x/notionists/svg?seed=TCCB351D3&backgroundColor=0b1220"
   },
   {
     "employee_id": "T1633CA5A",
@@ -63,6 +63,6 @@
     "hire_date": "\u2014",
     "last_training_date": "\u2014",
     "pupils": 0,
-    "headshot_url": "https://api.dicebear.com/9.x/personas/svg?seed=T1633CA5A&skinColor=5A3920,6F4E3D,8D5524,4B3328,A8633F&backgroundColor=0b1220"
+    "headshot_url": "https://api.dicebear.com/9.x/notionists/svg?seed=T1633CA5A&backgroundColor=0b1220"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "source_audio": "mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_03_21_09_40_26.mp3",
+  "language": "swahili",
+  "duration": 9.600000381469727,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.739999771118164,
+      "text": "Uluweme wewe na wapana",
+      "avg_logprob": -3.748507022857666,
+      "no_speech_prob": 0.5115991830825806
+    }
+  ]
+}

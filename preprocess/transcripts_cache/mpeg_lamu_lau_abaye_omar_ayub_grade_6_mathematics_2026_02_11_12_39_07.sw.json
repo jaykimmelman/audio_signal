@@ -1,0 +1,777 @@
+{
+  "source_audio": "mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_02_11_12_39_07.mp3",
+  "language": "swahili",
+  "duration": 2229.050048828125,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "industri mwingine",
+      "avg_logprob": -3.4906005859375,
+      "no_speech_prob": 0.43034762144088745
+    },
+    {
+      "start": 14.0,
+      "end": 20.0,
+      "text": "m takati",
+      "avg_logprob": -3.4906005859375,
+      "no_speech_prob": 0.43034762144088745
+    },
+    {
+      "start": 20.0,
+      "end": 30.0,
+      "text": "mtakati",
+      "avg_logprob": -0.8531113266944885,
+      "no_speech_prob": 0.3510485291481018
+    },
+    {
+      "start": 32.0,
+      "end": 42.0,
+      "text": "mtakati",
+      "avg_logprob": -0.8531113266944885,
+      "no_speech_prob": 0.3510485291481018
+    },
+    {
+      "start": 42.0,
+      "end": 52.0,
+      "text": "mtakati",
+      "avg_logprob": -0.2921113073825836,
+      "no_speech_prob": 0.399486243724823
+    },
+    {
+      "start": 54.0,
+      "end": 64.0,
+      "text": "mtakati",
+      "avg_logprob": -0.2921113073825836,
+      "no_speech_prob": 0.399486243724823
+    },
+    {
+      "start": 64.0,
+      "end": 74.0,
+      "text": "mtakati",
+      "avg_logprob": -0.18546302616596222,
+      "no_speech_prob": 0.5733731389045715
+    },
+    {
+      "start": 76.0,
+      "end": 86.0,
+      "text": "mtakati",
+      "avg_logprob": -0.18546302616596222,
+      "no_speech_prob": 0.5733731389045715
+    },
+    {
+      "start": 86.0,
+      "end": 96.0,
+      "text": "mtakati",
+      "avg_logprob": -0.14314521849155426,
+      "no_speech_prob": 0.3993166983127594
+    },
+    {
+      "start": 98.0,
+      "end": 108.0,
+      "text": "mtakati",
+      "avg_logprob": -0.14314521849155426,
+      "no_speech_prob": 0.3993166983127594
+    },
+    {
+      "start": 108.0,
+      "end": 118.0,
+      "text": "mtakati",
+      "avg_logprob": -0.1234123706817627,
+      "no_speech_prob": 0.5842433571815491
+    },
+    {
+      "start": 120.0,
+      "end": 130.0,
+      "text": "mtakati",
+      "avg_logprob": -0.1234123706817627,
+      "no_speech_prob": 0.5842433571815491
+    },
+    {
+      "start": 130.0,
+      "end": 140.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3784233331680298,
+      "no_speech_prob": 0.45380812883377075
+    },
+    {
+      "start": 142.0,
+      "end": 158.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3784233331680298,
+      "no_speech_prob": 0.45380812883377075
+    },
+    {
+      "start": 160.0,
+      "end": 170.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3643452525138855,
+      "no_speech_prob": 0.3475668728351593
+    },
+    {
+      "start": 174.0,
+      "end": 184.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3643452525138855,
+      "no_speech_prob": 0.3475668728351593
+    },
+    {
+      "start": 190.0,
+      "end": 210.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3021003305912018,
+      "no_speech_prob": 0.3200157880783081
+    },
+    {
+      "start": 210.0,
+      "end": 230.0,
+      "text": "mtakati",
+      "avg_logprob": -0.33240675926208496,
+      "no_speech_prob": 0.4058625102043152
+    },
+    {
+      "start": 230.0,
+      "end": 250.0,
+      "text": "mtakati",
+      "avg_logprob": -0.45571812987327576,
+      "no_speech_prob": 0.5014887452125549
+    },
+    {
+      "start": 250.0,
+      "end": 270.0,
+      "text": "mtakati",
+      "avg_logprob": -0.34954017400741577,
+      "no_speech_prob": 0.6965904235839844
+    },
+    {
+      "start": 270.0,
+      "end": 290.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3677974343299866,
+      "no_speech_prob": 0.7016216516494751
+    },
+    {
+      "start": 290.0,
+      "end": 310.0,
+      "text": "mtakati",
+      "avg_logprob": -0.30989861488342285,
+      "no_speech_prob": 0.6862636804580688
+    },
+    {
+      "start": 310.0,
+      "end": 330.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3994112014770508,
+      "no_speech_prob": 0.7105451226234436
+    },
+    {
+      "start": 330.0,
+      "end": 350.0,
+      "text": "mtakati",
+      "avg_logprob": -0.32425186038017273,
+      "no_speech_prob": 0.7291842103004456
+    },
+    {
+      "start": 350.0,
+      "end": 370.0,
+      "text": "mtakati",
+      "avg_logprob": -0.22567397356033325,
+      "no_speech_prob": 0.5459203720092773
+    },
+    {
+      "start": 370.0,
+      "end": 390.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3828991651535034,
+      "no_speech_prob": 0.7499350905418396
+    },
+    {
+      "start": 390.0,
+      "end": 400.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3514052629470825,
+      "no_speech_prob": 0.85563725233078
+    },
+    {
+      "start": 402.0,
+      "end": 418.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3514052629470825,
+      "no_speech_prob": 0.85563725233078
+    },
+    {
+      "start": 420.0,
+      "end": 440.0,
+      "text": "mtakati",
+      "avg_logprob": -0.2829405665397644,
+      "no_speech_prob": 0.7223815321922302
+    },
+    {
+      "start": 440.0,
+      "end": 450.0,
+      "text": "mtakati",
+      "avg_logprob": -0.35773926973342896,
+      "no_speech_prob": 0.8411107063293457
+    },
+    {
+      "start": 452.0,
+      "end": 468.0,
+      "text": "mtakati",
+      "avg_logprob": -0.35773926973342896,
+      "no_speech_prob": 0.8411107063293457
+    },
+    {
+      "start": 470.0,
+      "end": 490.0,
+      "text": "mtakati",
+      "avg_logprob": -0.293061226606369,
+      "no_speech_prob": 0.34238046407699585
+    },
+    {
+      "start": 490.0,
+      "end": 510.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3079794943332672,
+      "no_speech_prob": 0.6602445840835571
+    },
+    {
+      "start": 510.0,
+      "end": 530.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3176514208316803,
+      "no_speech_prob": 0.8333302140235901
+    },
+    {
+      "start": 530.0,
+      "end": 540.0,
+      "text": "mtakati",
+      "avg_logprob": -0.35961198806762695,
+      "no_speech_prob": 0.8009455800056458
+    },
+    {
+      "start": 542.0,
+      "end": 558.0,
+      "text": "mtakati",
+      "avg_logprob": -0.35961198806762695,
+      "no_speech_prob": 0.8009455800056458
+    },
+    {
+      "start": 560.0,
+      "end": 580.0,
+      "text": "mtakati",
+      "avg_logprob": -0.40351489186286926,
+      "no_speech_prob": 0.2937487065792084
+    },
+    {
+      "start": 580.0,
+      "end": 590.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4169861376285553,
+      "no_speech_prob": 0.5648018717765808
+    },
+    {
+      "start": 592.0,
+      "end": 608.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4169861376285553,
+      "no_speech_prob": 0.5648018717765808
+    },
+    {
+      "start": 610.0,
+      "end": 620.0,
+      "text": "mtakati",
+      "avg_logprob": -0.32295334339141846,
+      "no_speech_prob": 0.5777326226234436
+    },
+    {
+      "start": 622.0,
+      "end": 638.0,
+      "text": "mtakati",
+      "avg_logprob": -0.32295334339141846,
+      "no_speech_prob": 0.5777326226234436
+    },
+    {
+      "start": 640.0,
+      "end": 660.0,
+      "text": "mtakati",
+      "avg_logprob": -0.497348427772522,
+      "no_speech_prob": 0.32602694630622864
+    },
+    {
+      "start": 660.0,
+      "end": 680.0,
+      "text": "mtakati",
+      "avg_logprob": -0.47812098264694214,
+      "no_speech_prob": 0.8853427767753601
+    },
+    {
+      "start": 680.0,
+      "end": 700.0,
+      "text": "mtakati",
+      "avg_logprob": -0.34207940101623535,
+      "no_speech_prob": 0.91752690076828
+    },
+    {
+      "start": 700.0,
+      "end": 720.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3204791247844696,
+      "no_speech_prob": 0.9495574831962585
+    },
+    {
+      "start": 720.0,
+      "end": 730.0,
+      "text": "mtakati",
+      "avg_logprob": -0.30489543080329895,
+      "no_speech_prob": 0.8223977088928223
+    },
+    {
+      "start": 732.0,
+      "end": 748.0,
+      "text": "mtakati",
+      "avg_logprob": -0.30489543080329895,
+      "no_speech_prob": 0.8223977088928223
+    },
+    {
+      "start": 750.0,
+      "end": 760.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3405299186706543,
+      "no_speech_prob": 0.5190787315368652
+    },
+    {
+      "start": 762.0,
+      "end": 778.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3405299186706543,
+      "no_speech_prob": 0.5190787315368652
+    },
+    {
+      "start": 780.0,
+      "end": 790.0,
+      "text": "mtakati",
+      "avg_logprob": -0.32481446862220764,
+      "no_speech_prob": 0.2206735461950302
+    },
+    {
+      "start": 792.0,
+      "end": 808.0,
+      "text": "mtakati",
+      "avg_logprob": -0.32481446862220764,
+      "no_speech_prob": 0.2206735461950302
+    },
+    {
+      "start": 810.0,
+      "end": 830.0,
+      "text": "mtakati",
+      "avg_logprob": -0.30000340938568115,
+      "no_speech_prob": 0.46186020970344543
+    },
+    {
+      "start": 830.0,
+      "end": 850.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4764317572116852,
+      "no_speech_prob": 0.8986539244651794
+    },
+    {
+      "start": 850.0,
+      "end": 870.0,
+      "text": "mtakati",
+      "avg_logprob": -0.397131085395813,
+      "no_speech_prob": 0.9204431772232056
+    },
+    {
+      "start": 870.0,
+      "end": 890.0,
+      "text": "mtakati",
+      "avg_logprob": -0.33197203278541565,
+      "no_speech_prob": 0.6445811986923218
+    },
+    {
+      "start": 890.0,
+      "end": 918.0,
+      "text": "mtakati",
+      "avg_logprob": -0.41075804829597473,
+      "no_speech_prob": 0.7340030074119568
+    },
+    {
+      "start": 920.0,
+      "end": 940.0,
+      "text": "mtakati",
+      "avg_logprob": -0.49549707770347595,
+      "no_speech_prob": 0.32459592819213867
+    },
+    {
+      "start": 940.0,
+      "end": 960.0,
+      "text": "mtakati",
+      "avg_logprob": -0.5118095874786377,
+      "no_speech_prob": 0.9185651540756226
+    },
+    {
+      "start": 960.0,
+      "end": 980.0,
+      "text": "mtakati",
+      "avg_logprob": -0.38135990500450134,
+      "no_speech_prob": 0.8837840557098389
+    },
+    {
+      "start": 980.0,
+      "end": 1000.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4460492730140686,
+      "no_speech_prob": 0.6132379770278931
+    },
+    {
+      "start": 1000.0,
+      "end": 1020.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3673141598701477,
+      "no_speech_prob": 0.7493388056755066
+    },
+    {
+      "start": 1020.0,
+      "end": 1040.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3663017451763153,
+      "no_speech_prob": 0.8786802887916565
+    },
+    {
+      "start": 1040.0,
+      "end": 1060.0,
+      "text": "mtakati",
+      "avg_logprob": -0.44501206278800964,
+      "no_speech_prob": 0.5349873304367065
+    },
+    {
+      "start": 1060.0,
+      "end": 1084.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4349757432937622,
+      "no_speech_prob": 0.36923399567604065
+    },
+    {
+      "start": 1084.0,
+      "end": 1112.0,
+      "text": "mtakati",
+      "avg_logprob": -0.41639217734336853,
+      "no_speech_prob": 0.829444944858551
+    },
+    {
+      "start": 1114.0,
+      "end": 1142.0,
+      "text": "mtakati",
+      "avg_logprob": -0.5043119788169861,
+      "no_speech_prob": 0.47221916913986206
+    },
+    {
+      "start": 1144.0,
+      "end": 1154.0,
+      "text": "mtakati",
+      "avg_logprob": -0.357511043548584,
+      "no_speech_prob": 0.7401255369186401
+    },
+    {
+      "start": 1156.0,
+      "end": 1172.0,
+      "text": "mtakati",
+      "avg_logprob": -0.357511043548584,
+      "no_speech_prob": 0.7401255369186401
+    },
+    {
+      "start": 1174.0,
+      "end": 1202.0,
+      "text": "mtakati",
+      "avg_logprob": -0.38385385274887085,
+      "no_speech_prob": 0.4709762930870056
+    },
+    {
+      "start": 1204.0,
+      "end": 1232.0,
+      "text": "mtakati",
+      "avg_logprob": -0.305245578289032,
+      "no_speech_prob": 0.4754078686237335
+    },
+    {
+      "start": 1234.0,
+      "end": 1244.0,
+      "text": "mtakati",
+      "avg_logprob": -0.38269996643066406,
+      "no_speech_prob": 0.600540816783905
+    },
+    {
+      "start": 1246.0,
+      "end": 1262.0,
+      "text": "mtakati",
+      "avg_logprob": -0.38269996643066406,
+      "no_speech_prob": 0.600540816783905
+    },
+    {
+      "start": 1264.0,
+      "end": 1292.0,
+      "text": "mtakati",
+      "avg_logprob": -0.442375510931015,
+      "no_speech_prob": 0.7451576590538025
+    },
+    {
+      "start": 1294.0,
+      "end": 1304.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3946754038333893,
+      "no_speech_prob": 0.7261913418769836
+    },
+    {
+      "start": 1306.0,
+      "end": 1322.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3946754038333893,
+      "no_speech_prob": 0.7261913418769836
+    },
+    {
+      "start": 1324.0,
+      "end": 1334.0,
+      "text": "mtakati",
+      "avg_logprob": -0.29584959149360657,
+      "no_speech_prob": 0.5624631643295288
+    },
+    {
+      "start": 1336.0,
+      "end": 1352.0,
+      "text": "mtakati",
+      "avg_logprob": -0.29584959149360657,
+      "no_speech_prob": 0.5624631643295288
+    },
+    {
+      "start": 1354.0,
+      "end": 1382.0,
+      "text": "mtakati",
+      "avg_logprob": -0.33418455719947815,
+      "no_speech_prob": 0.7527907490730286
+    },
+    {
+      "start": 1384.0,
+      "end": 1412.0,
+      "text": "mtakati",
+      "avg_logprob": -0.34000399708747864,
+      "no_speech_prob": 0.4803351163864136
+    },
+    {
+      "start": 1414.0,
+      "end": 1422.0,
+      "text": "mtakati",
+      "avg_logprob": -0.36857736110687256,
+      "no_speech_prob": 0.46409136056900024
+    },
+    {
+      "start": 1424.0,
+      "end": 1442.0,
+      "text": "mtakati",
+      "avg_logprob": -0.36857736110687256,
+      "no_speech_prob": 0.46409136056900024
+    },
+    {
+      "start": 1444.0,
+      "end": 1472.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3218013346195221,
+      "no_speech_prob": 0.43673616647720337
+    },
+    {
+      "start": 1474.0,
+      "end": 1502.0,
+      "text": "mtakati",
+      "avg_logprob": -0.43061116337776184,
+      "no_speech_prob": 0.7308112382888794
+    },
+    {
+      "start": 1504.0,
+      "end": 1532.0,
+      "text": "mtakati",
+      "avg_logprob": -0.47763514518737793,
+      "no_speech_prob": 0.657616376876831
+    },
+    {
+      "start": 1534.0,
+      "end": 1562.0,
+      "text": "mtakati",
+      "avg_logprob": -0.2689310610294342,
+      "no_speech_prob": 0.7464355826377869
+    },
+    {
+      "start": 1564.0,
+      "end": 1592.0,
+      "text": "mtakati",
+      "avg_logprob": -0.2786853015422821,
+      "no_speech_prob": 0.885231614112854
+    },
+    {
+      "start": 1594.0,
+      "end": 1614.0,
+      "text": "mtakati",
+      "avg_logprob": -0.42181605100631714,
+      "no_speech_prob": 0.657256007194519
+    },
+    {
+      "start": 1614.0,
+      "end": 1642.0,
+      "text": "mtakati",
+      "avg_logprob": -0.47516390681266785,
+      "no_speech_prob": 0.932589054107666
+    },
+    {
+      "start": 1644.0,
+      "end": 1664.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4681723415851593,
+      "no_speech_prob": 0.5170527100563049
+    },
+    {
+      "start": 1664.0,
+      "end": 1692.0,
+      "text": "mtakati",
+      "avg_logprob": -0.44334307312965393,
+      "no_speech_prob": 0.9424293637275696
+    },
+    {
+      "start": 1694.0,
+      "end": 1723.0,
+      "text": "mtakati",
+      "avg_logprob": -0.6401931047439575,
+      "no_speech_prob": 0.7936933636665344
+    },
+    {
+      "start": 1724.0,
+      "end": 1734.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4284836947917938,
+      "no_speech_prob": 0.287596195936203
+    },
+    {
+      "start": 1736.0,
+      "end": 1752.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4284836947917938,
+      "no_speech_prob": 0.287596195936203
+    },
+    {
+      "start": 1754.0,
+      "end": 1782.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3398904502391815,
+      "no_speech_prob": 0.5564712285995483
+    },
+    {
+      "start": 1784.0,
+      "end": 1812.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3607079088687897,
+      "no_speech_prob": 0.6245933175086975
+    },
+    {
+      "start": 1814.0,
+      "end": 1842.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4106580913066864,
+      "no_speech_prob": 0.7306467294692993
+    },
+    {
+      "start": 1844.0,
+      "end": 1852.0,
+      "text": "mtakati",
+      "avg_logprob": -0.5026546716690063,
+      "no_speech_prob": 0.8500638604164124
+    },
+    {
+      "start": 1854.0,
+      "end": 1872.0,
+      "text": "mtakati",
+      "avg_logprob": -0.5026546716690063,
+      "no_speech_prob": 0.8500638604164124
+    },
+    {
+      "start": 1874.0,
+      "end": 1902.0,
+      "text": "mtakati",
+      "avg_logprob": -0.40866246819496155,
+      "no_speech_prob": 0.6476560831069946
+    },
+    {
+      "start": 1904.0,
+      "end": 1932.0,
+      "text": "mtakati",
+      "avg_logprob": -0.34534960985183716,
+      "no_speech_prob": 0.7644444704055786
+    },
+    {
+      "start": 1934.0,
+      "end": 1962.0,
+      "text": "mtakati",
+      "avg_logprob": -0.45607033371925354,
+      "no_speech_prob": 0.818421483039856
+    },
+    {
+      "start": 1964.0,
+      "end": 1992.0,
+      "text": "mtakati",
+      "avg_logprob": -0.39594292640686035,
+      "no_speech_prob": 0.6314921379089355
+    },
+    {
+      "start": 1994.0,
+      "end": 2022.0,
+      "text": "mtakati",
+      "avg_logprob": -0.37555983662605286,
+      "no_speech_prob": 0.7834005951881409
+    },
+    {
+      "start": 2024.0,
+      "end": 2052.0,
+      "text": "mtakati",
+      "avg_logprob": -0.40014663338661194,
+      "no_speech_prob": 0.7470394968986511
+    },
+    {
+      "start": 2054.0,
+      "end": 2082.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4783485531806946,
+      "no_speech_prob": 0.7217034697532654
+    },
+    {
+      "start": 2084.0,
+      "end": 2112.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4100918471813202,
+      "no_speech_prob": 0.8222558498382568
+    },
+    {
+      "start": 2114.0,
+      "end": 2142.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4198669493198395,
+      "no_speech_prob": 0.7470307946205139
+    },
+    {
+      "start": 2144.0,
+      "end": 2172.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3921690285205841,
+      "no_speech_prob": 0.8110709190368652
+    },
+    {
+      "start": 2174.0,
+      "end": 2202.0,
+      "text": "mtakati",
+      "avg_logprob": -0.4026694595813751,
+      "no_speech_prob": 0.8654991388320923
+    },
+    {
+      "start": 2204.0,
+      "end": 2228.0,
+      "text": "mtakati",
+      "avg_logprob": -0.3793472945690155,
+      "no_speech_prob": 0.8633161187171936
+    }
+  ]
+}

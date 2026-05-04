@@ -123,26 +123,13 @@ export function TranscriptPane() {
                   </span>
                 )}
                 <span className="text-text">
-                  {kwRegex
-                    ? seg.text.split(kwRegex).map((part, j) =>
-                        part.toLowerCase() === keyword.toLowerCase() ? (
-                          <mark
-                            key={j}
-                            className="kw"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              jumpToKeyword();
-                            }}
-                            title="Play 3s before the keyword"
-                          >
-                            {part}
-                          </mark>
-                        ) : (
-                          <span key={j}>{part}</span>
-                        ),
-                      )
-                    : seg.text}
+                  {renderTextWithHighlight(seg.text, kwRegex, keyword, jumpToKeyword)}
                 </span>
+                {isSwahili && seg.text_en && (
+                  <span className="text-muted italic ml-1">
+                    ({renderTextWithHighlight(seg.text_en, kwRegex, keyword, jumpToKeyword)})
+                  </span>
+                )}
               </div>
             );
           })}
@@ -192,4 +179,30 @@ function fmt(s: number): string {
   const m = Math.floor(s / 60);
   const sec = Math.floor(s % 60);
   return `${m}:${sec.toString().padStart(2, "0")}`;
+}
+
+function renderTextWithHighlight(
+  text: string,
+  kwRegex: RegExp | null,
+  keyword: string,
+  onMarkClick: () => void,
+): React.ReactNode {
+  if (!kwRegex) return text;
+  return text.split(kwRegex).map((part, j) =>
+    part.toLowerCase() === keyword.toLowerCase() ? (
+      <mark
+        key={j}
+        className="kw"
+        onClick={(e) => {
+          e.stopPropagation();
+          onMarkClick();
+        }}
+        title="Play 3s before the keyword"
+      >
+        {part}
+      </mark>
+    ) : (
+      <span key={j}>{part}</span>
+    ),
+  );
 }

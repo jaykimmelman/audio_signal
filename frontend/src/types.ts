@@ -25,6 +25,8 @@ export interface TranscriptSegment {
   text: string;
   /** ISO-639-1 language code Whisper used for this segment ("en" / "sw" / ...). */
   lang?: string;
+  /** English translation when `lang` is non-English (e.g. "sw"). */
+  text_en?: string;
 }
 
 export type AudioVariantKey = "original" | "denoised" | "gated" | "enhanced";

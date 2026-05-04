@@ -1,0 +1,14 @@
+{
+  "source_audio": "mpeg_lamu_lau_msinda_amani_grade_6_afternoon_prep_2026_02_03_17_07_23.mp3",
+  "language": "swahili",
+  "duration": 4.599999904632568,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "panguje",
+      "avg_logprob": -3.2509329319000244,
+      "no_speech_prob": 0.21931475400924683
+    }
+  ]
+}
