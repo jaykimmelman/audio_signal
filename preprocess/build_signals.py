@@ -157,19 +157,23 @@ def main() -> int:
                 "pupils": 0,
             }
 
-        audio_filename = transcript.get("source_audio", tjson.stem + ".mp3")
-        # Copy the MP3 into the public audio dir if not already there
-        dest = PUB_AUDIO / audio_filename
+        source_audio = transcript.get("source_audio", tjson.stem + ".mp3")
+        # NewGlobe S3 files are named .mp3 but are actually MP4 audio (ISO Media).
+        # Rewrite the served extension to .m4a so GitHub Pages sends the right
+        # content-type (audio/mp4) and browsers will decode it.
+        dest_filename = Path(source_audio).stem + ".m4a"
+        audio_filename = dest_filename  # used in audio_url below
+        dest = PUB_AUDIO / dest_filename
         if not dest.exists():
             for src_dir in AUDIO_SEARCH_DIRS:
-                src = src_dir / audio_filename
+                src = src_dir / source_audio
                 if src.exists():
                     PUB_AUDIO.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(src, dest)
                     print(f"    audio → {dest.relative_to(ROOT)}")
                     break
             else:
-                print(f"    ⚠ no source MP3 found for {audio_filename}; player will 404")
+                print(f"    ⚠ no source audio found for {source_audio}; player will 404")
         lessons.append({
             "lesson_id": tjson.stem,
             "lesson_name": f"{meta['grade']} {meta['subject']}",

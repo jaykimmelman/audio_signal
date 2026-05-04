@@ -5,7 +5,7 @@
     "lesson_datetime": "2026-01-15T10:13:14+03:00",
     "employee_id": "T51101C1E",
     "school_id": "SCH58D5AC25",
-    "audio_url": "data/audio/mpeg_gachie_kbu_sewe_victor_odhiambo_grade_2_environmental_activities_2026_01_15_10_13_14.mp3",
+    "audio_url": "data/audio/mpeg_gachie_kbu_sewe_victor_odhiambo_grade_2_environmental_activities_2026_01_15_10_13_14.m4a",
     "language": "english",
     "duration": 3149.8798828125,
     "segments": [
@@ -2762,7 +2762,7 @@
     "lesson_datetime": "2026-01-15T08:50:54+03:00",
     "employee_id": "T51101C1E",
     "school_id": "SCH58D5AC25",
-    "audio_url": "data/audio/mpeg_gachie_kbu_sewe_victor_odhiambo_grade_2_mathematical_activities_2026_01_15_08_50_54.mp3",
+    "audio_url": "data/audio/mpeg_gachie_kbu_sewe_victor_odhiambo_grade_2_mathematical_activities_2026_01_15_08_50_54.m4a",
     "language": "english",
     "duration": 1117.8199462890625,
     "segments": [
@@ -3049,7 +3049,7 @@
     "lesson_datetime": "2026-03-05T15:14:49+03:00",
     "employee_id": "TEE0BE888",
     "school_id": "SCH58D5AC25",
-    "audio_url": "data/audio/mpeg_gachie_kbu_wangari_virginia_grade_7_agriculture_and_nutrition_2026_03_05_15_14_49.mp3",
+    "audio_url": "data/audio/mpeg_gachie_kbu_wangari_virginia_grade_7_agriculture_and_nutrition_2026_03_05_15_14_49.m4a",
     "language": "english",
     "duration": 1560.8900146484375,
     "segments": [
@@ -3431,7 +3431,7 @@
     "lesson_datetime": "2026-01-10T09:46:20+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_10_09_46_20.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_10_09_46_20.m4a",
     "language": "english",
     "duration": 5.630000114440918,
     "segments": [
@@ -3468,7 +3468,7 @@
     "lesson_datetime": "2026-01-24T10:26:56+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_24_10_26_56.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_01_24_10_26_56.m4a",
     "language": "english",
     "duration": 2427.199951171875,
     "segments": [
@@ -4260,7 +4260,7 @@
     "lesson_datetime": "2026-03-21T09:40:26+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_03_21_09_40_26.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_independent_study_2026_03_21_09_40_26.m4a",
     "language": "english",
     "duration": 9.600000381469727,
     "segments": [
@@ -4277,7 +4277,7 @@
     "lesson_datetime": "2026-01-27T12:36:17+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_01_27_12_36_17.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_01_27_12_36_17.m4a",
     "language": "english",
     "duration": 1904.510009765625,
     "segments": [
@@ -5979,7 +5979,7 @@
     "lesson_datetime": "2026-02-11T12:39:07+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_02_11_12_39_07.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_02_11_12_39_07.m4a",
     "language": "english",
     "duration": 2229.050048828125,
     "segments": [
@@ -8201,7 +8201,7 @@
     "lesson_datetime": "2026-03-25T12:37:04+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_03_25_12_37_04.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_mathematics_2026_03_25_12_37_04.m4a",
     "language": "english",
     "duration": 2152.320068359375,
     "segments": [
@@ -9398,7 +9398,7 @@
     "lesson_datetime": "2026-02-02T13:16:36+03:00",
     "employee_id": "TF88E765C",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_science_&_technology_2026_02_02_13_16_36.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_abaye_omar_ayub_grade_6_science_&_technology_2026_02_02_13_16_36.m4a",
     "language": "english",
     "duration": 2228.989990234375,
     "segments": [
@@ -11245,7 +11245,7 @@
     "lesson_datetime": "2026-03-21T12:32:38+03:00",
     "employee_id": "T2D4ED525",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_msinda_amani_grade_4_skills_mastery_swahili_2026_03_21_12_32_38.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_msinda_amani_grade_4_skills_mastery_swahili_2026_03_21_12_32_38.m4a",
     "language": "english",
     "duration": 3257.530029296875,
     "segments": [
@@ -13772,7 +13772,7 @@
     "lesson_datetime": "2026-02-03T17:07:23+03:00",
     "employee_id": "TCCB351D3",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_msinda_amani_grade_6_afternoon_prep_2026_02_03_17_07_23.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_msinda_amani_grade_6_afternoon_prep_2026_02_03_17_07_23.m4a",
     "language": "english",
     "duration": 4.599999904632568,
     "segments": [
@@ -13794,7 +13794,7 @@
     "lesson_datetime": "2026-01-30T16:16:54+03:00",
     "employee_id": "T1633CA5A",
     "school_id": "SCHBF4FFE2D",
-    "audio_url": "data/audio/mpeg_lamu_lau_shee_aisha_mohamed_grade_7_numeracy_2026_01_30_16_16_54.mp3",
+    "audio_url": "data/audio/mpeg_lamu_lau_shee_aisha_mohamed_grade_7_numeracy_2026_01_30_16_16_54.m4a",
     "language": "english",
     "duration": 5423.419921875,
     "segments": [
