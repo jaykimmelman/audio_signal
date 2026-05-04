@@ -10,26 +10,32 @@ import { IncidentsList } from "./components/IncidentsList";
 import { TeacherProfile } from "./components/TeacherProfile";
 import { TranscriptPane } from "./components/TranscriptPane";
 import { StatusBar } from "./components/StatusBar";
+import { SetupPage } from "./components/SetupPage";
 import { useApp } from "./state";
+import { useHashRoute } from "./lib/route";
 
 export default function App() {
   const { loaded, selectedSignalId, setSelectedSignalId } = useApp();
+  const route = useHashRoute();
+  const isSetup = route === "setup";
 
   useEffect(() => {
-    if (!selectedSignalId) return;
+    if (!selectedSignalId || isSetup) return;
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape") setSelectedSignalId(null);
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [selectedSignalId, setSelectedSignalId]);
+  }, [selectedSignalId, setSelectedSignalId, isSetup]);
 
   return (
     <div className="h-full w-full flex bg-ink text-text font-sans">
-      <Sidebar />
+      {!isSetup && <Sidebar />}
       <div className="flex-1 flex flex-col min-w-0">
         <Header />
-        {!loaded ? (
+        {isSetup ? (
+          <SetupPage />
+        ) : !loaded ? (
           <div className="flex-1 flex items-center justify-center text-muted font-mono text-xs tracking-widest">
             ESTABLISHING SECURE LINK…
           </div>

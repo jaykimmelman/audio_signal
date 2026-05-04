@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../state";
+import { useHashRoute } from "../lib/route";
 
 const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
 
@@ -15,6 +16,8 @@ function formatUTC(d: Date): string {
 
 export function Header() {
   const { signals, selectedSignalId, setSelectedSignalId } = useApp();
+  const route = useHashRoute();
+  const isSetup = route === "setup";
   const [now, setNow] = useState<Date>(() => new Date());
 
   useEffect(() => {
@@ -31,7 +34,7 @@ export function Header() {
         <span className="text-muted">SOURCE FEED: KENYA CLASSROOM DELIVERY AUDIO UPLOADS</span>
       </div>
       <div className="flex items-center gap-4">
-        {selectedSignalId && (
+        {selectedSignalId && !isSetup && (
           <button
             onClick={() => setSelectedSignalId(null)}
             title="Back to overview (Esc)"
@@ -42,6 +45,13 @@ export function Header() {
             <kbd className="ml-1 px-1 text-[9px] bg-ink/30 text-ink rounded border border-ink/30">ESC</kbd>
           </button>
         )}
+        <a
+          href={isSetup ? "#" : "#setup"}
+          className="border border-line text-muted hover:text-text hover:border-muted px-2 py-0.5 rounded transition-colors"
+          title={isSetup ? "Back to dashboard" : "Open setup / upload page"}
+        >
+          {isSetup ? "◀ DASHBOARD" : "⚙ SETUP"}
+        </a>
         <span className="text-muted">SIGNALS · {signals.length}</span>
         <span className="text-text tabular-nums">{formatUTC(now)}</span>
       </div>

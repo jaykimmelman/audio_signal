@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Preprocess and deploy to GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write       # auto-commit preprocessor outputs
   pages: write
   id-token: write
 
@@ -15,27 +15,80 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  preprocess-and-build:
     runs-on: ubuntu-latest
+    outputs:
+      pages_artifact: ${{ steps.upload.outputs.artifact_id }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: |
+          python -m venv preprocess/.venv
+          preprocess/.venv/bin/pip install --upgrade pip
+          preprocess/.venv/bin/pip install -r preprocess/requirements.txt
+          preprocess/.venv/bin/pip install openlocationcode
+
+      - name: Transcribe newly-dropped audio
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          shopt -s nullglob
+          files=(audio_inbox/*.mp3 audio_inbox/*.m4a)
+          if [ ${#files[@]} -gt 0 ]; then
+            preprocess/.venv/bin/python3 preprocess/transcribe.py "${files[@]}" || true
+          else
+            echo "No audio files in audio_inbox/, skipping transcribe."
+          fi
+
+      - name: Build signals + audio variants + translations
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: preprocess/.venv/bin/python3 preprocess/build_signals.py || true
+
+      - name: Auto-commit preprocessor outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add preprocess/transcripts_cache preprocess/translations_cache.json frontend/public/data || true
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-preprocess uploaded audio [skip ci]"
+            git push
+          else
+            echo "No preprocessor output changed."
+          fi
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
           cache-dependency-path: frontend/package-lock.json
+
       - run: npm ci
         working-directory: frontend
+
       - run: npm run build
         working-directory: frontend
         env:
           VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
-      - uses: actions/upload-pages-artifact@v3
+
+      - id: upload
+        uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist
 
   deploy:
-    needs: build
+    needs: preprocess-and-build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
